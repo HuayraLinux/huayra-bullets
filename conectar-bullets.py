@@ -7,6 +7,8 @@ import webkit
 import os
 import sys
 import subprocess
+import urllib2
+
 
 class BulletsBrowser(webkit.WebView):
 	def __init__(self):
@@ -16,10 +18,11 @@ class BulletsBrowser(webkit.WebView):
 		self.load_uri("file://" + os.path.dirname(os.path.abspath(__file__)) + "/1.html")
     
 	def _on_navigate_decision(self, view, frame, req, action, decision):
-		parts =  req.get_uri().split("://")
+		parts =  req.get_uri().split("://", 1)
 		if len(parts) == 2:
 			if parts[0] == 'exec':
-				subprocess.Popen(parts[1])
+				command = urllib2.unquote(parts[1])
+				subprocess.Popen(command, shell=True)
 				return True
 			if parts[0] == 'ui' and parts[1] == 'close':
 				gtk.main_quit()
