@@ -10,41 +10,48 @@ import sys
 import subprocess
 import urllib2
 
+# Base Key en GSettings 
 BASE_KEY = "apps.conectar-bullets"
 
+
 class BulletsBrowser(webkit.WebView):
-	def __init__(self, settings):
+	"""
+	Widget for browsing the bullets.
+	"""
+	def __init__(self, gsettings, start_page):
 		webkit.WebView.__init__(self)
-		self.settings = settings
+		self.gsettings = gsettings
 		self.get_property("settings").set_property("enable-default-context-menu", False)
 		self.connect('navigation-policy-decision-requested', self._on_navigate_decision)
-		self.load_uri("file://" + os.path.dirname(os.path.abspath(__file__)) + "/1.html")
+		self.load_uri(start_page)
     
 	def _on_navigate_decision(self, view, frame, req, action, decision):
 		parts =  req.get_uri().split("://", 1)
 		if len(parts) == 2:
 			if parts[0] == 'exec':
+				#Lanzar comandos externos
 				command = urllib2.unquote(parts[1])
 				subprocess.Popen(command, shell=True)
 				return True
 			if parts[0] == 'ui':
+				#Funciones del BulletsBrowser que pueden ser llamadas desde las paginas.
 				params = parts[1].split("?", 1)
 				if params[0] == 'finalize':
 					for p in params:
 						if p == 'autostart':
-							settings.set_boolean("auto-start", True)
+							gsettings.set_boolean("auto-start", True)
 						elif p == 'no_autostart':
-							settings.set_boolean("auto-start", False)
+							gsettings.set_boolean("auto-start", False)
 					gtk.main_quit()
 				return True
 		return False
 
-if __name__ == '__main__':
-	settings = Gio.Settings.new(BASE_KEY)
-	if not settings.get_boolean('auto-start'):
-		sys.exit(0)
+def build_app_window(gsettings, start_page):
+	"""
+	Build application window.
+	"""
 	sw = gtk.ScrolledWindow()
-	bullet_browser = BulletsBrowser(settings) 
+	bullet_browser = BulletsBrowser(gsettings, start_page) 
 	sw.add(bullet_browser) 
 	win = gtk.Window(gtk.WINDOW_TOPLEVEL)
 	win.add(sw) 
@@ -54,7 +61,16 @@ if __name__ == '__main__':
 	win.set_title("Primeros pasos")
 	win.set_position(gtk.WIN_POS_CENTER)
 	win.set_deletable(False)
-	win.show_all() 
-
 	win.connect("destroy", gtk.main_quit)
+	return win
+
+
+if __name__ == '__main__':
+	gsettings = Gio.Settings.new(BASE_KEY)
+	if not gsettings.get_boolean('auto-start'):
+		# Si se deshabilito el autostart, no mostrar los bullets
+		sys.exit(0)
+	
+	win = build_app_window(gsettings, "file://" + os.path.dirname(os.path.abspath(__file__)) + "/1.html")
+	win.show_all() 
 	gtk.main()
