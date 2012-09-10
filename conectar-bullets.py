@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+from gi.repository import Gio
 import gtk
 import gtk.gdk
 import webkit 
@@ -9,10 +10,12 @@ import sys
 import subprocess
 import urllib2
 
+BASE_KEY = "apps.conectar-bullets"
 
 class BulletsBrowser(webkit.WebView):
-	def __init__(self):
+	def __init__(self, settings):
 		webkit.WebView.__init__(self)
+		self.settings = settings
 		self.get_property("settings").set_property("enable-default-context-menu", False)
 		self.connect('navigation-policy-decision-requested', self._on_navigate_decision)
 		self.load_uri("file://" + os.path.dirname(os.path.abspath(__file__)) + "/1.html")
@@ -24,14 +27,24 @@ class BulletsBrowser(webkit.WebView):
 				command = urllib2.unquote(parts[1])
 				subprocess.Popen(command, shell=True)
 				return True
-			if parts[0] == 'ui' and parts[1] == 'close':
-				gtk.main_quit()
+			if parts[0] == 'ui':
+				params = parts[1].split("?", 1)
+				if params[0] == 'finalize':
+					for p in params:
+						if p == 'autostart':
+							settings.set_boolean("auto-start", True)
+						elif p == 'no_autostart':
+							settings.set_boolean("auto-start", False)
+					gtk.main_quit()
 				return True
 		return False
 
 if __name__ == '__main__':
+	settings = Gio.Settings.new(BASE_KEY)
+	if not settings.get_boolean('auto-start'):
+		sys.exit(0)
 	sw = gtk.ScrolledWindow()
-	bullet_browser = BulletsBrowser() 
+	bullet_browser = BulletsBrowser(settings) 
 	sw.add(bullet_browser) 
 	win = gtk.Window(gtk.WINDOW_TOPLEVEL)
 	win.add(sw) 

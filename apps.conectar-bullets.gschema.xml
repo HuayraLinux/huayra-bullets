@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="apps.conectar-bullets" path="/apps/conectar-bullets/">
+    <key type="b" name="auto-start">
+      <default>true</default>
+      <summary>Enable or disable autostart.</summary>
+      <description>Enable or disable autostart.</description>
+    </key>
+  </schema>
+</schemalist>

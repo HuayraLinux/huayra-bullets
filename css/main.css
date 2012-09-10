@@ -130,3 +130,12 @@ input#next-bullet {
 input#close {
 	float: right;
 }
+#autostart{
+	position: absolute;
+	bottom: -10px;
+	height: 30px;
+	width: 570px;
+}
+div#autostart div {
+	float: right;
+}
