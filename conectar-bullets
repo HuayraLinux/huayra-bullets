@@ -67,9 +67,6 @@ def build_app_window(gsettings, start_page):
 
 if __name__ == '__main__':
 	gsettings = Gio.Settings.new(BASE_KEY)
-	if not gsettings.get_boolean('autostart'):
-		# Si se deshabilito el autostart, no mostrar los bullets
-		sys.exit(0)
-	win = build_app_window(gsettings, "file://" + os.path.dirname(os.path.abspath(__file__)) + "/1.html")
+	win = build_app_window(gsettings, "file:///usr/share/conectar-bullets/pages/1.html")
 	win.show_all() 
 	gtk.main()

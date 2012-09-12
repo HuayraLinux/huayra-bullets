@@ -1,1 +1,4 @@
 pages /usr/share/conectar-bullets
+conectar-bullets /usr/bin
+apps.conectar-bullets.gschema.xml /usr/share/glib-2.0/schemas
+conectar-bullets.desktop /usr/share/gnome/autostart

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Conectar Bullets
+Exec=conectar-bullets
+OnlyShowIn=GNOME;
+AutostartCondition=GSettings apps.conectar-bullets autostart
