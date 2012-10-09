@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=Huayra Bullets
+Name=Primeros Pasos en Huayra
 Exec=huayra-bullets
 OnlyShowIn=GNOME;
 AutostartCondition=GSettings apps.huayra-bullets autostart
