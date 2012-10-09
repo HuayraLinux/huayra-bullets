@@ -1,4 +1,4 @@
-Source: conectar-bullets
+Source: huayra-bullets
 Section: main
 Priority: extra
 Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
@@ -7,9 +7,11 @@ Standards-Version: 3.9.3
 #Homepage: <insert the upstream URL, if relevant>
 Vcs-Git: git@200.55.245.7:/conectar-bullets.git
 
-Package: conectar-bullets
+Package: huayra-bullets
 Architecture: all
 Depends: ${python:Depends}, python (>= 2.6), python-webkit
+Conflicts: conectar-bullets
+Replaces: conectar-bullets
 Description: Visor de los bullets de ayuda
  Este paquete contiene los datos de ayuda y el visor de los mismos.
  El visor permite que los archivos de ayuda puedan lanzar programas.

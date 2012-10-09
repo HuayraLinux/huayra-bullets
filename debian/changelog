@@ -1,10 +1,16 @@
-conectar-bullets (0.2-2) wizy; urgency=low
+huayra-bullets (0.3-1) wizy; urgency=low
+
+  * Rename (Closes: XXX)
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 9 Oct 2012 13:14:12 -0300
+
+huayra-bullets (0.2-2) wizy; urgency=low
 
   * Initial release (Closes: XXX)
 
  -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 28 Sep 2012 16:56:11 -0300
 
-conectar-bullets (0.1-1) wizy; urgency=low
+huayra-bullets (0.1-1) wizy; urgency=low
 
   * Initial release (Closes: #89)
 

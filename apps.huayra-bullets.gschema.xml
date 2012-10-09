@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="apps.conectar-bullets" path="/apps/conectar-bullets/">
+  <schema id="apps.huayra-bullets" path="/apps/huayra-bullets/">
     <key type="b" name="autostart">
       <default>true</default>
       <summary>Enable or disable autostart.</summary>

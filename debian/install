@@ -1,4 +1,5 @@
-pages /usr/share/conectar-bullets
-conectar-bullets /usr/bin
-apps.conectar-bullets.gschema.xml /usr/share/glib-2.0/schemas
-conectar-bullets.desktop /usr/share/gnome/autostart
+pages /usr/share/huayra-bullets
+huayra-bullets /usr/bin
+apps.huayra-bullets.gschema.xml /usr/share/glib-2.0/schemas
+huayra-bullets.desktop /usr/share/gnome/autostart
+debian/huayra-bullets.desktop /usr/share/applications
