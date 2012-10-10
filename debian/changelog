@@ -1,3 +1,9 @@
+huayra-bullets (0.3-3) wizy; urgency=low
+
+  * Emprolijado de codigo (Closes: XXX)
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Wed, 10 Oct 2012 18:40:14 -0300
+
 huayra-bullets (0.3-2) wizy; urgency=low
 
   * Fix autostart (Closes: XXX)
