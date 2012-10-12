@@ -1,3 +1,9 @@
+huayra-bullets (0.4.1-1) wizy; urgency=low
+
+  * fix path de los bullets
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 12 Oct 2012 15:55:12 -0300
+
 huayra-bullets (0.4-1) wizy; urgency=low
 
   * Nueva estructura del codigo (Closes: XXX)
