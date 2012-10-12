@@ -115,8 +115,8 @@ bullets[6] = {
 
 bullets[7] = {
     'title': '¿Cómo me conecto a Internet? ¿Cómo se cuando estoy conectado?',
-    'content': 'En la barra superior a la derecha donde está el ícono de “Conecciones”,\
-        puedo conectarme via wifi o red cableada. Cuando me conecte por primera\
+    'content': 'En la barra superior a la derecha donde está el ícono de “Conexiones”,\
+        puedo conectarme vía wifi o red cableada. Cuando me conecte por primera\
         vez a una red nueva voy a tener que ingresar mi contraseña (-alumno- por default).\
         Si me conecto a una red WiFi con contraseña necesito poner la contraseña\
         de la red. Una vez conectado podré ver cómo cambió el ícono. El ícono del\
