@@ -90,6 +90,8 @@ div#content {
 	border: 1px #A09F9F solid;
 	margin: 20px 0 0;
 	padding: 15px;
+	overflow: auto;
+	height: 250px
 }
 div#content p {
 	font-size: 1.0em;
@@ -98,7 +100,7 @@ div#content p {
 /*NAVIGATION*/
 div#navigation {
 	position: absolute;
-	bottom: 0;
+	bottom: 30px;
 	height: 30px;
 	width: 570px;
 }
@@ -130,12 +132,12 @@ input#next-bullet {
 input#close {
 	float: right;
 }
-#autostart{
+#close-div{
 	position: absolute;
-	bottom: -10px;
+	bottom: -30px;
 	height: 30px;
 	width: 570px;
 }
-div#autostart div {
+div#close-div div {
 	float: right;
 }

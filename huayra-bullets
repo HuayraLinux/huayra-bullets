@@ -92,6 +92,6 @@ def build_app_window(gsettings, start_page):
 if __name__ == '__main__':
     gsettings = Gio.Settings.new(BASE_KEY)
     win = build_app_window(gsettings,
-        "file:///usr/share/huayra-bullets/pages/1.html")
+        "file:///home/miguel/huayra/huayra-bullets/pages/bullets.html")
     win.show_all()
     gtk.main()
