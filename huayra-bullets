@@ -37,7 +37,7 @@ sys.path.append('/usr/share/huayra-bullets');
 from pages.bullets.bullets_list import bullets_list 
 
 class BulletsBrowser(webkit.WebView):
-	bullets_dir = "/usr/bin/huayra-bullets/"
+	bullets_dir = "/usr/share/huayra-bullets/"
 	bullets_list = bullets_list
 	bullet_close_number = 0
 	"""
@@ -126,12 +126,10 @@ class BulletsBrowser(webkit.WebView):
 					
 				# Autostart
 				elif parts[1] == 'set-autostart-on':
-					print 'autostart ON'
 					gsettings.set_boolean("autostart", True)
 					return True
 					
 				elif parts[1] == 'set-autostart-off':
-					print 'autostart OFF'
 					gsettings.set_boolean("autostart", False)
 					return True
 
