@@ -1,0 +1,43 @@
+
+		</div> <!-- end content -->
+	</div> <!-- end wrapper -->
+</body>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('input#chkAutoStart').change(function(){
+		if ($(this).is(':checked')){
+			set_autostart_on();
+		} else {
+			set_autostart_off();
+		}
+	});
+	// 
+	$('div#actions div.action.bullet-navigation').each(function(i, v){
+		if($(this).hasClass('inactive')){
+			$(this).fadeTo('slow', 0.2);
+		}
+		
+	});
+	// Animations
+	// Load image at first
+	$('div#animation img').attr('src', '{{ animation_dir }}/loop.gif');
+	$('div#animation img').click(function(){
+		// Unbind event
+		$(this).unbind('click');
+		$(this).addClass('clicked');
+		// Replace image and wait to to load the answer
+		$('div#animation img').attr('src', '{{ animation_dir }}/exit.gif');
+		setTimeout(function(){
+			$('div#answer').css('display', 'block');
+			$('div#answer').fadeTo(0, 0, function(){
+				$('div#answer').fadeTo(1500, 1.0);
+			});
+		}, {{ animation_duration }});
+		// Hide animation DIV
+		setTimeout(function(){
+			$('div#animation').css('display', 'none');
+		}, {{ animation_duration }});
+	});
+});
+</script>
+</html>

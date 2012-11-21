@@ -4,6 +4,7 @@
 # Copyright (C) 2012 Huayra GNU/Linux
 #
 # Author Miguel Angel Garcia <miguel.garcia@gmail.com>
+# Author Luciano Abel Baraglia <luciano.baraglia@gmail.com>
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -32,66 +33,146 @@ import urllib2
 # Base Key en GSettings
 BASE_KEY = "apps.huayra-bullets"
 
+sys.path.append('/usr/share/huayra-bullets');
+from pages.bullets.bullets_list import bullets_list 
 
 class BulletsBrowser(webkit.WebView):
-    """
-    Widget for browsing the bullets.
-    """
-    def __init__(self, gsettings, start_page):
-        webkit.WebView.__init__(self)
-        self.gsettings = gsettings
-        self.get_property("settings").set_property(
-            "enable-default-context-menu", False)
-        self.connect('navigation-policy-decision-requested',
-            self._on_navigate_decision)
-        self.load_uri(start_page)
+	bullets_dir = "/usr/bin/huayra-bullets/"
+	bullets_list = bullets_list
+	bullet_close_number = 0
+	"""
+	Widget for browsing the bullets.
+	"""
+	def __init__(self, gsettings, start_page):
+		webkit.WebView.__init__(self)
+		self.gsettings = gsettings
+		self.get_property("settings").set_property(
+			"enable-default-context-menu", False)
+		self.connect('navigation-policy-decision-requested',
+			self._on_navigate_decision)
+			
+		self.__build_page(0) # First time
+		#self.load_uri(start_page)
+		
+	"""
+	Builds the page
+	"""
+	def __build_page(self, bullet):
+		header = open(self.bullets_dir + 'pages/bullets/header.html', 'r').read()
+		header_content = header.replace('{{ variant }}', str(self.bullets_list[bullet]['variant']))
+		
+		bullet_content = open(self.bullets_dir + 'pages/bullets/' + str(self.bullets_list[bullet]['file']), 'r').read()
+		bullet_content = bullet_content.replace('{{ prev_bullet_link }}', self.__build_prev_bullet_link(bullet))
+		bullet_content = bullet_content.replace('{{ next_bullet_link }}', self.__build_next_bullet_link(bullet))
+		bullet_content = bullet_content.replace('{{ close_app_button }}', self.__build_close_button(bullet))
+		bullet_content = bullet_content.replace('{{ animation_class }}', self.bullets_list[bullet]['animation']['class'])
 
-    def _on_navigate_decision(self, view, frame, req, action, decision):
-        parts = req.get_uri().split("://", 1)
-        if len(parts) == 2:
-            if parts[0] == 'exec':
-                #Lanzar comandos externos
-                command = urllib2.unquote(parts[1])
-                subprocess.Popen(command, shell=True)
-                return True
-            if parts[0] == 'ui':
-                # Actions callable from pages.
-                params = parts[1].split("?", 1)
-                if params[0] == 'finalize':
-                    for p in params:
-                        if p == 'autostart':
-                            gsettings.set_boolean("autostart", True)
-                        elif p == 'no_autostart':
-                            gsettings.set_boolean("autostart", False)
-                    gtk.main_quit()
-                return True
-        return False
+		footer_content = open(self.bullets_dir + 'pages/bullets/footer.html', 'r').read()
+		footer_content = footer_content.replace('{{ animation_dir }}', self.bullets_dir + 'pages/images/animations/' + self.bullets_list[bullet]['animation']['dir'])
+		footer_content = footer_content.replace('{{ animation_duration }}', self.bullets_list[bullet]['animation']['exit_duration'])
+				
+		content = header_content + bullet_content + footer_content
+				
+		self.load_html_string(content, base_uri='file://' + self.bullets_dir + 'pages/')
+
+	
+	"""
+	Prev bullet link
+	""" 
+	def __build_prev_bullet_link(self, current_bullet):
+		if int(current_bullet) == 0:
+			return '<div class="action bullet-navigation inactive" id="prev-bullet"><span>Anterior</span></div>'
+		return '<div class="action bullet-navigation" id="prev-bullet"><a href="[bullet]?%s">Anterior</a></div>' % str(int(current_bullet) - 1)
+		
+		
+	"""
+	Next bullet link
+	""" 
+	def __build_next_bullet_link(self, current_bullet):
+		if int(current_bullet) == len(self.bullets_list) - 1:
+			return '<div class="action bullet-navigation inactive" id="next-bullet"><span>Siguiente</span></div>'
+		return '<div class="action bullet-navigation" id="next-bullet"><a href="[bullet]?%s">Siguiente</a></div>' % str(int(current_bullet) + 1)
+		
+		
+	"""
+	Close bullet button
+	""" 
+	def __build_close_button(self, current_bullet):
+		if current_bullet <= self.bullet_close_number:
+			return '<div class="action inactive" id="close-app"><span>CERRAR</span></div>'
+		return '<div class="action" id="close-app"><a href="#" onclick="finalize();">CERRAR</a></div>'
+		
+	
+	def _on_navigate_decision(self, view, frame, req, action, decision):
+		
+		import re
+		parts = re.split("\[([a-z]+)\]", req.get_uri())[1:]
+		
+		if len(parts) == 2:
+			if parts[0] == 'exec':
+				# Launch external commands
+				
+				
+				command = parts[1].split("%20")
+				print command
+				subprocess.Popen(command, bufsize=0, executable=None, stdin=None, stdout=None, stderr=None, preexec_fn=None, close_fds=False, shell=False, cwd=None, env=None, universal_newlines=False, startupinfo=None, creationflags=0)
+				return True
+				
+			elif parts[0] == 'app':
+				# Close app
+				if parts[1] == 'finalize':
+					gtk.main_quit()
+					return True
+					
+				# Autostart
+				elif parts[1] == 'set-autostart-on':
+					print 'autostart ON'
+					gsettings.set_boolean("autostart", True)
+					return True
+					
+				elif parts[1] == 'set-autostart-off':
+					print 'autostart OFF'
+					gsettings.set_boolean("autostart", False)
+					return True
+
+			# Bullets navigation
+			elif parts[0] == 'bullet':
+				params = parts[1].split("?", 1)
+				self.__build_page(int(params[1])) # Load page
+				return True
+
+			# Documentation
+			elif parts[0] == 'doc':
+				doc_page = parts[1]
+				subprocess.Popen(["yelp", "file://" + doc_page])
+				return True
+				
+		return False
 
 
 def build_app_window(gsettings, start_page):
-    """
-    Build application window.
-    """
-    sw = gtk.ScrolledWindow()
-    bullet_browser = BulletsBrowser(gsettings, start_page)
-    sw.add(bullet_browser)
-    win = gtk.Window(gtk.WINDOW_TOPLEVEL)
-    win.set_icon_from_file(
-        "/usr/share/icons/gnome/48x48/apps/help-browser.png")
-    win.add(sw)
-    win.set_resizable(False)
-    bullet_browser.set_size_request(600, 400)
-    win.set_default_size(600, 400)
-    win.set_title("Primeros pasos en Huayra")
-    win.set_position(gtk.WIN_POS_CENTER)
-    win.set_deletable(False)
-    win.connect("destroy", gtk.main_quit)
-    return win
+	"""
+	Build application window.
+	"""
+	sw = gtk.ScrolledWindow()
+	bullet_browser = BulletsBrowser(gsettings, start_page)
+	sw.add(bullet_browser)
+	win = gtk.Window(gtk.WINDOW_TOPLEVEL)
+	win.set_icon_from_file("/usr/share/icons/gnome/48x48/apps/help-browser.png")
+	win.add(sw)
+	win.set_resizable(False)
+	bullet_browser.set_size_request(640, 450)
+	win.set_default_size(640, 450)
+	win.set_title("Primeros pasos en Huayra")
+	win.set_position(gtk.WIN_POS_CENTER)
+	win.set_deletable(False)
+	win.connect("destroy", gtk.main_quit)
+	return win
 
 
 if __name__ == '__main__':
-    gsettings = Gio.Settings.new(BASE_KEY)
-    win = build_app_window(gsettings,
-        "file:///usr/share/huayra-bullets/pages/bullets.html")
-    win.show_all()
-    gtk.main()
+	gsettings = Gio.Settings.new(BASE_KEY)
+	#gsettings = None
+	win = build_app_window(gsettings, "file://" + BulletsBrowser.bullets_dir + "/pages/bullets.html")
+	win.show_all()
+	gtk.main()

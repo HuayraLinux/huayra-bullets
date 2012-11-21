@@ -1,0 +1,9 @@
+/*
+ *
+ *=ANIMATION-01
+ *
+ */
+div#animation.animation-01 img {
+	display: block;
+	margin-top: 200px;
+}

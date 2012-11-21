@@ -1,143 +1,114 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+/*
+ *
+ *=COMMON
+ *
+ */
+body {
+	font-family: "Cantora One", sans-serif;
+}
+a:link {
+	text-decoration: none;
+}
+/*
+ * WRAPPER
+ * 
+ */
+div#wrapper {
+	width: 632px;
+	height: 430px;
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/**
- *
- *
- *
- */ 
-body {
-	background-color: #262522;
-	color: #fff;
-	font-family: "FreeSans", sans-serif;
-}
-h1 {
-	font-size: 1.1em;
-	font-weight: bold;
-	color: #fff;
-	text-shadow:
-    2px 2px 0 #000,
-    /* Simulated effect for Firefox and Opera
-       and nice enhancement for WebKit */
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-   -1px  1px 0 #000,
-    1px  1px 0 #000;
-}
-a:link,
-a:visited,
-a:active {
-	color: #fff;
-	font-weight: bold;
-}
-a:hover {
-	color: #bbb;
-}
-/*WRAPPER*/
-div#wrapper {
-	width: 570px;
-	height: 380px; 
-	margin: 10px;
 	position: relative;
 }
-/*CONTENT*/
-div#content {
-	border: 1px #A09F9F solid;
-	margin: 20px 0 0;
-	padding: 15px;
-	overflow: auto;
-	height: 250px
-}
-div#content p {
-	font-size: 1.0em;
-	line-height: 1.3em;
-}
-/*NAVIGATION*/
-div#navigation {
+/*
+ *
+ *=QUESTION
+ *
+ */
+div#question {
+	width: 300px;
+	height: 370px;
 	position: absolute;
-	bottom: 30px;
-	height: 30px;
-	width: 570px;
+	top: 0;
+	left: 0;
 }
-div#navigation input {
-	border: 1px #ccc solid;
-	background: #DFDEDD;
-	text-transform: uppercase;
-	padding: 5px 10px;
+div#question h1 {
+	font-size: 2.2em;
 	font-weight: bold;
-	font-size: 0.7em;
-	border-radius: 5px;
-	box-shadow: /*http://stackoverflow.com/a/5768541*/
-	0 1px 2px #fff, /*bottom external highlight*/
-	0 -1px 1px #666, /*top external shadow*/ 
-	inset 0 -1px 1px rgba(0,0,0,0.5), /*bottom internal shadow*/ 
-	inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/
+	width: 260px;
+	margin: 50px auto;
+	text-align: center;
 }
-div#navigation input:hover {
-	border: 1px #ccc solid;
-	background: #fff;
-	cursor: pointer;
+/*
+ *
+ *=ACTIONS
+ *
+ */
+div#actions {
+	width: 280px;
+	height: 70px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
-input#prev-bullet {
+div#actions div.action {
+	width: 70px;
 	float: left;
 }
-input#next-bullet {
-	float: right;
+div#actions div#close-app.inactive {
+	opacity: 0.2;
 }
-input#close {
-	float: right;
+div#actions div#prev-bullet {
+	text-align: left;
 }
-#close-div{
+div#actions div#next-bullet {
+	float: right;
+	text-align: right;
+}
+div#actions div#close-app {
+	float: left;
+	width: 140px;
+	text-align: center;
+}
+/*=SHOW-NEXT-STARTUP */
+div#show-next-startup {
 	position: absolute;
-	bottom: -30px;
-	height: 30px;
-	width: 570px;
+	bottom: 0;
+	left: 0;
+	font-family: 'Free sans';
+	font-size: .9em;
 }
-div#close-div div {
-	float: right;
+/*
+ *
+ *=ANSWER / ANIMATIONS
+ *
+ */
+div#answer {
+	width: 260px;
+	height: 380px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-weight: normal;
+	font-family: 'Free sans', sans-serif;
+	overflow-y: auto;
+	overflow-x: none;
+	padding: 20px;
+	padding-left: 0;
+	display: none; /* FIRST TIME */
+}
+div#answer {
+}
+div#animation {
+	width: 300px;
+	height: 380px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+div#animation img {
+	cursor: hand;
+}
+div#animation img.clicked {
+	cursor: default;
 }

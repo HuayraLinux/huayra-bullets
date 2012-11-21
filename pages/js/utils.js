@@ -25,67 +25,27 @@
  * @param start_next_time boolean Indicates wether the application should autostart
  * on next users login.
  */
-function finalize(start_next_time)
-{
-	qs = start_next_time ? 'autostart' : 'no_autostart';
-	window.location='ui://finalize?'+qs;
+function finalize(){
+	//qs = start_next_time ? 'autostart' : 'no_autostart';
+	//window.location='ui://finalize?'+qs;
+	window.location = '[app]finalize';
 }
 
 /**
- * Display a bullet.
+ * Sets autostart
+ * 
  */
-function show_bullet(bullet)
-{
-    document.getElementById("title").innerHTML = bullet.title;
-    document.getElementById("content").innerHTML = bullet.content;
-    document.getElementById("close").style.display = bullet.can_close ? "block" : "none";
-    document.getElementById("close-div").style.display = bullet.can_close ? "block" : "none";
-    document.getElementById("prev-bullet").style.display = current_bullet > 0 ? "block" : "none";
-    document.getElementById("next-bullet").style.display = current_bullet < bullets.length - 1 ? "block" : "none";
+function set_autostart_on(){
+	window.location = '[app]set-autostart-on';
+}
+
+function set_autostart_off(){
+	window.location = '[app]set-autostart-off';
 }
 
 /**
- * Global var for the current bullet index.
+ * Animations
+ * 
  */
-current_bullet = 0;
 
-/**
- * Shows the bullet current_bullet from the bullets array.
- */
-function show_current_bullet()
-{
-    show_bullet(bullets[current_bullet]);
-}
 
-/**
- * Displays the first bullet and initializes the navigation.
- */
-function start_bullets()
-{
-    current_bullet = 0;
-    show_current_bullet();
-}
-
-/**
- * Displays the next bullet and update the current_bullet index. 
- */
-function next_bullet()
-{
-    current_bullet++;
-    if(current_bullet < bullets.length)
-    {
-        show_current_bullet();
-    }
-}
-
-/**
- * Displays the previous bullet and update the current_bullet index. 
- */
-function prev_bullet()
-{
-    current_bullet--;
-    if(current_bullet >= 0)
-    {
-        show_current_bullet();
-    }
-}
