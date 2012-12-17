@@ -1,0 +1,31 @@
+<div id="globo">
+</div>
+<div id="vaca">
+	<img src="{{ animation_dir }}/vaca-loop-300x204.gif" />
+
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	// Animations
+	// Load image at first
+	$('div#animation div#globo').click(function(){
+		// Unbind event
+		$(this).unbind('click'); // Delete click event
+		$(this).addClass('clicked');
+		$(this).fadeTo(1500, 0.0);
+		// Replace image and wait to to load the answer
+		$('div#animation div#vaca img').attr('src', '{{ animation_dir }}/vaca-exit-300x204.gif');
+		setTimeout(function(){
+			$('div#answer').css('display', 'block');
+			$('div#answer').fadeTo(0, 0, function(){
+				$('div#answer').fadeTo(1500, 1.0);
+			});
+		}, {{ animation_duration }});
+		// Hide animation DIV
+		setTimeout(function(){
+			$('div#animation').css('display', 'none');
+		}, {{ animation_duration }});
+	});
+});
+</script>

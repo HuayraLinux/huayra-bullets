@@ -157,10 +157,10 @@ for b in bullets:
 	print >>f, '		</div> <!-- show-next-time -->'
 	print >>f, '	</div> <!-- actions -->'
 	print >>f, '	<div id="animation" class="animation-{{ animation_class }}">'
-	print >>f, '		<img src="" />'
+	print >>f, '	{{ animation_file }}'
 	print >>f, '	</div> <!-- animation -->'
 	print >>f, '	<div id="answer">'
-	print >>f, '		'+b[1]
+	print >>f, '		' + b[1]
 	print >>f, '	</div> <!-- answer -->'
 	print >>f, '</div> <!-- bullet-content -->'
 	i = i+1
