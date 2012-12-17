@@ -137,12 +137,10 @@ class BulletsBrowser(webkit.WebView):
 					
 				# Autostart
 				elif parts[1] == 'set-autostart-on':
-					print 'autostart ON'
 					gsettings.set_boolean("autostart", True)
 					return True
 					
 				elif parts[1] == 'set-autostart-off':
-					print 'autostart OFF'
 					gsettings.set_boolean("autostart", False)
 					return True
 
