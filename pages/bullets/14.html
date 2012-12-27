@@ -1,18 +1,21 @@
-<div id="bullet-content">
-	<div id="question">
-		<h1>¿Cómo cambio la fecha y hora?</h1>
-	</div> <!-- question -->
-	<div id="actions">
-	{{ prev_bullet_link }}{{ close_app_button }}{{ next_bullet_link }}
-		<div id="show-next-startup">
-			<label for="chkAutoStart">Mostrar en el siguiente inicio:</label>
-			<input type="checkbox" checked="checked" id="chkAutoStart" />
-		</div> <!-- show-next-time -->
-	</div> <!-- actions -->
-	<div id="animation" class="animation-{{ animation_class }}">
-	{{ animation_file }}
-	</div> <!-- animation -->
-	<div id="answer">
-		<p>Hago clic en la barra superior donde aparece la fecha y la hora,y ahí en"Ajustes de fecha y hora". También puedo modificar la fecha y la hora en <a href="[exec]gnome-control-center"> "Configuración del sistema"</a> (en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior#sec:Men-de-usuario-7"> Menú de usuario </a>)</p>
-	</div> <!-- answer -->
-</div> <!-- bullet-content -->
+	<div id="bullet-content">
+		<div id="question">
+			<h1>¿Cómo cambio la fecha y hora?</h1>
+		</div> <!-- question -->
+		<div id="actions">
+		{{ prev_bullet_link }}{{ close_app_button }}{{ next_bullet_link }}
+			<div id="show-next-startup">
+				<label for="chkAutoStart">Mostrar en el siguiente inicio:</label>
+				<input type="checkbox" checked="checked" id="chkAutoStart" />
+			</div> <!-- show-next-time -->
+		</div> <!-- actions -->
+		<div id="animation" class="animation-{{ animation_class }}">
+		{{ animation_file }}
+		</div> <!-- animation -->
+		<div id="answer">
+			<p>Hago clic en la barra superior donde aparece la fecha y la hora,y ahí en"Ajustes de fecha y hora". También puedo modificar la fecha y la hora en <a href="[exec]gnome-control-center"> "Configuración del sistema"</a> (en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior#sec:Men-de-usuario-7"> Menú de usuario </a>)</p>
+			<div id="vaca-volve">
+				<img src="images/vaca_icono.png" />
+			</div>
+		</div> <!-- answer -->
+	</div> <!-- bullet-content -->

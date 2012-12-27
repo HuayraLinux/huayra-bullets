@@ -26,8 +26,6 @@
  * on next users login.
  */
 function finalize(){
-	//qs = start_next_time ? 'autostart' : 'no_autostart';
-	//window.location='ui://finalize?'+qs;
 	window.location = '[app]finalize';
 }
 
@@ -44,8 +42,13 @@ function set_autostart_off(){
 }
 
 /**
- * Animations
+ * Answer active?
  * 
  */
+function set_answer_active_on(){
+	window.location = '[app]set-answer-active-on';
+}
 
-
+function set_answer_active_off(){
+	window.location = '[app]set-answer-active-off';
+}

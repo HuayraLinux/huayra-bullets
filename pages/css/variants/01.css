@@ -38,7 +38,7 @@ body.variant-01 div#question h1 {
 	font-size: 2.2em;
 	font-weight: bold;
 	width: 260px;
-	margin: 50px auto;
+	margin: 110px auto 0;
 	text-align: center;
 }
 /*
@@ -118,3 +118,13 @@ body.variant-01 div#answer a:visited {
 body.variant-01 div#answer a:hover {
 	text-decoration: underline;
 }
+/* VACA-VOLVE */
+body.variant-01 div#answer div#vaca-volve {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+body.variant-01 div#answer div#vaca-volve img {
+	cursor: pointer;
+}
+

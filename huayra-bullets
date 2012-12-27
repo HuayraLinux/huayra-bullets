@@ -33,21 +33,30 @@ import urllib2
 # Base Key en GSettings
 BASE_KEY = "apps.huayra-bullets"
 
+DEV = True
+
 sys.path.append('/usr/share/huayra-bullets');
 from pages.bullets.bullets_list import bullets_list 
 
 class BulletsBrowser(webkit.WebView):
-	bullets_dir = "/usr/share/huayra-bullets/"
-	#bullets_dir = os.getcwd() + "/" # DEV
+	
+	if DEV:
+		bullets_dir = os.getcwd() + "/" # DEV
+	else:
+		bullets_dir = "/usr/share/huayra-bullets/"
+	
 	bullets_list = bullets_list
 	bullet_close_number = 0
+	answer_active = False
 	"""
 	Widget for browsing the bullets.
 	"""
 	def __init__(self, gsettings, start_page):
 		webkit.WebView.__init__(self)
-		self.gsettings = gsettings
-		#self.gsettings = None #DEV
+		if DEV:
+			self.gsettings = None #DEV
+		else:
+			self.gsettings = gsettings
 		self.get_property("settings").set_property(
 			"enable-default-context-menu", False)
 		self.connect('navigation-policy-decision-requested',
@@ -73,6 +82,7 @@ class BulletsBrowser(webkit.WebView):
 		bullet_content = bullet_content.replace('{{ animation_file }}', open(self.bullets_dir + 'pages/animations/' + self.bullets_list[bullet]['animation']['class'] + '.html', 'r').read())
 		bullet_content = bullet_content.replace('{{ animation_duration }}', self.bullets_list[bullet]['animation']['exit_duration'])
 		bullet_content = bullet_content.replace('{{ animation_dir }}', self.bullets_dir + 'pages/images/animations/' + self.bullets_list[bullet]['animation']['dir'])
+		bullet_content = bullet_content.replace('{{ answer_active }}', str(self.answer_active).lower())
 		
 		footer_content = open(self.bullets_dir + 'pages/bullets/footer.html', 'r').read()
 				
@@ -137,11 +147,21 @@ class BulletsBrowser(webkit.WebView):
 					
 				# Autostart
 				elif parts[1] == 'set-autostart-on':
-					gsettings.set_boolean("autostart", True)
+					if not DEV:
+						gsettings.set_boolean("autostart", True)
 					return True
 					
 				elif parts[1] == 'set-autostart-off':
-					gsettings.set_boolean("autostart", False)
+					if not DEV:
+						gsettings.set_boolean("autostart", False)
+					return True
+					
+				elif parts[1] == 'set-answer-active-on':
+					self.answer_active = True
+					return True
+					
+				elif parts[1] == 'set-answer-active-off':
+					self.answer_active = False
 					return True
 
 			# Bullets navigation
@@ -167,7 +187,8 @@ def build_app_window(gsettings, start_page):
 	bullet_browser = BulletsBrowser(gsettings, start_page)
 	sw.add(bullet_browser)
 	win = gtk.Window(gtk.WINDOW_TOPLEVEL)
-	win.set_icon_from_file("/usr/share/icons/gnome/48x48/apps/help-browser.png")
+	if not DEV:
+		win.set_icon_from_file("/usr/share/icons/gnome/48x48/apps/help-browser.png")
 	win.add(sw)
 	win.set_resizable(False)
 	bullet_browser.set_size_request(640, 450)
@@ -180,8 +201,11 @@ def build_app_window(gsettings, start_page):
 
 
 if __name__ == '__main__':
-	gsettings = Gio.Settings.new(BASE_KEY)
-	#gsettings = None # DEV
+	if DEV:
+		gsettings = None
+	else:
+		gsettings = Gio.Settings.new(BASE_KEY)
+
 	win = build_app_window(gsettings, "file://" + BulletsBrowser.bullets_dir + "/pages/bullets.html")
 	win.show_all()
 	gtk.main()

@@ -1,18 +1,21 @@
-<div id="bullet-content">
-	<div id="question">
-		<h1>¿Cuánta batería me queda?</h1>
-	</div> <!-- question -->
-	<div id="actions">
-	{{ prev_bullet_link }}{{ close_app_button }}{{ next_bullet_link }}
-		<div id="show-next-startup">
-			<label for="chkAutoStart">Mostrar en el siguiente inicio:</label>
-			<input type="checkbox" checked="checked" id="chkAutoStart" />
-		</div> <!-- show-next-time -->
-	</div> <!-- actions -->
-	<div id="animation" class="animation-{{ animation_class }}">
-	{{ animation_file }}
-	</div> <!-- animation -->
-	<div id="answer">
-		<p>El ícono de batería en la <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior">barra superior</a> a la derecha me lo indica al hacer clic. Desde <a href="[exec]gnome-control-center"> "Configuración del sistema"</a> (en <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior#sec:Men-de-usuario-7"> Menú de usuario </a> arriba a la derecha) puedo optimizar el uso de la <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Energa-y-Batera-9">Batería</a>.</p>
-	</div> <!-- answer -->
-</div> <!-- bullet-content -->
+	<div id="bullet-content">
+		<div id="question">
+			<h1>¿Cuánta batería me queda?</h1>
+		</div> <!-- question -->
+		<div id="actions">
+		{{ prev_bullet_link }}{{ close_app_button }}{{ next_bullet_link }}
+			<div id="show-next-startup">
+				<label for="chkAutoStart">Mostrar en el siguiente inicio:</label>
+				<input type="checkbox" checked="checked" id="chkAutoStart" />
+			</div> <!-- show-next-time -->
+		</div> <!-- actions -->
+		<div id="animation" class="animation-{{ animation_class }}">
+		{{ animation_file }}
+		</div> <!-- animation -->
+		<div id="answer">
+			<p>El ícono de batería en la <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior">barra superior</a> a la derecha me lo indica al hacer clic. Desde <a href="[exec]gnome-control-center"> "Configuración del sistema"</a> (en <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior#sec:Men-de-usuario-7"> Menú de usuario </a> arriba a la derecha) puedo optimizar el uso de la <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Energa-y-Batera-9">Batería</a>.</p>
+			<div id="vaca-volve">
+				<img src="images/vaca_icono.png" />
+			</div>
+		</div> <!-- answer -->
+	</div> <!-- bullet-content -->
