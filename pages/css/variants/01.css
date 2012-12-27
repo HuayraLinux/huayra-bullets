@@ -6,7 +6,8 @@
 body.variant-01 {
 	background: url(../../images/backgrounds/background-01-640x450.png) no-repeat;
 }
-body.variant-01 a:link {
+body.variant-01 a:link,
+body.variant-01 a:visited {
 	color: #aef525;
 }
 /*
@@ -89,10 +90,10 @@ body.variant-01 div#show-next-startup {
  */
 body.variant-01 div#answer {
 	width: 280px;
-	height: 340px;
+	height: 290px;
 	color: #008000;
 	position: absolute;
-	top: 50px;
+	top: 100px;
 	right: 20px;
 	text-align: justify;
 	font-weight: normal;
