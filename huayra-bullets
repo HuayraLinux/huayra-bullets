@@ -33,7 +33,7 @@ import urllib2
 # Base Key en GSettings
 BASE_KEY = "apps.huayra-bullets"
 
-DEV = True
+DEV = False
 
 sys.path.append('/usr/share/huayra-bullets');
 from pages.bullets.bullets_list import bullets_list 
@@ -47,7 +47,9 @@ class BulletsBrowser(webkit.WebView):
 	
 	bullets_list = bullets_list
 	bullet_close_number = 0
+	bullet_close_active = False
 	answer_active = False
+	
 	"""
 	Widget for browsing the bullets.
 	"""
@@ -68,6 +70,10 @@ class BulletsBrowser(webkit.WebView):
 	Builds the page
 	"""
 	def __build_page(self, bullet):
+		
+		if bullet > self.bullet_close_number:  # Activate close button?
+			self.bullet_close_active = True
+			
 		header = open(self.bullets_dir + 'pages/bullets/header.html', 'r').read()
 		header_content = header.replace('{{ variant }}', str(self.bullets_list[bullet]['variant']))
 		header_content = header_content.replace('{{ animation }}', self.bullets_list[bullet]['animation']['class'])
@@ -113,7 +119,7 @@ class BulletsBrowser(webkit.WebView):
 	Close bullet button
 	""" 
 	def __build_close_button(self, current_bullet):
-		if current_bullet <= self.bullet_close_number:
+		if current_bullet <= self.bullet_close_number and not self.bullet_close_active:
 			return '<div class="action inactive" id="close-app"><span>CERRAR</span></div>'
 		return '<div class="action" id="close-app"><a href="#" onclick="finalize();">CERRAR</a></div>'
 		

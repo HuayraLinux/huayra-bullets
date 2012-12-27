@@ -89,7 +89,7 @@ body.variant-01 div#show-next-startup {
  */
 body.variant-01 div#answer {
 	width: 280px;
-	height: 330px;
+	height: 340px;
 	color: #008000;
 	position: absolute;
 	top: 50px;
@@ -120,11 +120,25 @@ body.variant-01 div#answer a:hover {
 }
 /* VACA-VOLVE */
 body.variant-01 div#answer div#vaca-volve {
+	width: 48px;
+	height: 48px;
 	position: absolute;
 	bottom: 0;
 	right: 0;
 }
-body.variant-01 div#answer div#vaca-volve img {
-	cursor: pointer;
+body.variant-01 div#answer div#vaca-volve a span {
+	display: none;
+}
+body.variant-01 div#answer div#vaca-volve a {
+	display: block;
+	width: 48px;
+	height: 48px;
+}
+body.variant-01 div#answer div#vaca-volve a:link,
+body.variant-01 div#answer div#vaca-volve a:visited {
+	background: url(../../images/vaca-icono-48x48.png) no-repeat;
+}
+body.variant-01 div#answer div#vaca-volve a:hover {
+	background: url(../../images/vaca-icono-b-48x48.png) no-repeat;
 }
 

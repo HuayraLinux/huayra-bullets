@@ -170,7 +170,7 @@ bullets_variants = {
 		<div id="answer">
 			{{ answer }}
 			<div id="vaca-volve">
-				<img src="images/vaca_icono.png" />
+				<a href="#"><span>Vaca Volvé!</span></a>
 			</div>
 		</div> <!-- answer -->
 	</div> <!-- bullet-content -->''',
