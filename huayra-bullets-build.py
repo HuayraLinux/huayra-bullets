@@ -1,18 +1,17 @@
 # -*- coding: utf-8 -*-
-from django.utils.encoding import smart_str, smart_unicode
 import sys, os
 sys.stdout.softspace = 0
 
 bullets = [
 	[
 		'Ventanas y Aplicaciones',
-		'<p>Llevá el mouse a la esquina de arriba a la izquierda. Fijate qué pasa. Es la <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Vista-de-actividades">texto del link</a>vista de actividades</a> : acá vas a ver las ventanas abiertas, tus aplicaciones y el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Vista-de-actividades#sec:Buscador-Huayra">Buscador </a>.</p>',
+		'<p>Llevá el mouse a la esquina de arriba a la izquierda. Fijate qué pasa. Es la <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Vista-de-actividades">Vista de actividades</a>: acá vas a ver las ventanas abiertas, tus aplicaciones y el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Vista-de-actividades#sec:Buscador-Huayra">Buscador </a>.</p>',
 		'01',
 		'01',
 	],
 	[
 		'Menú de Usuario y Apagar',
-		'<p>Hacé clic en el ícono de la <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior">barra superior</a> a la derecha. Este es el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior#sec:Men-de-usuario-9"> Menú de usuario </a>  desde donde podés apagar la netbook, configurarla y <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario#sec:Aadir-una-cuenta-18">crear un usuario</a>.</p>',
+		'<p>Hacé clic en el ícono de la <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior">barra superior</a> a la derecha. Este es el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior#sec:Men-de-usuario-9"> Menú de usuario </a>  desde donde podés apagar la netbook, configurarla y <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">crear un usuario</a>.</p>',
 		'01',
 		'01',
 	],
@@ -24,7 +23,7 @@ bullets = [
 	],
 	[
 		'¿Cómo instalo programas en Huayra?',
-		'<p>Desde el <a href="[exec]software-center">"Centro de software"</a> instalo todos los programas en sus versiones oficiales y libres. Puedo buscar por tema o por categoría. El Centro está en <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Men-Huayra-1">Menú Huayra</a>/ Administración (o uso el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Vista-de-actividades#sec:Buscador-Huayra">Buscador</a>)</p>',
+		'<p>Desde el <a href="[exec]software-center">Centro de software</a> instalo todos los programas en sus versiones oficiales y libres. Puedo buscar por tema o por categoría. El Centro está en <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Men-Huayra-1">Menú Huayra</a>/ Administración (o uso el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Vista-de-actividades#sec:Buscador-Huayra">Buscador</a>)</p>',
 		'01',
 		'01',
 	],
@@ -36,7 +35,7 @@ bullets = [
 	],
 		[
 		'¿Cómo creo MI USUARIO en Huayra?',
-		'<p>Creo <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario>MI USUARIO</a> en <a href="[exec]gnome-control-center"> Configuración del sistema</a> (en <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior#sec:Men-de-usuario-9"> Menú de usuario </a>), Cuenta de Usuario. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario#//autoid-49">contraseña</a> (-alumno- por default) y luego creo mi usuario haciendo clic en "+".</p>',
+		'<p>Creo <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">MI USUARIO</a> en <a href="[exec]gnome-control-center"> Configuración del sistema</a> (en <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior#sec:Men-de-usuario-9"> Menú de usuario</a>), Cuenta de Usuario. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario#//autoid-49">contraseña</a> (-alumno- por default) y luego creo mi usuario haciendo clic en "+".</p>',
 		'01',
 		'01',
 	],
@@ -60,7 +59,7 @@ bullets = [
 	],
 	[
 		'¿Dónde encuentro mis archivos?',
-		'<p>En <a href="[exec]nautilus">Carpeta Personal</a>  están los archivos de <a href="[doc]/usr/share/huayra/help/ayuda.xml#part:Usuarios.-cuentas-y-20>MI usuario</a> organizadas por categoría ("Imágenes", "Descargas", etc:) con su ícono. También puedo acceder desde el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Men-Huayra-1">Menú Huayra</a> desde <a href="[doc]/usr/share/huayra/help/ayuda.xml#//autoid-72#sec:Marcadores-de-carpeta">los marcadores </a> de carpetas que más usás.</p>',
+		'<p>En <a href="[exec]nautilus">Carpeta Personal</a>  están los archivos de <a href="[doc]/usr/share/huayra/help/ayuda.xml#part:Usuarios.-cuentas-y-20">MI usuario</a> organizadas por categoría ("Imágenes", "Descargas", etc:) con su ícono. También puedo acceder desde el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Men-Huayra-1">Menú Huayra</a> desde <a href="[doc]/usr/share/huayra/help/ayuda.xml#//autoid-72#sec:Marcadores-de-carpeta">los marcadores </a> de carpetas que más usás.</p>',
 		'01',
 		'01',
 	],
@@ -72,7 +71,7 @@ bullets = [
 	],
 	[
 		'¿Qué navegador de Internet uso?',
-		'<p>Huayra tiene un Navegador web propio y puedo instalar todos los navegadores libres que quiera como Firefox, Chromium, etc. desde el  <a href="[exec]software-center">"Centro de software"</a>.</p>',
+		'<p>Huayra tiene un Navegador web propio y puedo instalar todos los navegadores libres que quiera como Firefox, Chromium, etc. desde el  <a href="[exec]software-center">Centro de software</a>.</p>',
 		'01',
 		'01',
 	],
@@ -84,7 +83,7 @@ bullets = [
 	],
 	[
 		'¿Cómo agrego una impresora?',
-		'<p>En <a href="[exec]gnome-control-center"> "Configuración del sistema"</a> (<a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior#sec:Men-de-usuario-9"> Menú de usuario </a> arriba a la derecha), bajo el título Hardware hago clic en la opción <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Impresoras">"Impresoras"</a> y ahí "Agregar una impresora nueva".</p>',
+		'<p>En <a href="[exec]gnome-control-center"> Configuración del sistema</a> (<a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior#sec:Men-de-usuario-9"> Menú de usuario </a> arriba a la derecha), bajo el título Hardware hago clic en la opción <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Impresoras">"Impresoras"</a> y ahí "Agregar una impresora nueva".</p>',
 		'01',
 		'01',
 	],
@@ -126,7 +125,7 @@ bullets = [
 	],
 	[
 		'¿Cómo cambio mi clave?',
-		'<p>En <a href="[exec]gnome-control-center">Configuración del sistema</a> (en <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior#sec:Men-de-usuario-9"> Menú de usuario </a>), Cuenta de Usuario. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario#//autoid-49">contraseña</a> (-alumno- por default) y luego hago clic en los círculos al lado de “Contraseña”.</p>',
+		'<p>En <a href="[exec]gnome-control-center">Configuración del sistema</a> (en <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior#sec:Men-de-usuario-9"> Menú de usuario</a>), Cuenta de Usuario. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario#//autoid-49">contraseña</a> (-alumno- por default) y luego hago clic en los círculos al lado de “Contraseña”.</p>',
 		'01',
 		'01',
 	],
@@ -138,7 +137,7 @@ bullets = [
 	],
 	[
 		'¿Como veo videos?',
-		'<p>Con un simple doble clic en el archivo de música se abre el reproductor <a href="[doc]/usr/share/huayra/help/ayuda.xml#//autoid-379#sec:VLC-Media-Player>VLC Media Player</a>. Puedo <a href="[doc]/usr/share/huayra/help/ayuda.xml#sec:Abrir-archivos-con">cambiar la aplicación predeterminada</a> para abrir mi música.</p>',
+		'<p>Con un simple doble clic en el archivo de música se abre el reproductor <a href="[doc]/usr/share/huayra/help/ayuda.xml#//autoid-379#sec:VLC-Media-Player">VLC Media Player</a>. Puedo <a href="[doc]/usr/share/huayra/help/ayuda.xml#sec:Abrir-archivos-con">cambiar la aplicación predeterminada</a> para abrir mi música.</p>',
 		'01',
 		'01',
 	],
