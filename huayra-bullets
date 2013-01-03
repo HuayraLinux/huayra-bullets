@@ -82,6 +82,7 @@ class BulletsBrowser(webkit.WebView):
 		bullet_content = bullet_content.replace('{{ prev_bullet_link }}', self.__build_prev_bullet_link(bullet))
 		bullet_content = bullet_content.replace('{{ next_bullet_link }}', self.__build_next_bullet_link(bullet))
 		bullet_content = bullet_content.replace('{{ close_app_button }}', self.__build_close_button(bullet))
+		bullet_content = bullet_content.replace('{{ autostart_checkbox }}', self.__build_show_next_startup())
 		bullet_content = bullet_content.replace('{{ animation_class }}', self.bullets_list[bullet]['animation']['class'])
 
 		# animation_content
@@ -127,10 +128,10 @@ class BulletsBrowser(webkit.WebView):
 	"""
 	Show next time
 	""" 
-	def __build_show_next_startup(self, current_bullet):
-		if current_bullet <= self.bullet_close_number:
-			return '<div class="action inactive" id="close-app"><span>CERRAR</span></div>'
-		return '<div class="action" id="close-app"><a href="#" onclick="finalize();">CERRAR</a></div>'
+	def __build_show_next_startup(self):
+		if not DEV and self.gsettings.get_boolean("autostart") == True:
+			return '<input type="checkbox" checked="checked" id="chkAutoStart" />'
+		return '<input type="checkbox" id="chkAutoStart" />'
 		
 	
 	def _on_navigate_decision(self, view, frame, req, action, decision):

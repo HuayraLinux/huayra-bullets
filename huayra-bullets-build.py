@@ -160,7 +160,7 @@ bullets_variants = {
 		{{ prev_bullet_link }}{{ close_app_button }}{{ next_bullet_link }}
 			<div id="show-next-startup">
 				<label for="chkAutoStart">Mostrar en el siguiente inicio:</label>
-				<input type="checkbox" checked="checked" id="chkAutoStart" />
+				{{ autostart_checkbox }}
 			</div> <!-- show-next-time -->
 		</div> <!-- actions -->
 		<div id="animation" class="animation-{{ animation_class }}">
