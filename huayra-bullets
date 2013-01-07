@@ -21,7 +21,6 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301,
 # USA.
 
-from gi.repository import Gio
 import gtk
 import gtk.gdk
 import webkit
@@ -30,18 +29,42 @@ import sys
 import subprocess
 import urllib2
 
-# Base Key en GSettings
-BASE_KEY = "apps.huayra-bullets"
+class Config:
+	AUTOSTART_ENABLED = False
+	NO_AUTOSTART_FILE = os.getenv('HOME') + '/.huayra-bullets-noautostart'
+	DEV = False
 
-DEV = False
+
+	@staticmethod
+	def load():
+		Config.AUTOSTART_ENABLED = Config.read_autostart_enabled()
+	
+
+	@staticmethod
+	def save():
+		if Config.AUTOSTART_ENABLED:
+			if os.path.exists(Config.NO_AUTOSTART_FILE):
+				os.unlink(Config.NO_AUTOSTART_FILE)
+		else:
+			open(Config.NO_AUTOSTART_FILE, "w").close()
+
+
+	@staticmethod
+	def read_autostart_enabled():
+		return not os.path.exists(Config.NO_AUTOSTART_FILE)
+
+
+def exit_app():
+	Config.save()
+	sys.exit()
 
 sys.path.append('/usr/share/huayra-bullets');
 from pages.bullets.bullets_list import bullets_list 
 
 class BulletsBrowser(webkit.WebView):
 	
-	if DEV:
-		bullets_dir = os.getcwd() + "/" # DEV
+	if Config.DEV:
+		bullets_dir = os.getcwd() + "/" # Config.DEV
 	else:
 		bullets_dir = "/usr/share/huayra-bullets/"
 	
@@ -53,12 +76,8 @@ class BulletsBrowser(webkit.WebView):
 	"""
 	Widget for browsing the bullets.
 	"""
-	def __init__(self, gsettings, start_page):
+	def __init__(self, start_page):
 		webkit.WebView.__init__(self)
-		if DEV:
-			self.gsettings = None #DEV
-		else:
-			self.gsettings = gsettings
 		self.get_property("settings").set_property(
 			"enable-default-context-menu", False)
 		self.connect('navigation-policy-decision-requested',
@@ -129,7 +148,7 @@ class BulletsBrowser(webkit.WebView):
 	Show next time
 	""" 
 	def __build_show_next_startup(self):
-		if not DEV and self.gsettings.get_boolean("autostart") == True:
+		if Config.AUTOSTART_ENABLED:
 			return '<input type="checkbox" checked="checked" id="chkAutoStart" />'
 		return '<input type="checkbox" id="chkAutoStart" />'
 		
@@ -149,18 +168,16 @@ class BulletsBrowser(webkit.WebView):
 			elif parts[0] == 'app':
 				# Close app
 				if parts[1] == 'finalize':
-					gtk.main_quit()
+					exit_app()
 					return True
 					
 				# Autostart
 				elif parts[1] == 'set-autostart-on':
-					if not DEV:
-						gsettings.set_boolean("autostart", True)
+					Config.AUTOSTART_ENABLED = True
 					return True
 					
 				elif parts[1] == 'set-autostart-off':
-					if not DEV:
-						gsettings.set_boolean("autostart", False)
+					Config.AUTOSTART_ENABLED = False
 					return True
 					
 				elif parts[1] == 'set-answer-active-on':
@@ -186,15 +203,15 @@ class BulletsBrowser(webkit.WebView):
 		return False
 
 
-def build_app_window(gsettings, start_page):
+def build_app_window(start_page):
 	"""
 	Build application window.
 	"""
 	sw = gtk.ScrolledWindow()
-	bullet_browser = BulletsBrowser(gsettings, start_page)
+	bullet_browser = BulletsBrowser(start_page)
 	sw.add(bullet_browser)
 	win = gtk.Window(gtk.WINDOW_TOPLEVEL)
-	if not DEV:
+	if not Config.DEV:
 		win.set_icon_from_file("/usr/share/icons/gnome/48x48/apps/help-browser.png")
 	win.add(sw)
 	win.set_resizable(False)
@@ -208,11 +225,9 @@ def build_app_window(gsettings, start_page):
 
 
 if __name__ == '__main__':
-	if DEV:
-		gsettings = None
-	else:
-		gsettings = Gio.Settings.new(BASE_KEY)
-
-	win = build_app_window(gsettings, "file://" + BulletsBrowser.bullets_dir + "/pages/bullets.html")
+	Config.load()
+	if '--autostart' in sys.argv and not Config.AUTOSTART_ENABLED:
+		sys.exit()
+	win = build_app_window("file://" + BulletsBrowser.bullets_dir + "/pages/bullets.html")
 	win.show_all()
 	gtk.main()

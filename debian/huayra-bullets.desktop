@@ -5,4 +5,4 @@ Exec=/usr/bin/huayra-bullets
 Terminal=false
 Type=Application
 Icon=help-browser
-Categories=GNOME;GTK;Core;Documentation;Utility;
+Categories=Documentation;
