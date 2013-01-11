@@ -1,3 +1,9 @@
+huayra-bullets (0.7.0-1) testing; urgency=low
+
+  * Mejoras en los textos
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 11 Jan 2013 13:12:43 -0300
+
 huayra-bullets (0.6.0-1) testing; urgency=low
 
   * Cambio del mecanismo de condicion de autostart, pasa de gsettings a un archivo
