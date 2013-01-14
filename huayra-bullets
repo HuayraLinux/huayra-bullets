@@ -69,7 +69,7 @@ class BulletsBrowser(webkit.WebView):
 		bullets_dir = "/usr/share/huayra-bullets/"
 	
 	bullets_list = bullets_list
-	bullet_close_number = 0
+	bullet_close_number = 4
 	bullet_close_active = False
 	answer_active = False
 	
@@ -90,7 +90,7 @@ class BulletsBrowser(webkit.WebView):
 	"""
 	def __build_page(self, bullet):
 		
-		if bullet > self.bullet_close_number:  # Activate close button?
+		if bullet >= self.bullet_close_number:  # Activate close button?
 			self.bullet_close_active = True
 			
 		header = open(self.bullets_dir + 'pages/bullets/header.html', 'r').read()
