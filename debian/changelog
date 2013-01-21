@@ -1,3 +1,9 @@
+huayra-bullets (0.7.0-2) testing; urgency=low
+
+  * Icono propio de huayra-bullets
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Wed, 16 Jan 2013 16:02:03 -0300
+
 huayra-bullets (0.7.0-1) testing; urgency=low
 
   * Mejoras en los textos

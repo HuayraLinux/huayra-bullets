@@ -2,3 +2,4 @@ pages /usr/share/huayra-bullets
 huayra-bullets /usr/bin
 huayra-bullets.desktop /etc/xdg/autostart
 debian/huayra-bullets.desktop /usr/share/applications
+debian/huayra-bullets.svg /usr/share/icons/hicolor/scalable/apps
