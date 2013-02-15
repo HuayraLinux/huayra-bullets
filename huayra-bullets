@@ -212,7 +212,7 @@ def build_app_window(start_page):
 	sw.add(bullet_browser)
 	win = gtk.Window(gtk.WINDOW_TOPLEVEL)
 	if not Config.DEV:
-		win.set_icon_from_file("/usr/share/icons/gnome/48x48/apps/help-browser.png")
+		win.set_icon_from_file("/usr/share/huayra-bullets/pages/images/vaca-icono-48x48.png") # Sólo si el tema de ventanas soporta ícono
 	win.add(sw)
 	win.set_resizable(False)
 	bullet_browser.set_size_request(640, 450)
