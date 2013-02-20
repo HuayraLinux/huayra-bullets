@@ -27,207 +27,191 @@ import webkit
 import os
 import sys
 import subprocess
-import urllib2
+from pages.bullets.bullets_list import bullets_list
+
+sys.path.append('/usr/share/huayra-bullets');
+
 
 class Config:
-	AUTOSTART_ENABLED = False
-	NO_AUTOSTART_FILE = os.getenv('HOME') + '/.huayra-bullets-noautostart'
-	DEV = False
+    AUTOSTART_ENABLED = False
+    NO_AUTOSTART_FILE = os.getenv('HOME') + '/.huayra-bullets-noautostart'
+    DEV = False
 
+    @staticmethod
+    def load():
+        Config.AUTOSTART_ENABLED = Config.read_autostart_enabled()
 
-	@staticmethod
-	def load():
-		Config.AUTOSTART_ENABLED = Config.read_autostart_enabled()
-	
+    @staticmethod
+    def save():
+        if Config.AUTOSTART_ENABLED:
+            if os.path.exists(Config.NO_AUTOSTART_FILE):
+                os.unlink(Config.NO_AUTOSTART_FILE)
+        else:
+            open(Config.NO_AUTOSTART_FILE, "w").close()
 
-	@staticmethod
-	def save():
-		if Config.AUTOSTART_ENABLED:
-			if os.path.exists(Config.NO_AUTOSTART_FILE):
-				os.unlink(Config.NO_AUTOSTART_FILE)
-		else:
-			open(Config.NO_AUTOSTART_FILE, "w").close()
-
-
-	@staticmethod
-	def read_autostart_enabled():
-		return not os.path.exists(Config.NO_AUTOSTART_FILE)
+    @staticmethod
+    def read_autostart_enabled():
+        return not os.path.exists(Config.NO_AUTOSTART_FILE)
 
 
 def exit_app():
-	Config.save()
-	sys.exit()
+    Config.save()
+    sys.exit()
 
-sys.path.append('/usr/share/huayra-bullets');
-from pages.bullets.bullets_list import bullets_list 
 
 class BulletsBrowser(webkit.WebView):
-	
-	if Config.DEV:
-		bullets_dir = os.getcwd() + "/" # Config.DEV
-	else:
-		bullets_dir = "/usr/share/huayra-bullets/"
-	
-	bullets_list = bullets_list
-	bullet_close_number = 4
-	bullet_close_active = False
-	answer_active = False
-	
-	"""
-	Widget for browsing the bullets.
-	"""
-	def __init__(self, start_page):
-		webkit.WebView.__init__(self)
-		self.get_property("settings").set_property(
-			"enable-default-context-menu", False)
-		self.connect('navigation-policy-decision-requested',
-			self._on_navigate_decision)
-			
-		self.__build_page(0) # First time
-		
-	"""
-	Builds the page
-	"""
-	def __build_page(self, bullet):
-		
-		if bullet >= self.bullet_close_number:  # Activate close button?
-			self.bullet_close_active = True
-			
-		header = open(self.bullets_dir + 'pages/bullets/header.html', 'r').read()
-		header_content = header.replace('{{ variant }}', str(self.bullets_list[bullet]['variant']))
-		header_content = header_content.replace('{{ animation }}', self.bullets_list[bullet]['animation']['class'])
-		
-		bullet_content = open(self.bullets_dir + 'pages/bullets/' + str(self.bullets_list[bullet]['file']), 'r').read()
-		bullet_content = bullet_content.replace('{{ prev_bullet_link }}', self.__build_prev_bullet_link(bullet))
-		bullet_content = bullet_content.replace('{{ next_bullet_link }}', self.__build_next_bullet_link(bullet))
-		bullet_content = bullet_content.replace('{{ close_app_button }}', self.__build_close_button(bullet))
-		bullet_content = bullet_content.replace('{{ autostart_checkbox }}', self.__build_show_next_startup())
-		bullet_content = bullet_content.replace('{{ animation_class }}', self.bullets_list[bullet]['animation']['class'])
 
-		# animation_content
-		bullet_content = bullet_content.replace('{{ animation_file }}', open(self.bullets_dir + 'pages/animations/' + self.bullets_list[bullet]['animation']['class'] + '.html', 'r').read())
-		bullet_content = bullet_content.replace('{{ animation_duration }}', self.bullets_list[bullet]['animation']['exit_duration'])
-		bullet_content = bullet_content.replace('{{ animation_dir }}', self.bullets_dir + 'pages/images/animations/' + self.bullets_list[bullet]['animation']['dir'])
-		bullet_content = bullet_content.replace('{{ answer_active }}', str(self.answer_active).lower())
-		
-		footer_content = open(self.bullets_dir + 'pages/bullets/footer.html', 'r').read()
-				
-		content = header_content + bullet_content + footer_content
-				
-		self.load_html_string(content, base_uri='file://' + self.bullets_dir + 'pages/')
+    if Config.DEV:
+        bullets_dir = os.getcwd() + "/"
+    else:
+        bullets_dir = "/usr/share/huayra-bullets/"
 
-	
-	"""
-	Prev bullet link
-	""" 
-	def __build_prev_bullet_link(self, current_bullet):
-		if int(current_bullet) == 0:
-			return '<div class="action bullet-navigation inactive" id="prev-bullet"><span>Anterior</span></div>'
-		return '<div class="action bullet-navigation" id="prev-bullet"><a href="[bullet]?%s">Anterior</a></div>' % str(int(current_bullet) - 1)
-		
-		
-	"""
-	Next bullet link
-	""" 
-	def __build_next_bullet_link(self, current_bullet):
-		if int(current_bullet) == len(self.bullets_list) - 1:
-			return '<div class="action bullet-navigation inactive" id="next-bullet"><span>Siguiente</span></div>'
-		return '<div class="action bullet-navigation" id="next-bullet"><a href="[bullet]?%s">Siguiente</a></div>' % str(int(current_bullet) + 1)
-		
-		
-	"""
-	Close bullet button
-	""" 
-	def __build_close_button(self, current_bullet):
-		if current_bullet <= self.bullet_close_number and not self.bullet_close_active:
-			return '<div class="action inactive" id="close-app"><span>CERRAR</span></div>'
-		return '<div class="action" id="close-app"><a href="#" onclick="finalize();">CERRAR</a></div>'
-		
-		
-	"""
-	Show next time
-	""" 
-	def __build_show_next_startup(self):
-		if Config.AUTOSTART_ENABLED:
-			return '<input type="checkbox" checked="checked" id="chkAutoStart" />'
-		return '<input type="checkbox" id="chkAutoStart" />'
-		
-	
-	def _on_navigate_decision(self, view, frame, req, action, decision):
-		
-		import re
-		parts = re.split("\[([a-z]+)\]", req.get_uri())[1:]
-		
-		if len(parts) == 2:
-			if parts[0] == 'exec':
-				# Launch external commands
-				command = parts[1].split("%20")
-				subprocess.Popen(command, bufsize=0, executable=None, stdin=None, stdout=None, stderr=None, preexec_fn=None, close_fds=False, shell=False, cwd=None, env=None, universal_newlines=False, startupinfo=None, creationflags=0)
-				return True
-				
-			elif parts[0] == 'app':
-				# Close app
-				if parts[1] == 'finalize':
-					exit_app()
-					return True
-					
-				# Autostart
-				elif parts[1] == 'set-autostart-on':
-					Config.AUTOSTART_ENABLED = True
-					return True
-					
-				elif parts[1] == 'set-autostart-off':
-					Config.AUTOSTART_ENABLED = False
-					return True
-					
-				elif parts[1] == 'set-answer-active-on':
-					self.answer_active = True
-					return True
-					
-				elif parts[1] == 'set-answer-active-off':
-					self.answer_active = False
-					return True
+    bullets_list = bullets_list
+    bullet_close_number = 4
+    bullet_close_active = False
+    answer_active = False
 
-			# Bullets navigation
-			elif parts[0] == 'bullet':
-				params = parts[1].split("?", 1)
-				self.__build_page(int(params[1])) # Load page
-				return True
+    def __init__(self, start_page):
+        """
+        Widget for browsing the bullets.
+        """
+        webkit.WebView.__init__(self)
+        self.get_property("settings").set_property(
+            "enable-default-context-menu", False)
+        self.connect('navigation-policy-decision-requested',
+            self._on_navigate_decision)
 
-			# Documentation
-			elif parts[0] == 'doc':
-				doc_page = parts[1]
-				subprocess.Popen(["yelp", "file://" + doc_page])
-				return True
-				
-		return False
+        self.__build_page(0)  # First time
+
+    def __build_page(self, bullet):
+        """
+        Builds the page
+        """
+
+        if bullet >= self.bullet_close_number:  # Activate close button?
+            self.bullet_close_active = True
+
+        header = open(self.bullets_dir + 'pages/bullets/header.html', 'r').read()
+        header_content = header.replace('{{ variant }}', str(self.bullets_list[bullet]['variant']))
+        header_content = header_content.replace('{{ animation }}', self.bullets_list[bullet]['animation']['class'])
+        bullet_content = open(self.bullets_dir + 'pages/bullets/' + str(self.bullets_list[bullet]['file']), 'r').read()
+        bullet_content = bullet_content.replace('{{ prev_bullet_link }}', self.__build_prev_bullet_link(bullet))
+        bullet_content = bullet_content.replace('{{ next_bullet_link }}', self.__build_next_bullet_link(bullet))
+        bullet_content = bullet_content.replace('{{ close_app_button }}', self.__build_close_button(bullet))
+        bullet_content = bullet_content.replace('{{ autostart_checkbox }}', self.__build_show_next_startup())
+        bullet_content = bullet_content.replace('{{ animation_class }}', self.bullets_list[bullet]['animation']['class'])
+
+        # animation_content
+        bullet_content = bullet_content.replace('{{ animation_file }}', open(self.bullets_dir + 'pages/animations/' + self.bullets_list[bullet]['animation']['class'] + '.html', 'r').read())
+        bullet_content = bullet_content.replace('{{ animation_duration }}', self.bullets_list[bullet]['animation']['exit_duration'])
+        bullet_content = bullet_content.replace('{{ animation_dir }}', self.bullets_dir + 'pages/images/animations/' + self.bullets_list[bullet]['animation']['dir'])
+        bullet_content = bullet_content.replace('{{ answer_active }}', str(self.answer_active).lower())
+        footer_content = open(self.bullets_dir + 'pages/bullets/footer.html', 'r').read()
+        content = header_content + bullet_content + footer_content
+        self.load_html_string(content, base_uri='file://' + self.bullets_dir + 'pages/')
+
+    def __build_prev_bullet_link(self, current_bullet):
+        """
+        Prev bullet link
+        """
+        if int(current_bullet) == 0:
+            return '<div class="action bullet-navigation inactive" id="prev-bullet"><span>Anterior</span></div>'
+        return '<div class="action bullet-navigation" id="prev-bullet"><a href="[bullet]?%s">Anterior</a></div>' % str(int(current_bullet) - 1)
+
+    def __build_next_bullet_link(self, current_bullet):
+        """
+        Next bullet link
+        """
+        if int(current_bullet) == len(self.bullets_list) - 1:
+            return '<div class="action bullet-navigation inactive" id="next-bullet"><span>Siguiente</span></div>'
+        return '<div class="action bullet-navigation" id="next-bullet"><a href="[bullet]?%s">Siguiente</a></div>' % str(int(current_bullet) + 1)
+
+    def __build_close_button(self, current_bullet):
+        """
+        Close bullet button
+        """
+        if current_bullet <= self.bullet_close_number and not self.bullet_close_active:
+            return '<div class="action inactive" id="close-app"><span>CERRAR</span></div>'
+        return '<div class="action" id="close-app"><a href="#" onclick="finalize();">CERRAR</a></div>'
+
+    def __build_show_next_startup(self):
+        """
+        Show next time
+        """
+        if Config.AUTOSTART_ENABLED:
+            return '<input type="checkbox" checked="checked" id="chkAutoStart" />'
+        return '<input type="checkbox" id="chkAutoStart" />'
+
+    def _on_navigate_decision(self, view, frame, req, action, decision):
+        import re
+        parts = re.split("\[([a-z]+)\]", req.get_uri())[1:]
+
+        if len(parts) == 2:
+            if parts[0] == 'exec':
+                # Launch external commands
+                command = parts[1].split("%20")
+                subprocess.Popen(command, bufsize=0, executable=None, stdin=None, stdout=None, stderr=None, preexec_fn=None, close_fds=False, shell=False, cwd=None, env=None, universal_newlines=False, startupinfo=None, creationflags=0)
+                return True
+            elif parts[0] == 'app':
+                # Close app
+                if parts[1] == 'finalize':
+                    exit_app()
+                    return True
+                # Autostart
+                elif parts[1] == 'set-autostart-on':
+                    Config.AUTOSTART_ENABLED = True
+                    return True
+                elif parts[1] == 'set-autostart-off':
+                    Config.AUTOSTART_ENABLED = False
+                    return True
+                elif parts[1] == 'set-answer-active-on':
+                    self.answer_active = True
+                    return True
+                elif parts[1] == 'set-answer-active-off':
+                    self.answer_active = False
+                    return True
+            # Bullets navigation
+            elif parts[0] == 'bullet':
+                params = parts[1].split("?", 1)
+                self.__build_page(int(params[1]))  # Load page
+                return True
+
+            # Documentation
+            elif parts[0] == 'doc':
+                doc_page = parts[1]
+                subprocess.Popen(["yelp", "file://" + doc_page])
+                return True
+        return False
 
 
 def build_app_window(start_page):
-	"""
-	Build application window.
-	"""
-	sw = gtk.ScrolledWindow()
-	bullet_browser = BulletsBrowser(start_page)
-	sw.add(bullet_browser)
-	win = gtk.Window(gtk.WINDOW_TOPLEVEL)
-	if not Config.DEV:
-		win.set_icon_from_file("/usr/share/huayra-bullets/pages/images/vaca-icono-48x48.png") # Sólo si el tema de ventanas soporta ícono
-	win.add(sw)
-	win.set_resizable(False)
-	bullet_browser.set_size_request(640, 450)
-	win.set_default_size(640, 450)
-	win.set_title("Primeros pasos en Huayra")
-	win.set_position(gtk.WIN_POS_CENTER)
-	win.set_deletable(False)
-	win.connect("destroy", gtk.main_quit)
-	return win
+    """
+    Build application window.
+    """
+    sw = gtk.ScrolledWindow()
+    bullet_browser = BulletsBrowser(start_page)
+    sw.add(bullet_browser)
+    win = gtk.Window(gtk.WINDOW_TOPLEVEL)
+    if not Config.DEV:
+        # Sólo si el tema de ventanas soporta ícono
+        path = "/usr/share/huayra-bullets/pages/images/"
+        win.set_icon_from_file(path + "vaca-icono-48x48.png")
+    win.add(sw)
+    win.set_resizable(False)
+    bullet_browser.set_size_request(640, 450)
+    win.set_default_size(640, 450)
+    win.set_title("Primeros pasos en Huayra")
+    win.set_position(gtk.WIN_POS_CENTER)
+    win.set_deletable(False)
+    win.connect("destroy", gtk.main_quit)
+    return win
 
 
 if __name__ == '__main__':
-	Config.load()
-	if '--autostart' in sys.argv and not Config.AUTOSTART_ENABLED:
-		sys.exit()
-	win = build_app_window("file://" + BulletsBrowser.bullets_dir + "/pages/bullets.html")
-	win.show_all()
-	gtk.main()
+    Config.load()
+    if '--autostart' in sys.argv and not Config.AUTOSTART_ENABLED:
+        sys.exit()
+    path = "file://" + BulletsBrowser.bullets_dir
+    win = build_app_window(path + "/pages/bullets.html")
+    win.show_all()
+    gtk.main()
