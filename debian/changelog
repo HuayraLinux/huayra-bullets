@@ -1,3 +1,9 @@
+huayra-bullets (0.7.0-2.1)  testing; urgency=low
+
+  * Arreglos de pep8
+
+ -- hsanchez <hsanchez@pressenter.com.ar>  Wed, 20 Feb 2013 19:57:53 -0300
+
 huayra-bullets (0.7.0-2) testing; urgency=low
 
   * Icono propio de huayra-bullets
