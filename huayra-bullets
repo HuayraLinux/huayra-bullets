@@ -22,27 +22,36 @@
 # USA.
 
 import gtk
-import gtk.gdk
 import webkit
 import os
 import sys
 import subprocess
 from pages.bullets.bullets_list import bullets_list
 
-sys.path.append('/usr/share/huayra-bullets');
+sys.path.append('/usr/share/huayra-bullets')
 
 
 class Config:
+    """
+    Config class
+    """
+
     AUTOSTART_ENABLED = False
     NO_AUTOSTART_FILE = os.getenv('HOME') + '/.huayra-bullets-noautostart'
     DEV = False
 
     @staticmethod
     def load():
+        """
+        Load configuration
+        """
         Config.AUTOSTART_ENABLED = Config.read_autostart_enabled()
 
     @staticmethod
     def save():
+        """
+        Save configuration
+        """
         if Config.AUTOSTART_ENABLED:
             if os.path.exists(Config.NO_AUTOSTART_FILE):
                 os.unlink(Config.NO_AUTOSTART_FILE)
@@ -51,15 +60,16 @@ class Config:
 
     @staticmethod
     def read_autostart_enabled():
+        """
+        Check autostart file
+        """
         return not os.path.exists(Config.NO_AUTOSTART_FILE)
 
 
-def exit_app():
-    Config.save()
-    sys.exit()
-
-
 class BulletsBrowser(webkit.WebView):
+    """
+    Class for show Bullets
+    """
 
     if Config.DEV:
         bullets_dir = os.getcwd() + "/"
@@ -92,23 +102,40 @@ class BulletsBrowser(webkit.WebView):
             self.bullet_close_active = True
 
         header = open(self.bullets_dir + 'pages/bullets/header.html', 'r').read()
-        header_content = header.replace('{{ variant }}', str(self.bullets_list[bullet]['variant']))
-        header_content = header_content.replace('{{ animation }}', self.bullets_list[bullet]['animation']['class'])
-        bullet_content = open(self.bullets_dir + 'pages/bullets/' + str(self.bullets_list[bullet]['file']), 'r').read()
-        bullet_content = bullet_content.replace('{{ prev_bullet_link }}', self.__build_prev_bullet_link(bullet))
-        bullet_content = bullet_content.replace('{{ next_bullet_link }}', self.__build_next_bullet_link(bullet))
-        bullet_content = bullet_content.replace('{{ close_app_button }}', self.__build_close_button(bullet))
-        bullet_content = bullet_content.replace('{{ autostart_checkbox }}', self.__build_show_next_startup())
-        bullet_content = bullet_content.replace('{{ animation_class }}', self.bullets_list[bullet]['animation']['class'])
+        header_content = header.replace('{{ variant }}',  \
+                str(self.bullets_list[bullet]['variant']))
+        header_content = header_content.replace('{{ animation }}', \
+                self.bullets_list[bullet]['animation']['class'])
+        bullet_content = open(self.bullets_dir + 'pages/bullets/' + \
+                str(self.bullets_list[bullet]['file']), 'r').read()
+        bullet_content = bullet_content.replace('{{ prev_bullet_link }}', \
+                self.__build_prev_bullet_link(bullet))
+        bullet_content = bullet_content.replace('{{ next_bullet_link }}', \
+                self.__build_next_bullet_link(bullet))
+        bullet_content = bullet_content.replace('{{ close_app_button }}', \
+                self.__build_close_button(bullet))
+        bullet_content = bullet_content.replace('{{ autostart_checkbox }}', \
+                self.__build_show_next_startup())
+        bullet_content = bullet_content.replace('{{ animation_class }}', \
+                self.bullets_list[bullet]['animation']['class'])
 
         # animation_content
-        bullet_content = bullet_content.replace('{{ animation_file }}', open(self.bullets_dir + 'pages/animations/' + self.bullets_list[bullet]['animation']['class'] + '.html', 'r').read())
-        bullet_content = bullet_content.replace('{{ animation_duration }}', self.bullets_list[bullet]['animation']['exit_duration'])
-        bullet_content = bullet_content.replace('{{ animation_dir }}', self.bullets_dir + 'pages/images/animations/' + self.bullets_list[bullet]['animation']['dir'])
-        bullet_content = bullet_content.replace('{{ answer_active }}', str(self.answer_active).lower())
-        footer_content = open(self.bullets_dir + 'pages/bullets/footer.html', 'r').read()
+        bullet_content = bullet_content.replace('{{ animation_file }}', \
+                open(self.bullets_dir + 'pages/animations/' + \
+                self.bullets_list[bullet]['animation']['class'] + \
+                '.html', 'r').read())
+        bullet_content = bullet_content.replace('{{ animation_duration }}', \
+                self.bullets_list[bullet]['animation']['exit_duration'])
+        bullet_content = bullet_content.replace('{{ animation_dir }}', \
+                self.bullets_dir + 'pages/images/animations/' + \
+                self.bullets_list[bullet]['animation']['dir'])
+        bullet_content = bullet_content.replace('{{ answer_active }}', \
+                str(self.answer_active).lower())
+        footer_content = open(self.bullets_dir + \
+                'pages/bullets/footer.html', 'r').read()
         content = header_content + bullet_content + footer_content
-        self.load_html_string(content, base_uri='file://' + self.bullets_dir + 'pages/')
+        self.load_html_string(content, base_uri='file://' + self.bullets_dir + \
+                'pages/')
 
     def __build_prev_bullet_link(self, current_bullet):
         """
@@ -130,7 +157,8 @@ class BulletsBrowser(webkit.WebView):
         """
         Close bullet button
         """
-        if current_bullet <= self.bullet_close_number and not self.bullet_close_active:
+        if current_bullet <= self.bullet_close_number and not \
+                self.bullet_close_active:
             return '<div class="action inactive" id="close-app"><span>CERRAR</span></div>'
         return '<div class="action" id="close-app"><a href="#" onclick="finalize();">CERRAR</a></div>'
 
@@ -143,6 +171,9 @@ class BulletsBrowser(webkit.WebView):
         return '<input type="checkbox" id="chkAutoStart" />'
 
     def _on_navigate_decision(self, view, frame, req, action, decision):
+        """
+        Decision navigate
+        """
         import re
         parts = re.split("\[([a-z]+)\]", req.get_uri())[1:]
 
@@ -150,7 +181,11 @@ class BulletsBrowser(webkit.WebView):
             if parts[0] == 'exec':
                 # Launch external commands
                 command = parts[1].split("%20")
-                subprocess.Popen(command, bufsize=0, executable=None, stdin=None, stdout=None, stderr=None, preexec_fn=None, close_fds=False, shell=False, cwd=None, env=None, universal_newlines=False, startupinfo=None, creationflags=0)
+                subprocess.Popen(command, bufsize=0, executable=None, \
+                        stdin=None, stdout=None, stderr=None, preexec_fn=None, \
+                        close_fds=False, shell=False, cwd=None, env=None, \
+                        universal_newlines=False, startupinfo=None, \
+                        creationflags=0)
                 return True
             elif parts[0] == 'app':
                 # Close app
@@ -191,27 +226,35 @@ def build_app_window(start_page):
     sw = gtk.ScrolledWindow()
     bullet_browser = BulletsBrowser(start_page)
     sw.add(bullet_browser)
-    win = gtk.Window(gtk.WINDOW_TOPLEVEL)
+    Win = gtk.Window(gtk.WINDOW_TOPLEVEL)
     if not Config.DEV:
         # Sólo si el tema de ventanas soporta ícono
-        path = "/usr/share/huayra-bullets/pages/images/"
-        win.set_icon_from_file(path + "vaca-icono-48x48.png")
-    win.add(sw)
-    win.set_resizable(False)
+        Path = "/usr/share/huayra-bullets/pages/images/"
+        Win.set_icon_from_file(Path + "vaca-icono-48x48.png")
+    Win.add(sw)
+    Win.set_resizable(False)
     bullet_browser.set_size_request(640, 450)
-    win.set_default_size(640, 450)
-    win.set_title("Primeros pasos en Huayra")
-    win.set_position(gtk.WIN_POS_CENTER)
-    win.set_deletable(False)
-    win.connect("destroy", gtk.main_quit)
-    return win
+    Win.set_default_size(640, 450)
+    Win.set_title("Primeros pasos en Huayra")
+    Win.set_position(gtk.WIN_POS_CENTER)
+    Win.set_deletable(False)
+    Win.connect("destroy", gtk.main_quit)
+    return Win
+
+
+def exit_app():
+    """
+    Exit for this apps, saving the changes.
+    """
+    Config.save()
+    sys.exit()
 
 
 if __name__ == '__main__':
     Config.load()
     if '--autostart' in sys.argv and not Config.AUTOSTART_ENABLED:
         sys.exit()
-    path = "file://" + BulletsBrowser.bullets_dir
-    win = build_app_window(path + "/pages/bullets.html")
-    win.show_all()
+    PATH = "file://" + BulletsBrowser.bullets_dir
+    WIN = build_app_window(PATH + "/pages/bullets.html")
+    WIN.show_all()
     gtk.main()
