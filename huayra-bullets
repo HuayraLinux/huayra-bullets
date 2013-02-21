@@ -26,7 +26,8 @@ import webkit
 import os
 import sys
 import subprocess
-from pages.bullets.bullets_list import bullets_list
+from pages.bullets.bullets_list import bullets_list_mate
+from pages.bullets.bullets_list import bullets_list_shell
 
 sys.path.append('/usr/share/huayra-bullets')
 
@@ -35,10 +36,10 @@ class Config:
     """
     Config class
     """
-
     AUTOSTART_ENABLED = False
     NO_AUTOSTART_FILE = os.getenv('HOME') + '/.huayra-bullets-noautostart'
-    DEV = False
+    DEV = True
+    DESKTOP = os.getenv('DESKTOP_SESSION')
 
     @staticmethod
     def load():
@@ -76,7 +77,12 @@ class BulletsBrowser(webkit.WebView):
     else:
         bullets_dir = "/usr/share/huayra-bullets/"
 
-    bullets_list = bullets_list
+    #TODO - chequear la default
+    if Config.DESKTOP == "gnome":
+        bullets_list = bullets_list_shell
+    else:
+        bullets_list = bullets_list_mate
+
     bullet_close_number = 4
     bullet_close_active = False
     answer_active = False

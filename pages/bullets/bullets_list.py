@@ -4,7 +4,7 @@ animations = {
 	"01": {"class": "01", "dir": "01", "exit_duration": "3000"},
 }
 
-bullets_list = [
+bullets_list_shell = [
 	{"file": "01.html", "title": "Ventanas y Aplicaciones", "variant": "01", "animation": animations["01"]},
 	{"file": "02.html", "title": "Menú de Usuario y Apagar", "variant": "01", "animation": animations["01"]},
 	{"file": "03.html", "title": "¿Qué es el Menú Huayra?", "variant": "01", "animation": animations["01"]},
@@ -28,5 +28,12 @@ bullets_list = [
 	{"file": "21.html", "title": "¿Cómo cambio mi clave?", "variant": "01", "animation": animations["01"]},
 	{"file": "22.html", "title": "¿Como escucho musica?", "variant": "01", "animation": animations["01"]},
 	{"file": "23.html", "title": "¿Como veo videos?", "variant": "01", "animation": animations["01"]},
-	{"file": "24.html", "title": "¿Cómo comprimo archivos?", "variant": "01", "animation": animations["01"]},
-]
+	{"file": "24.html", "title": "¿Cómo comprimo archivos?", "variant": "01", "animation": animations["01"]},]
+
+
+bullets_list_mate = [
+	{"file": "01m.html", "title": "Mate Ventanas y Aplicaciones", "variant": "01", "animation": animations["01"]},
+	{"file": "02m.html", "title": "Mate Menú de Usuario y Apagar", "variant": "01", "animation": animations["01"]},
+	{"file": "03m.html", "title": "Mate ¿Qué es el Menú Huayra?", "variant": "01", "animation": animations["01"]},
+	{"file": "04m.html", "title": "Mate ¿Cómo instalo programas en Huayra?", "variant": "01", "animation": animations["01"]},
+	{"file": "05m.html", "title": "Mate Lo que hacías con MS Office lo haces con Libre Office", "variant": "01", "animation": animations["01"]},]
