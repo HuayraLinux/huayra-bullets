@@ -39,7 +39,32 @@ class Config:
     AUTOSTART_ENABLED = False
     NO_AUTOSTART_FILE = os.getenv('HOME') + '/.huayra-bullets-noautostart'
     DEV = True
-    DESKTOP = os.getenv('DESKTOP_SESSION')
+
+    @staticmethod
+    def getDesktopSession():
+        """
+        Get the Desktop session.. mate or gnome.
+        """
+
+        if  subprocess.Popen(['pidof', 'mate-session'], stdout=subprocess.PIPE).communicate()[0]:
+            return "mate"
+        elif subprocess.Popen(['pidof', 'gnome-session'], stdout=subprocess.PIPE).communicate()[0]:
+            return "gnome"
+        elif subprocess.Popen(['pidof', 'gnome-shell'], stdout=subprocess.PIPE).communicate()[0]:
+            return "gnome"
+        elif subprocess.Popen(['pidof', 'x-session-manager'], stdout=subprocess.PIPE).communicate()[0]:
+            if os.path.exists("/etc/alternatives/x-session-manager"):
+                session =  os.readlink("/etc/alternatives/x-session-manager").split("/")[3] 
+                if session == "gnome-session":
+                    return "gnome"
+                elif session == "mate-session":
+                    return "mate"
+                else:
+                    return "otro"  #Running other desktop..
+            else:
+                return "otro"  #dont have alternatives
+        else:
+            return "otro"  #not exist x-session-manager process
 
     @staticmethod
     def load():
@@ -72,17 +97,21 @@ class BulletsBrowser(webkit.WebView):
     Class for show Bullets
     """
 
+    #Check env dev
     if Config.DEV:
         bullets_dir = os.getcwd() + "/"
     else:
         bullets_dir = "/usr/share/huayra-bullets/"
 
-    #TODO - chequear la default
-    if Config.DESKTOP == "gnome":
+    #get Session gnome or mate
+    RunningDesktop = Config.getDesktopSession()
+    if RunningDesktop == "gnome":
         bullets_list = bullets_list_shell
-    else:
+    elif RunningDesktop == "mate":
         bullets_list = bullets_list_mate
-
+    else:
+        bullets_list = bullets_list_other
+        
     bullet_close_number = 4
     bullet_close_active = False
     answer_active = False
