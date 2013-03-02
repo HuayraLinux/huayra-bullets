@@ -30,10 +30,16 @@ bullets_list_shell = [
 	{"file": "23.html", "title": "¿Como veo videos?", "variant": "01", "animation": animations["01"]},
 	{"file": "24.html", "title": "¿Cómo comprimo archivos?", "variant": "01", "animation": animations["01"]},]
 
-
 bullets_list_mate = [
 	{"file": "01m.html", "title": "Mate Ventanas y Aplicaciones", "variant": "01", "animation": animations["01"]},
 	{"file": "02m.html", "title": "Mate Menú de Usuario y Apagar", "variant": "01", "animation": animations["01"]},
 	{"file": "03m.html", "title": "Mate ¿Qué es el Menú Huayra?", "variant": "01", "animation": animations["01"]},
 	{"file": "04m.html", "title": "Mate ¿Cómo instalo programas en Huayra?", "variant": "01", "animation": animations["01"]},
 	{"file": "05m.html", "title": "Mate Lo que hacías con MS Office lo haces con Libre Office", "variant": "01", "animation": animations["01"]},]
+
+bullets_list_other = [
+	{"file": "01o.html", "title": "Other Ventanas y Aplicaciones", "variant": "01", "animation": animations["01"]},
+	{"file": "02o.html", "title": "Other Menú de Usuario y Apagar", "variant": "01", "animation": animations["01"]},
+	{"file": "03o.html", "title": "Other ¿Qué es el Menú Huayra?", "variant": "01", "animation": animations["01"]},
+	{"file": "04o.html", "title": "Other ¿Cómo instalo programas en Huayra?", "variant": "01", "animation": animations["01"]},
+	{"file": "05o.html", "title": "Other Lo que hacías con MS Office lo haces con Libre Office", "variant": "01", "animation": animations["01"]},]
