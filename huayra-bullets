@@ -103,14 +103,14 @@ class BulletsBrowser(webkit.WebView):
 
     #get Session gnome or mate
     RunningDesktop = Config.getDesktopSession()
-    
+
     if RunningDesktop == "gnome":
         from bullets.gnome.bullets_list import bullets_list
     elif RunningDesktop == "mate":
         from bullets.mate.bullets_list import bullets_list
     else:
         from bullets.other.bullets_list import bullets_list
-    
+
     bullet_close_number = 4
     bullet_close_active = False
     answer_active = False
@@ -130,7 +130,7 @@ class BulletsBrowser(webkit.WebView):
 
         self.__build_page(0)  # First time
 
-    
+
     def __build_page(self, bullet):
         """
         Builds the page
@@ -140,9 +140,9 @@ class BulletsBrowser(webkit.WebView):
             self.bullet_close_active = True
 
         header = open(self.app_dir + 'assets/header.html', 'r').read()
-        header_content = header.replace('{{ variant }}', str(self.bullets_list[bullet]['variant']))                
+        header_content = header.replace('{{ variant }}', str(self.bullets_list[bullet]['variant']))
         header_content = header_content.replace('{{ animation }}', self.bullets_list[bullet]['animation']['class'])
-        
+
         bullet_content = open(self.bullets_dir + str(self.bullets_list[bullet]['file']), 'r').read()
         bullet_content = bullet_content.replace('{{ prev_bullet_link }}',
                 self.__build_prev_bullet_link(bullet))
@@ -166,11 +166,11 @@ class BulletsBrowser(webkit.WebView):
                 self.bullets_list[bullet]['animation']['dir'])
         bullet_content = bullet_content.replace('{{ answer_active }}',
                 str(self.answer_active).lower())
-        
+
         footer_content = open(self.app_dir + 'assets/footer.html', 'r').read()
-            
+
         content = header_content + bullet_content + footer_content
-        
+
         self.load_html_string(content, base_uri='file://' + self.app_dir)
 
     def __build_prev_bullet_link(self, current_bullet):
