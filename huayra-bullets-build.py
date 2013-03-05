@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
-import sys, os
+import sys, os, shutil
 sys.stdout.softspace = 0
 
-bullets = [
+bullets_types = ['shell', 'mate', 'other']
+
+
+bullets_shell = [
 	[
 		'Ventanas y Aplicaciones',
 		'<p>Llevá el mouse a la esquina de arriba a la izquierda. Fijate qué pasa. Es la <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Vista-de-actividades">Vista de actividades</a>: acá vas a ver las ventanas abiertas, tus aplicaciones y el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Vista-de-actividades#sec:Buscador-Huayra">Buscador </a>.</p>',
@@ -47,7 +50,7 @@ bullets = [
 	],
 	[
 		'¿Cómo me conecto a Internet?',
-		'<p>Hago clic en el ícono de <a href="[doc]/usr/share/huayra/help/ayuda.xml#part:Internet-y-conectividad">conexiones</a> en la <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior">barra superior</a> a la derecha y elejo la red (WiFi o cableada) La primera vez que me conecte tengo que ingresar mi <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default).</p>',
+		'<p>Hago clic en el ícono de <a href="[doc]/usr/share/huayra/help/ayuda.xml#part:Internet-y-conectividad">conexiones</a> en la <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Barra-superior">barra superior</a> a la derecha y elijo la red (WiFi o cableada) La primera vez que me conecte tengo que ingresar mi <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default).</p>',
 		'01',
 		'01',
 	],
@@ -149,6 +152,24 @@ bullets = [
 	],
 ]
 
+bullets_mate = [
+	[
+		'Ventanas y Aplicaciones',
+		'<p>Llevá el mouse a la esquina de arriba a la izquierda. Fijate qué pasa. Es la <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Vista-de-actividades">Vista de actividades</a>: acá vas a ver las ventanas abiertas, tus aplicaciones y el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Vista-de-actividades#sec:Buscador-Huayra">Buscador </a>.</p>',
+		'01',
+		'01',
+	],
+]
+
+bullets_other = [
+	[
+		'Ventanas y Aplicaciones',
+		'<p>Llevá el mouse a la esquina de arriba a la izquierda. Fijate qué pasa. Es la <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Vista-de-actividades">Vista de actividades</a>: acá vas a ver las ventanas abiertas, tus aplicaciones y el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Vista-de-actividades#sec:Buscador-Huayra">Buscador </a>.</p>',
+		'01',
+		'01',
+	],
+]
+
 
 
 bullets_variants = {
@@ -175,38 +196,46 @@ bullets_variants = {
 	</div> <!-- bullet-content -->''',
 }
 
-i = 1
-bullets_list_file = open(os.getcwd() + '/pages/bullets/bullets_list.py', 'w+')
-
-print >>bullets_list_file, '# -*- coding: utf-8 -*-'
-print >>bullets_list_file, ''
-print >>bullets_list_file, 'animations = {'
-print >>bullets_list_file, '	"01": {"class": "01", "dir": "01", "exit_duration": "3000"},'
-print >>bullets_list_file, '}'
-print >>bullets_list_file, ''
-print >>bullets_list_file, 'bullets_list = ['
-
-
-
-for b in bullets:
-	if(i < 10):
-		n = '0' + str(i)
-	else:
-		n = str(i)
-
-	print >>bullets_list_file, '	{"file": "' + n + '.html", "title": "' + b[0].replace('"', '\\"') + '", "variant": "' + b[2] + '", "animation": animations["' + b[3] + '"]},'
+def generate(bullets_types):
+	"remove and create dir"
+	shutil.rmtree(os.getcwd() + '/bullets')
+	os.mkdir(os.getcwd() + '/bullets')
+	open(os.getcwd() + '/bullets/__init__.py', 'w+')  
 	
-	f = open(os.getcwd() + '/pages/bullets/' + n + '.html', 'w+')
-	
-	bullet_content = bullets_variants[b[2]].replace('{{ question }}', b[0]) 
-	bullet_content = bullet_content.replace('{{ answer }}', b[1]) 
-	print >>f, bullet_content
-	
-	i = i+1
-
-print >>bullets_list_file, ']'
-
-
-	
+	for t in bullets_types:
+		i = 1
+		bullets_list = eval('bullets_' + t)
+		os.mkdir(os.getcwd() + '/bullets/' + t)
+		bullets_dir = os.getcwd() + '/bullets/' + t
+		open(bullets_dir + '/__init__.py', 'w+')  
+		bullets_list_file = open(bullets_dir + '/bullets_list.py', 'w+')  
 		
-	
+		print >>bullets_list_file, '# -*- coding: utf-8 -*-'
+		print >>bullets_list_file, ''
+		print >>bullets_list_file, 'animations = {'
+		print >>bullets_list_file, '	"01": {"class": "01", "dir": "01", "exit_duration": "3000"},'
+		print >>bullets_list_file, '}'
+		print >>bullets_list_file, ''
+		print >>bullets_list_file, 'bullets_list = ['
+
+		for b in bullets_list:
+			if(i < 10):
+				n = '0' + str(i)
+			else:
+				n = str(i)
+
+			print >>bullets_list_file, '	{"file": "' + n + '.html", "title": "' + b[0].replace('"', '\\"') + '", "variant": "' + b[2] + '", "animation": animations["' + b[3] + '"]},'
+			
+			f = open(os.getcwd() + '/bullets/' + t + '/' + n + '.html', 'w+')
+			
+			bullet_content = bullets_variants[b[2]].replace('{{ question }}', b[0]) 
+			bullet_content = bullet_content.replace('{{ answer }}', b[1]) 
+			print >>f, bullet_content
+			
+			i = i+1
+
+		print >>bullets_list_file, ']'
+
+		
+
+generate(bullets_types)
