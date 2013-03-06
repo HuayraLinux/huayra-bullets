@@ -153,7 +153,6 @@ bullets_shell = [
 ]
 
 bullets_mate = [
-<<<<<<< HEAD
 	[
 		'¿Cómo apagó el equipo?',
 		'<p>Hacé clic en el ícono de apagado en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles#panel-superior">Panel Superior</a> y seleccioná "Apagar".</p>',
@@ -214,15 +213,6 @@ bullets_mate = [
 		'01',
 		'01',
 	],	
-	
-=======
-    [
-        'Ventanas y Aplicaciones',
-        '<p>Llevá el mouse a la esquina de arriba a la izquierda. Fijate qué pasa. Es la <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Vista-de-actividades">Vista de actividades</a>: acá vas a ver las ventanas abiertas, tus aplicaciones y el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Vista-de-actividades#sec:Buscador-Huayra">Buscador </a>.</p>',
-        '01',
-        '01',
-    ],
->>>>>>> e9e4412869f97d9b4f22c98f0ecd2494118c0a0f
 ]
 
 bullets_other = [
