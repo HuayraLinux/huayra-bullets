@@ -1,4 +1,4 @@
-pages /usr/share/huayra-bullets
+bullets /usr/share/huayra-bullets
 huayra-bullets /usr/bin
 huayra-bullets.desktop /etc/xdg/autostart
 debian/huayra-bullets.desktop /usr/share/applications
