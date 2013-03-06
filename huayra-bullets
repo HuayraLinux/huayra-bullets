@@ -47,14 +47,14 @@ class Config:
         if subprocess.Popen(['pidof', 'mate-session'], stdout=subprocess.PIPE).communicate()[0]:
             return "mate"
         elif subprocess.Popen(['pidof', 'gnome-session'], stdout=subprocess.PIPE).communicate()[0]:
-            return "gnome"
+            return "shell"
         elif subprocess.Popen(['pidof', 'gnome-shell'], stdout=subprocess.PIPE).communicate()[0]:
-            return "gnome"
+            return "shell"
         elif subprocess.Popen(['pidof', 'x-session-manager'], stdout=subprocess.PIPE).communicate()[0]:
             if os.path.exists("/etc/alternatives/x-session-manager"):
                 session = os.readlink("/etc/alternatives/x-session-manager").split("/")[3]
                 if session == "gnome-session":
-                    return "gnome"
+                    return "shell"
                 elif session == "mate-session":
                     return "mate"
                 else:
@@ -103,9 +103,10 @@ class BulletsBrowser(webkit.WebView):
 
     #get Session gnome or mate
     RunningDesktop = Config.getDesktopSession()
+    RunningDesktop = 'other'
 
-    if RunningDesktop == "gnome":
-        from bullets.gnome.bullets_list import bullets_list
+    if RunningDesktop == "shell":
+        from bullets.shell.bullets_list import bullets_list
     elif RunningDesktop == "mate":
         from bullets.mate.bullets_list import bullets_list
     else:
@@ -135,8 +136,7 @@ class BulletsBrowser(webkit.WebView):
         """
         Builds the page
         """
-
-        if bullet >= self.bullet_close_number:  # Activate close button?
+        if bullet >= self.bullet_close_number or (bullet == len(self.bullets_list) - 1):  # Activate close button?
             self.bullet_close_active = True
 
         header = open(self.app_dir + 'assets/header.html', 'r').read()
