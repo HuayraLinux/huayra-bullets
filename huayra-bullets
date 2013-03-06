@@ -103,7 +103,6 @@ class BulletsBrowser(webkit.WebView):
 
     #get Session gnome or mate
     RunningDesktop = Config.getDesktopSession()
-    RunningDesktop = 'other'
 
     if RunningDesktop == "shell":
         from bullets.shell.bullets_list import bullets_list
