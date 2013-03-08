@@ -61,6 +61,12 @@ bullets_shell = [
         '01',
     ],
     [
+        '¿Cómo compartir archivos sin Internet en Huayra? ',
+        '<p>En Huayra podés <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Compartir-tus-archivos">Compartir archivos</a> con tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/usr/share/huayra/help/ayuda.xml#compartir-iptux">ipTux</a> o <a href="[doc]/usr/share/huayra/help/ayuda.xml#compartirweb">Compartir Web</a>.</p>',
+        '01',
+        '01',
+    ],
+    [
         '¿Dónde encuentro mis archivos?',
         '<p>En <a href="[exec]nautilus">Carpeta Personal</a>  están los archivos de <a href="[doc]/usr/share/huayra/help/ayuda.xml#part:usuarios">MI usuario</a> organizadas por categoría ("Imágenes", "Descargas", etc:) con su ícono. También puedo acceder desde el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:menuhuayra">Menú Huayra</a> desde <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">los marcadores </a> de carpetas que más usás.</p>',
         '01',
@@ -133,14 +139,14 @@ bullets_shell = [
         '01',
     ],
     [
-        '¿Cómo escucho musica?',
+        '¿Cómo escucho música?',
         '<p>Con un simple doble clic en el archivo de música se abre el reproductor <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Aplicaciones-recomendadas-en#sec:Clementine">Clementine</a> desde donde puedo administrar mis discos, listas y mucho más. Puedo <a href="[doc]/usr/share/huayra/help/ayuda.xml#sec:Abrir-archivos-con">cambiar la aplicación predeterminada</a> para abrir mi música.</p>',
         '01',
         '01',
     ],
     [
         '¿Cómo veo videos?',
-        '<p>Con un simple doble clic en el archivo de música se abre el reproductor <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Aplicaciones-recomendadas-en#sec:VLC-Media-Player">VLC Media Player</a>. Puedo <a href="[doc]/usr/share/huayra/help/ayuda.xml#sec:Abrir-archivos-con">cambiar la aplicación predeterminada</a> para abrir mi música.</p>',
+        '<p>Con un simple doble clic en el archivo de música se abre el reproductor <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Aplicaciones-recomendadas-en#sec:VLC-Media-Player">VLC Media Player</a>. Puedo <a href="[doc]/usr/share/huayra/help/ayuda.xml#sec:Abrir-archivos-con">cambiar la aplicación predeterminada</a> para abrir mis videos.</p>',
         '01',
         '01',
     ],
@@ -153,27 +159,17 @@ bullets_shell = [
 ]
 
 bullets_mate = [
-    [
-        '¿Cómo apagó el equipo?',
-        '<p>Hacé clic en el ícono de apagado en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles#panel-superior">Panel Superior</a> y seleccioná "Apagar".</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Qué es el Menú Huayra?',
-        '<p>Hacé clic en el ícono del panadero de Huayra en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles#panel-superior">Panel Superior</a> y se despliega el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:menuhuayra">Menú Huayra</a>. En el Menú encontrás todas las <a href="[doc]/usr/share/huayra/help/ayuda.xml#part:Aplicaciones">aplicaciones</a> instaladas, en "Lugares" tus <a href="[doc]/usr/share/huayra/help/ayuda.xml#archivos">Archivos y carpetas</a> con los <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">Marcadores</a> y en "Sistema" la <a href="[doc]/usr/share/huayra/help/ayuda.xml#mate-control">Configuración del sistema</a>.</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cómo creo accesos directos?',
-        '<p>Podés crear accesos directos o <a href="[doc]/usr/share/huayra/help/ayuda.xml#lanzadores">lanzadores</a> de tus <a href="[doc]/usr/share/huayra/help/ayuda.xml#part:Aplicaciones">aplicaciones</a>, <a href="[doc]/usr/share/huayra/help/ayuda.xml#archivos">archivos y carpetas</a>, no solamente en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#part:tu-escritorio">escritorio</a> sino también en los <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles">paneles</a> y en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:menuhuayra">Menú Huayra</a>.</p>',
-        '01',
-        '01',
-    ],
+
+
     [
         '¿Cómo instalo programas en Huayra?',
         '<p>Desde el <a href="[exec]software-center">Centro de software</a> instalás todos los programas en sus versiones oficiales y libres. Podés buscar por tema o por categoría. El Centro está en <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:menuhuayra">Menú Huayra</a>/Sistema/Administración.</p>',
+        '01',
+        '01',
+    ],
+    [
+        '¿Adaptá tu escritorio a tu forma de trabajo',
+        '<p>Con Huayra no tenés que adaptar cómo a trabajas al escritorio, sino todo lo contrario. Cambiá por completo no sólo la <a href="[doc]/usr/share/huayra/help/ayuda.xml#prefs">apariencia</a> sino toda su funcionalidad combinando la configuración de los <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles">Paneles</a>, los <a href="[doc]/usr/share/huayra/help/ayuda.xml#lanzadores">Lanzadores</a> y las <a href="[doc]/usr/share/huayra/help/ayuda.xml#miniaplicaciones">Miniaplicaciones</a>. Con Huayra ningún escritorio es igual a otro.</p>',
         '01',
         '01',
     ],
@@ -184,17 +180,35 @@ bullets_mate = [
        '01',
     ],
     [
-        '¿Cómo creo MI USUARIO en Huayra?',
-        '<p>Creo <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">MI USUARIO</a> en <a href="[exec]mate-control-center"> Configuración del sistema</a>/Usuarios y grupos. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default) y luego creo mi usuario haciendo clic en "+".</p>',
-        '01',
-        '01',
-    ],
-    [
         '¿Sabías que Huayra no tiene virus?',
         '<p>Es sencillo como eso, con Huayra no hay virus. Los diferentes permisos bloquean toda actividad nociva y las rápidas actualizaciones de la comunidad del <a href="[doc]/usr/share/huayra/help/ayuda.xml#sec:S#sub:Software-libre">Software Libre</a> eliminan toda amenaza.</p>',
         '01',
         '01',
     ],
+    [
+        '¿Cómo creo MI USUARIO en Huayra?',
+        '<p>Creo <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">MI USUARIO</a> en <a href="[exec]mate-control-center"> Configuración del sistema</a>/Usuarios y grupos. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default) y luego creo mi usuario haciendo clic en "+".</p>',
+        '01',
+        '01',
+    ],    
+    [
+        '¿Cómo veo la Televisión Digital Abierta en Huayra?',
+        '<p>Conectá la antena, hacé clic en el icono de <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:TDA"> TDA</a> que está en el escritorio y elegí qué canal ver (hacé un escanero por primera vez para que capte los canales disponibles en tu región).</p>',
+        '01',
+        '01',
+    ],    
+    [
+        '¿Cómo creo accesos directos?',
+        '<p>Podés crear accesos directos o <a href="[doc]/usr/share/huayra/help/ayuda.xml#lanzadores">lanzadores</a> de tus <a href="[doc]/usr/share/huayra/help/ayuda.xml#part:Aplicaciones">aplicaciones</a>, <a href="[doc]/usr/share/huayra/help/ayuda.xml#archivos">archivos y carpetas</a>, no solamente en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#part:tu-escritorio">escritorio</a> sino también en los <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles">paneles</a> y en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:menuhuayra">Menú Huayra</a>.</p>',
+        '01',
+        '01',
+    ],
+    [
+        '¿Cómo compartir archivos sin Internet en Huayra? ',
+        '<p>En Huayra podés <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Compartir-tus-archivos">Compartir archivos</a> con tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/usr/share/huayra/help/ayuda.xml#compartir-iptux">ipTux</a> o <a href="[doc]/usr/share/huayra/help/ayuda.xml#compartirweb">Compartir Web</a>.</p>',
+        '01',
+        '01',
+    ],  
     [
         '¿Cómo me conecto a Internet?',
         '<p>Hago clic en el ícono de <a href="[doc]/usr/share/huayra/help/ayuda.xml#prefs-internet-and-network">conexiones</a> en la <a href="[doc]/usr/share/huayra/help/ayuda.xml#panel-superior">Panel Superior</a> a la derecha y elijo la red (WiFi o cableada). La primera vez que me conecte tengo que ingresar mi <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default).</p>',
@@ -202,26 +216,38 @@ bullets_mate = [
         '01',
     ],
     [
-        '¿Adaptá tu escritorio a tu forma de trabajo',
-        '<p>Con Huayra no tenés que adaptar cómo a trabajas al escritorio, sino todo lo contrario. Cambia por completo no sólo la <a href="[doc]/usr/share/huayra/help/ayuda.xml#prefs">apariencia</a> sino toda su funcionalidad combinando la configuración de los <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles">Paneles</a>, los <a href="[doc]/usr/share/huayra/help/ayuda.xml#lanzadores">Lanzadores</a> y las <a href="[doc]/usr/share/huayra/help/ayuda.xml#miniaplicaciones">Miniaplicaciones</a>. Con Huayra ningún escritorio es igual a otro.</p>',
+        '¿Qué es el Menú Huayra?',
+        '<p>Hacé clic en el ícono del panadero de Huayra en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles#panel-superior">Panel Superior</a> y se despliega el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:menuhuayra">Menú Huayra</a>. En el Menú encontrás todas las <a href="[doc]/usr/share/huayra/help/ayuda.xml#part:Aplicaciones">aplicaciones</a> instaladas, en "Lugares" tus <a href="[doc]/usr/share/huayra/help/ayuda.xml#archivos">Archivos y carpetas</a> con los <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">Marcadores</a> y en "Sistema" la <a href="[doc]/usr/share/huayra/help/ayuda.xml#mate-control">Configuración del sistema</a>.</p>',
         '01',
         '01',
     ],
     [
         '¿Dónde encuentro mis archivos?',
-        '<p>En <a href="[exec]caja">Carpeta Personal</a>  están los archivos de <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">MI usuario</a> organizadas por categoría ("Imágenes", "Descargas", etc:) con su ícono. También puedo acceder desde el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:menuhuayra">Menú Huayra</a>/Lugares desde <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">los marcadores </a> de carpetas que más usás.</p>',
+        '<p>En <a href="[exec]caja">Carpeta Personal</a> están las carpetas de <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">MI usuario</a> organizadas por categorías ("Imágenes", "Descargas", etc:) con su ícono. También puedo acceder desde el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:menuhuayra">Menú Huayra</a>/Lugares usando <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">los marcadores </a> de carpetas.</p>',
+        '01',
+        '01',
+    ],
+        [
+        'Con F3 y Ctrl + T veo mejor mis archivos',
+        '<p>Cuando este viendo <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Archivos-y-carpetas#sec:Examinar-archivos-y">mis archivos y carpetas</a>, puedo usar Ctrl + T para abrir dentro de una misma ventana diferentes solapas, igual que en los navegadores de Internet. También puedo dividir la ventana en dos con F3.</p>',
         '01',
         '01',
     ],
     [
         '¿Cómo abro un pen-drive?',
-        '<p>Huayra detecta el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Archivos-y-carpetas#sec:Extraer-una-unidad">pen-drive</a> automáticamente y muestra un ícono en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#escritorio">Escritorio</a> desde donde podés abrir el contenido. Expulsalo de forma segura con haciendo clic con el botón derecho en el ícono del pen que está en el escritorio.</p>',
+        '<p>Huayra detecta el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Archivos-y-carpetas#sec:Extraer-una-unidad">pen-drive</a> automáticamente y muestra un ícono en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#escritorio">Escritorio</a> desde donde puedo abrir el contenido. Puedo expulsarlo de forma segura haciendo clic con el botón derecho en el ícono del pen que está en el escritorio.</p>',
         '01',
         '01',
     ],
     [
         '¿Qué navegador de Internet uso?',
         '<p>Huayra viene con Chromium como navegador web predeterminado y puedo instalar todos los navegadores libres que quiera como Firefox, Iceweasel, etc. desde el  <a href="[exec]software-center">Centro de software</a>.</p>',
+        '01',
+        '01',
+    ],
+        [
+        '¿Cómo apagó el equipo?',
+        '<p>Hago clic en el ícono de apagado en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles#panel-superior">Panel Superior</a> y selecciono "Apagar".</p>',
         '01',
         '01',
     ],
@@ -233,7 +259,7 @@ bullets_mate = [
     ],
     [
         '¿Cómo agrego una impresora?',
-        '<p>En <a href="[exec]mate-control-center"> Configuración del sistema</a> en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles#panel-superior"> Panel Superior</a> arriba a la derecha), bajo el título Hardware hago clic en la opción <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Impresoras">"Impresoras"</a> y ahí "Agregar una impresora nueva".</p>',
+        '<p>En <a href="[exec]mate-control-center"> Configuración del sistema</a> en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles#panel-superior"> Panel Superior</a> arriba a la derecha), bajo el título Hardware, hago clic en la opción <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Impresoras">"Impresoras"</a> y ahí "Agregar una impresora nueva".</p>',
         '01',
         '01',
     ],
@@ -245,7 +271,7 @@ bullets_mate = [
     ],
     [
         '¿Cómo cambio mis aplicaciones predeterminadas?',
-        '<p>Puedo elegir <a href="[doc]/usr/share/huayra/help/ayuda.xml#sec:Abrir-archivos-con">con qué aplicación</a> quiero abrir mi música, videos, etc. en <a href="[exec]mate-control-center"> Configuración del sistema</a>, en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles#panel-superior"> Panel Superior</a> a la derecha, en “Aplicaciones preferidas” elijo la opción (Internet, Multimedia, Sistema)</p>',
+        '<p>Puedo elegir <a href="[doc]/usr/share/huayra/help/ayuda.xml#sec:Abrir-archivos-con">con qué aplicación</a> quiero abrir mi música, videos, etc. en <a href="[exec]mate-control-center"> Configuración del sistema</a>, en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles#panel-superior"> Panel Superior</a> a la derecha. En “Aplicaciones preferidas” elijo la opción (Internet, Multimedia, Sistema)</p>',
         '01',
         '01',
     ],
@@ -256,26 +282,20 @@ bullets_mate = [
         '01',
     ],
     [
-        'Con F3 y Ctrl + T veo mejor mis archivos',
-        '<p>Cuando este viendo <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Archivos-y-carpetas#sec:Examinar-archivos-y">mis archivos y carpetas</a>, puedo usar Ctrl + T para abrir dentro de una misma ventana diferentes solapas, igual que en los navegadores de Internet. También puedo dividir la ventana en dos con F3.</p>',
-        '01',
-        '01',
-    ],
-    [
         '¿Cómo cambio mi clave?',
-        '<p>En <a href="[exec]mate-control-center">Configuración del sistema</a> (en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles#panel-superior"> Panel Superior</a>), Usuarios y Grupos. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default) y luego hago clic en "Cambiar" al lado de “Contraseña”.</p>',
+        '<p>Cambio la clave en <a href="[exec]mate-control-center">Configuración del sistema</a> (en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles#panel-superior"> Panel Superior</a>), Usuarios y Grupos. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por defecto) y luego hago clic en "Cambiar" al lado de “Contraseña”.</p>',
         '01',
         '01',
     ],
     [
-        '¿Cómo escucho musica?',
+        '¿Cómo escucho música?',
         '<p>Con un simple doble clic en el archivo de música se abre el reproductor <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Aplicaciones-recomendadas-en#sec:Clementine">Clementine</a> desde donde puedo administrar mis discos, listas y mucho más. Puedo <a href="[doc]/usr/share/huayra/help/ayuda.xml#sec:Abrir-archivos-con">cambiar la aplicación predeterminada</a> para abrir mi música.</p>',
         '01',
         '01',
     ],
     [
         '¿Cómo veo videos?',
-        '<p>Con un simple doble clic en el archivo de música se abre el reproductor <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Aplicaciones-recomendadas-en#sec:VLC-Media-Player">VLC Media Player</a>. Puedo <a href="[doc]/usr/share/huayra/help/ayuda.xml#sec:Abrir-archivos-con">cambiar la aplicación predeterminada</a> para abrir mi música.</p>',
+        '<p>Con un simple doble clic en el archivo de música se abre el reproductor <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Aplicaciones-recomendadas-en#sec:VLC-Media-Player">VLC Media Player</a>. Puedo <a href="[doc]/usr/share/huayra/help/ayuda.xml#sec:Abrir-archivos-con">cambiar la aplicación predeterminada</a> para abrir mis videos.</p>',
         '01',
         '01',
     ],
