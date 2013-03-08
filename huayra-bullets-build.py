@@ -190,13 +190,13 @@ bullets_mate = [
         '<p>Creo <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">MI USUARIO</a> en <a href="[exec]mate-control-center"> Configuración del sistema</a>/Usuarios y grupos. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default) y luego creo mi usuario haciendo clic en "+".</p>',
         '01',
         '01',
-    ],    
+    ],
     [
         '¿Cómo veo la Televisión Digital Abierta en Huayra?',
         '<p>Conectá la antena, hacé clic en el icono de <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:TDA"> TDA</a> que está en el escritorio y elegí qué canal ver (hacé un escanero por primera vez para que capte los canales disponibles en tu región).</p>',
         '01',
         '01',
-    ],    
+    ],
     [
         '¿Cómo creo accesos directos?',
         '<p>Podés crear accesos directos o <a href="[doc]/usr/share/huayra/help/ayuda.xml#lanzadores">lanzadores</a> de tus <a href="[doc]/usr/share/huayra/help/ayuda.xml#part:Aplicaciones">aplicaciones</a>, <a href="[doc]/usr/share/huayra/help/ayuda.xml#archivos">archivos y carpetas</a>, no solamente en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#part:tu-escritorio">escritorio</a> sino también en los <a href="[doc]/usr/share/huayra/help/ayuda.xml#paneles">paneles</a> y en el <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:menuhuayra">Menú Huayra</a>.</p>',
@@ -208,7 +208,7 @@ bullets_mate = [
         '<p>En Huayra podés <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Compartir-tus-archivos">Compartir archivos</a> con tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/usr/share/huayra/help/ayuda.xml#compartir-iptux">ipTux</a> o <a href="[doc]/usr/share/huayra/help/ayuda.xml#compartirweb">Compartir Web</a>.</p>',
         '01',
         '01',
-    ],  
+    ],
     [
         '¿Cómo me conecto a Internet?',
         '<p>Hago clic en el ícono de <a href="[doc]/usr/share/huayra/help/ayuda.xml#prefs-internet-and-network">conexiones</a> en la <a href="[doc]/usr/share/huayra/help/ayuda.xml#panel-superior">Panel Superior</a> a la derecha y elijo la red (WiFi o cableada). La primera vez que me conecte tengo que ingresar mi <a href="[doc]/usr/share/huayra/help/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default).</p>',
