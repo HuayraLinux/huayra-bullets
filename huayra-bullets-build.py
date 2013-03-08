@@ -166,13 +166,13 @@ bullets_mate = [
         '01',
     ],
     [
-        '¿Adaptá tu escritorio a tu forma de trabajo',
+        'Adaptá tu escritorio a tu forma de trabajo',
         '<p>Con Huayra no tenés que adaptar cómo a trabajas al escritorio, sino todo lo contrario. Cambiá por completo no sólo la <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#prefs">apariencia</a> sino toda su funcionalidad combinando la configuración de los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles">Paneles</a>, los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#lanzadores">Lanzadores</a> y las <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#miniaplicaciones">Miniaplicaciones</a>. Con Huayra ningún escritorio es igual a otro.</p>',
         '01',
         '01',
     ],
     [
-       'Lo que hacías con MS Office lo haces con Libre Office',
+       'Lo que hacías con MS Office lo hacés con Libre Office',
        '<p>Lo que antes hacías con Microsoft Word ahora lo podés hacer con <a href="[exec]loffice">Libre Office Writer</a>. <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#sec:loquehaciascon">¿Dónde encuentro en Huayra los otros programas que más usaba en Windows?</a></p>',
        '01',
        '01',
@@ -203,7 +203,7 @@ bullets_mate = [
     ],
     [
         '¿Cómo compartir archivos sin Internet en Huayra? ',
-        '<p>En Huayra podés <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos">Compartir archivos</a> con tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#compartir-iptux">ipTux</a> o <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#compartirweb">Compartir Web</a>.</p>',
+        '<p>En Huayra podés <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos">Compartir archivos</a> con tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos#compartir-iptux">ipTux</a> o <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos#compartirweb">Compartir Web</a>.</p>',
         '01',
         '01',
     ],
@@ -227,7 +227,7 @@ bullets_mate = [
     ],
         [
         'Con F3 y Ctrl + T veo mejor mis archivos',
-        '<p>Cuando este viendo <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Examinar-archivos-y">mis archivos y carpetas</a>, puedo usar Ctrl + T para abrir dentro de una misma ventana diferentes solapas, igual que en los navegadores de Internet. También puedo dividir la ventana en dos con F3.</p>',
+        '<p>Cuando esté viendo <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Examinar-archivos-y">mis archivos y carpetas</a>, puedo usar Ctrl + T para abrir dentro de una misma ventana diferentes solapas, igual que en los navegadores de Internet. También puedo dividir la ventana en dos con F3.</p>',
         '01',
         '01',
     ],
