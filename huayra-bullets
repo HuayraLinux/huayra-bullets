@@ -115,7 +115,7 @@ class BulletsBrowser(webkit.WebView):
     bullet_close_active = False
     answer_active = False
     bullets_list = bullets_list
-    bullets_dir = 'bullets/' + RunningDesktop + '/'
+    bullets_dir = app_dir + 'bullets/' + RunningDesktop + '/'
 
 
     def __init__(self, start_page):
@@ -264,7 +264,7 @@ def build_app_window(start_page):
     Win = gtk.Window(gtk.WINDOW_TOPLEVEL)
     if not Config.DEV:
         # Sólo si el tema de ventanas soporta ícono
-        Path = "/usr/share/huayra-bullets/pages/images/"
+        Path = "/usr/share/huayra-bullets/assets/images/"
         Win.set_icon_from_file(Path + "vaca-icono-48x48.png")
     Win.add(sw)
     Win.set_resizable(False)

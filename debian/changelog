@@ -1,3 +1,9 @@
+huayra-bullets (0.10) testing; urgency=low
+
+  * mas correcciones de paths
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 08 Mar 2013 17:31:03 -0300
+
 huayra-bullets (0.9) testing; urgency=low
 
   * correccion de paths (assets) y config DEV
