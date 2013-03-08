@@ -1,3 +1,9 @@
+huayra-bullets (0.11) testing; urgency=low
+
+  * correccion links a documentacion 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 08 Mar 2013 18:00:40 -0300
+
 huayra-bullets (0.10) testing; urgency=low
 
   * mas correcciones de paths
