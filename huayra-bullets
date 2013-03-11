@@ -111,7 +111,7 @@ class BulletsBrowser(webkit.WebView):
     else:
         from bullets.other.bullets_list import bullets_list
 
-    bullet_close_number = 4
+    bullet_close_number = 0
     bullet_close_active = False
     answer_active = False
     bullets_list = bullets_list

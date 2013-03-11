@@ -6,8 +6,8 @@ animations = {
 
 bullets_list = [
     {"file": "01.html", "title": "¿Cómo instalo programas en Huayra?", "variant": "01", "animation": animations["01"]},
-    {"file": "02.html", "title": "¿Adaptá tu escritorio a tu forma de trabajo", "variant": "01", "animation": animations["01"]},
-    {"file": "03.html", "title": "Lo que hacías con MS Office lo haces con Libre Office", "variant": "01", "animation": animations["01"]},
+    {"file": "02.html", "title": "Adaptá tu escritorio a tu forma de trabajo", "variant": "01", "animation": animations["01"]},
+    {"file": "03.html", "title": "Lo que hacías con MS Office lo hacés con Libre Office", "variant": "01", "animation": animations["01"]},
     {"file": "04.html", "title": "¿Sabías que Huayra no tiene virus?", "variant": "01", "animation": animations["01"]},
     {"file": "05.html", "title": "¿Cómo creo MI USUARIO en Huayra?", "variant": "01", "animation": animations["01"]},
     {"file": "06.html", "title": "¿Cómo veo la Televisión Digital Abierta en Huayra?", "variant": "01", "animation": animations["01"]},
