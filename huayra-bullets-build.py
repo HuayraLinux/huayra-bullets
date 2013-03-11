@@ -161,7 +161,7 @@ bullets_shell = [
 bullets_mate = [
     [
         '¿Cómo instalo programas en Huayra?',
-        '<p>Desde el <a href="[exec]software-center">Centro de software</a> instalás todos los programas en sus versiones oficiales y libres. Podés buscar por tema o por categoría. El Centro está en <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>/Sistema/Administración.</p>',
+        '<p>Desde el <a href="[exec]software-center">Centro de software</a> <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cmo-instalar-aplicaciones-3">instalás</a> todos los programas en sus versiones oficiales y libres. Podés buscar por tema o por categoría. El Centro está en <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>/Sistema/Administración.</p>',
         '01',
         '01',
     ],
@@ -185,13 +185,13 @@ bullets_mate = [
     ],
     [
         '¿Cómo creo MI USUARIO en Huayra?',
-        '<p>Creo <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">MI USUARIO</a> en <a href="[exec]mate-control-center"> Configuración del sistema</a>/Usuarios y grupos. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default) y luego creo mi usuario haciendo clic en "+".</p>',
+        '<p>Creo <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">MI USUARIO</a> en <a href="[exec]mate-control-center"> Configuración del sistema</a>/Usuarios y grupos. Primero hago clic en "+ Añadir" y luego desbloqueo con mi <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default).</p>',
         '01',
         '01',
     ],
     [
         '¿Cómo veo la Televisión Digital Abierta en Huayra?',
-        '<p>Conectá la antena, hacé clic en el icono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:TDA"> TDA</a> que está en el escritorio y elegí qué canal ver (hacé un escanero por primera vez para que capte los canales disponibles en tu región).</p>',
+        '<p>Conectá la antena, hacé clic en el icono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:TDA"> TDA</a> que está en el escritorio y elegí qué canales querés ver (la primera vez hacé un escanero para que capte los canales disponibles en tu región).</p>',
         '01',
         '01',
     ],
@@ -203,7 +203,7 @@ bullets_mate = [
     ],
     [
         '¿Cómo compartir archivos sin Internet en Huayra? ',
-        '<p>En Huayra podés <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos">Compartir archivos</a> con tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos#compartir-iptux">ipTux</a> o <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos#compartirweb">Compartir Web</a>.</p>',
+        '<p>En Huayra podés <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos">Compartir archivos</a> con todos tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos#compartir-iptux">ipTux</a> o <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos#compartirweb">Compartir Web</a>.</p>',
         '01',
         '01',
     ],
@@ -215,7 +215,7 @@ bullets_mate = [
     ],
     [
         '¿Qué es el Menú Huayra?',
-        '<p>Hacé clic en el ícono del panadero de Huayra en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior">Panel Superior</a> y se despliega el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>. En el Menú encontrás todas las <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:Aplicaciones">aplicaciones</a> instaladas, en "Lugares" tus <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#archivos">Archivos y carpetas</a> con los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">Marcadores</a> y en "Sistema" la <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#mate-control">Configuración del sistema</a>.</p>',
+        '<p>Cuando hacés clic en el ícono del panadero en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior">Panel Superior</a> lo que se despliega es el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>. En el Menú encontrás todas las <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:Aplicaciones">aplicaciones</a> instaladas, en "Lugares" tus <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#archivos">Archivos y carpetas</a> con los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">Marcadores</a> y en "Sistema" la <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#mate-control">Configuración del sistema</a>.</p>',
         '01',
         '01',
     ],
@@ -257,13 +257,13 @@ bullets_mate = [
     ],
     [
         '¿Cómo agrego una impresora?',
-        '<p>En <a href="[exec]mate-control-center"> Configuración del sistema</a> en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior"> Panel Superior</a>, bajo el título Hardware, hago clic en la opción <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Impresoras">"Impresoras"</a> y ahí "Agregar una impresora nueva".</p>',
+        '<p>En <a href="[exec]mate-control-center"> Configuración del sistema</a> en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior"> Panel Superior</a>, bajo el título Hardware, hago clic en la opción <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Impresoras">"Impresión"</a> y ahí "Añadir".</p>',
         '01',
         '01',
     ],
     [
         '¿Cuánta batería me queda?',
-        '<p>El ícono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#energia">batería</a> en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior"> Panel Superior</a> a la derecha me lo indica al hacer clic. Desde <a href="[exec]mate-control-center"> Configuración del sistema</a> puedo optimizar el uso haciendo clic en "Gestor de energía".</p>',
+        '<p>El ícono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#energia">batería</a> en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior"> Panel Superior</a> a la derecha me lo indica al hacer clic. Desde <a href="[exec]mate-control-center">Configuración del sistema</a> puedo optimizar el uso haciendo clic en "Gestor de energía".</p>',
         '01',
         '01',
     ],
@@ -281,7 +281,7 @@ bullets_mate = [
     ],
     [
         '¿Cómo cambio mi clave?',
-        '<p>Cambio la clave en <a href="[exec]mate-control-center">Configuración del sistema</a> (en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior"> Panel Superior</a>), Usuarios y Grupos. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por defecto) y luego hago clic en "Cambiar" al lado de “Contraseña”.</p>',
+        '<p>Cambio la clave en <a href="[exec]mate-control-center">Configuración del sistema</a> (en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior"> Panel Superior</a>), Usuarios y Grupos. Hago clic en "Cambiar" al lado de “Contraseña” y después desbloqueo con mi <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por defecto).</p>',
         '01',
         '01',
     ],
