@@ -167,7 +167,7 @@ bullets_mate = [
     ],
     [
         'Adaptá tu escritorio a tu forma de trabajo',
-        '<p>Con Huayra no tenés que adaptar cómo a trabajas al escritorio, sino todo lo contrario. Cambiá por completo no sólo la <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#prefs">apariencia</a> sino toda su funcionalidad combinando la configuración de los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles">Paneles</a>, los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#lanzadores">Lanzadores</a> y las <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#miniaplicaciones">Miniaplicaciones</a>. Con Huayra ningún escritorio es igual a otro.</p>',
+        '<p>Con Huayra no tenés que adaptar cómo trabajás al escritorio, sino todo lo contrario. Cambiá por completo no sólo la <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#prefs">apariencia</a> sino toda su funcionalidad combinando la configuración de los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles">Paneles</a>, los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#lanzadores">Lanzadores</a> y las <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#miniaplicaciones">Miniaplicaciones</a>. Con Huayra ningún escritorio es igual a otro.</p>',
         '01',
         '01',
     ],
@@ -209,7 +209,7 @@ bullets_mate = [
     ],
     [
         '¿Cómo me conecto a Internet?',
-        '<p>Hago clic en el ícono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#prefs-internet-and-network">conexiones</a> en la <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#panel-superior">Panel Superior</a> a la derecha y elijo la red (WiFi o cableada). La primera vez que me conecte tengo que ingresar mi <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default).</p>',
+        '<p>Hago clic en el ícono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#prefs-internet-and-network">conexiones</a> en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#panel-superior">Panel Superior</a> a la derecha y elijo la red (WiFi o cableada). La primera vez que me conecte tengo que ingresar mi <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default).</p>',
         '01',
         '01',
     ],
@@ -257,7 +257,7 @@ bullets_mate = [
     ],
     [
         '¿Cómo agrego una impresora?',
-        '<p>En <a href="[exec]mate-control-center"> Configuración del sistema</a> en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior"> Panel Superior</a> arriba a la derecha), bajo el título Hardware, hago clic en la opción <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Impresoras">"Impresoras"</a> y ahí "Agregar una impresora nueva".</p>',
+        '<p>En <a href="[exec]mate-control-center"> Configuración del sistema</a> en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior"> Panel Superior</a>, bajo el título Hardware, hago clic en la opción <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Impresoras">"Impresoras"</a> y ahí "Agregar una impresora nueva".</p>',
         '01',
         '01',
     ],
