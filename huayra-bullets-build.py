@@ -191,7 +191,7 @@ bullets_mate = [
     ],
     [
         '¿Cómo veo la Televisión Digital Abierta en Huayra?',
-        '<p>Conectá la antena, hacé clic en el icono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:TDA"> TDA</a> que está en el escritorio y elegí qué canales querés ver (la primera vez hacé un escanero para que capte los canales disponibles en tu región).</p>',
+        '<p>Conectá la antena, hacé clic en el icono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:TDA"> TDA</a> que está en el escritorio y elegí qué canales querés ver (la primera vez hacé un escaneo para que capte los canales disponibles en tu región).</p>',
         '01',
         '01',
     ],
