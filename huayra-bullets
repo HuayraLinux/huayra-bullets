@@ -36,7 +36,8 @@ class Config:
     """
     AUTOSTART_ENABLED = False
     NO_AUTOSTART_FILE = os.getenv('HOME') + '/.huayra-bullets-noautostart'
-    DEV = False
+    DEV = os.getcwd() == '/usr/bin/'
+    print DEV
 
     @staticmethod
     def getDesktopSession():
