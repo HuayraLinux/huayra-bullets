@@ -116,7 +116,7 @@ bullets_shell = [
     ],
     [
         '¿"Software libre" es lo mismo que "software gratuito"?',
-        '<p>No. El <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#sec:S#sub:Software-libre">Software Libre</a> es gratis por ser libre, por respetar las libertades de los usuarios y de la comunidad de "copiar", "distribuir", "estudiar", "modificar" y "mejorar el software".</p>',
+        '<p>No. El <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#sec:S#sub:Software-libre">Software Libre</a> no necesariamente es gratis, pero asegura a sus usuarios la libertad de estudiar cómo funciona, compartirlo con otros, modificarlo según sus necesidades, y distribuir esas modificaciones. El software libre tiene que ver con la libertad, y no con el precio, aunque muchísimo software libre está disponible de manera gratuita.</p>',
         '01',
         '01',
     ],
@@ -275,7 +275,7 @@ bullets_mate = [
     ],
     [
         '¿"Software libre" es lo mismo que "software gratuito"?',
-        '<p>No. El <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#sec:S#sub:Software-libre">Software Libre</a> es gratis por ser libre, por respetar las libertades de los usuarios y de la comunidad de "copiar", "distribuir", "estudiar", "modificar" y "mejorar el software".</p>',
+        '<p>No. El <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#sec:S#sub:Software-libre">Software Libre</a> no necesariamente es gratis, pero asegura a sus usuarios la libertad de estudiar cómo funciona, compartirlo con otros, modificarlo según sus necesidades, y distribuir esas modificaciones. El software libre tiene que ver con la libertad, y no con el precio, aunque muchísimo software libre está disponible de manera gratuita.</p>',
         '01',
         '01',
     ],
@@ -314,7 +314,7 @@ bullets_other = [
     ],
     [
         '¿"Software libre" es lo mismo que "software gratuito"?',
-        '<p>No. El Software Libre es gratis por ser libre, por respetar las libertades de los usuarios y de la comunidad de "copiar", "distribuir", "estudiar", "modificar" y "mejorar el software".</p>',
+        '<p>No. El Software Libre no necesariamente es gratis, pero asegura a sus usuarios la libertad de estudiar cómo funciona, compartirlo con otros, modificarlo según sus necesidades, y distribuir esas modificaciones. El software libre tiene que ver con la libertad, y no con el precio, aunque muchísimo software libre está disponible de manera gratuita.</p>',
         '01',
         '01',
     ],
