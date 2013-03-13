@@ -1,3 +1,9 @@
+huayra-bullets (0.17) testing; urgency=low
+
+  * Fix DEV mode detection
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Wed, 13 Mar 2013 15:33:39 -0300
+
 huayra-bullets (0.16) testing; urgency=low
 
   * Fix DEV
