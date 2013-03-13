@@ -20,7 +20,7 @@ easter_eggs['equipo_huayra'] = "\
 		<h3>Jefe de Proyecto:</h3>\
 		<p>Vladimir di Fiore Prieto</p>\
 		<h3>Equipo Desarrollo:</h3>\
-		<p>Héctor Sánchez - Fernando Toledo, Miguel García, Luciano Baraglia, Mauro Lizaur, Julia Palandri</p>\
+		<p>Héctor Sanchez - Fernando Toledo, Miguel García, Luciano Baraglia, Mauro Lizaur, Julia Palandri</p>\
 		<h3>Equipo de Documentación:</h3>\
 		<p>Felipe Diego González - Ornella Lotito, Celeste Mandrut</p>\
 		<h3>Equipo Arte y Diseño:</h3>\
