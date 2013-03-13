@@ -36,7 +36,7 @@ class Config:
     """
     AUTOSTART_ENABLED = False
     NO_AUTOSTART_FILE = os.getenv('HOME') + '/.huayra-bullets-noautostart'
-    DEV = False
+    DEV = True
 
     @staticmethod
     def getDesktopSession():
@@ -272,7 +272,7 @@ def build_app_window(start_page):
     Win.set_default_size(640, 450)
     Win.set_title("Primeros pasos en Huayra")
     Win.set_position(gtk.WIN_POS_CENTER)
-    Win.set_deletable(False)
+    Win.set_deletable(True)
     Win.connect("destroy", gtk.main_quit)
     return Win
 
