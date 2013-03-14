@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 import sys, os, shutil
 sys.stdout.softspace = 0
 
@@ -68,7 +69,7 @@ bullets_shell = [
     ],
     [
         '¿Dónde encuentro mis archivos?',
-        '<p>En <a href="[exec]nautilus">Carpeta Personal</a>  están los archivos de <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#part:usuarios">MI usuario</a> organizadas por categoría ("Imágenes", "Descargas", etc:) con su ícono. También puedo acceder desde el <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:menuhuayra">Menú Huayra</a> desde <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">los marcadores </a> de carpetas que más usás.</p>',
+        '<p>En <a href="[exec]nautilus">Carpeta Personal</a>  están los archivos de <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#part:usuarios">MI usuario</a> organizadas por categoría ("Imágenes", "Descargas", etc.) con su ícono. También puedo acceder desde el <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:menuhuayra">Menú Huayra</a> desde <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">los marcadores </a> de carpetas que más usás.</p>',
         '01',
         '01',
     ],

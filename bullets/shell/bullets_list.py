@@ -16,7 +16,7 @@ bullets_list = [
     {"file": "09.html", "title": "¿Cómo configuro mi escritorio?", "variant": "01", "animation": animations["01"]},
     {"file": "10.html", "title": "¿Cómo compartir archivos sin Internet en Huayra? ", "variant": "01", "animation": animations["01"]},
     {"file": "11.html", "title": "¿Dónde encuentro mis archivos?", "variant": "01", "animation": animations["01"]},
-    {"file": "12.html", "title": "¿Cómo abro un pen-drive?", "variant": "01", "animation": animations["01"]},
+    {"file": "12.html", "title": "¿Cómo abro un pendrive?", "variant": "01", "animation": animations["01"]},
     {"file": "13.html", "title": "¿Qué navegador de Internet uso?", "variant": "01", "animation": animations["01"]},
     {"file": "14.html", "title": "¿Cómo recupero archivos borrados?", "variant": "01", "animation": animations["01"]},
     {"file": "15.html", "title": "¿Cómo agrego una impresora?", "variant": "01", "animation": animations["01"]},
