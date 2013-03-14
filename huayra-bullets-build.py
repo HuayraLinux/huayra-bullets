@@ -39,7 +39,7 @@ bullets_shell = [
     ],
     [
         '¿Cómo creo MI USUARIO en Huayra?',
-        '<p>Creo <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Cuentas-de-usuario">MI USUARIO</a> en <a href="[exec]gnome-control-center"> Configuración del sistema</a> (en <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Barra-superior#sec:menu-de-usuario"> Menú de usuario</a>), Cuenta de Usuario. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default) y luego creo mi usuario haciendo clic en "+".</p>',
+        '<p>Creo <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Cuentas-de-usuario">MI USUARIO</a> en <a href="[exec]gnome-control-center"> Configuración del sistema</a> (en <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Barra-superior#sec:menu-de-usuario"> Menú de usuario</a>), Cuenta de Usuario. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por defecto) y luego creo mi usuario haciendo clic en "+".</p>',
         '01',
         '01',
     ],
@@ -51,7 +51,7 @@ bullets_shell = [
     ],
     [
         '¿Cómo me conecto a Internet?',
-        '<p>Hago clic en el ícono de <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#part:Internet-y-conectividad">conexiones</a> en la <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Barra-superior">barra superior</a> a la derecha y elijo la red (WiFi o cableada) La primera vez que me conecte tengo que ingresar mi <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default).</p>',
+        '<p>Hago clic en el ícono de <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#part:Internet-y-conectividad">conexiones</a> en la <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Barra-superior">barra superior</a> a la derecha y elijo la red (WiFi o cableada) La primera vez que me conecte tengo que ingresar mi <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por defecto).</p>',
         '01',
         '01',
     ],
@@ -135,7 +135,7 @@ bullets_shell = [
     ],
     [
         '¿Cómo cambio mi clave?',
-        '<p>En <a href="[exec]gnome-control-center">Configuración del sistema</a> (en <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Barra-superior#sec:menu-de-usuario"> Menú de usuario</a>), Cuenta de Usuario. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default) y luego hago clic en los círculos al lado de “Contraseña”.</p>',
+        '<p>En <a href="[exec]gnome-control-center">Configuración del sistema</a> (en <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Barra-superior#sec:menu-de-usuario"> Menú de usuario</a>), Cuenta de Usuario. Primero desbloqueo con mi <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por defecto) y luego hago clic en los círculos al lado de “Contraseña”.</p>',
         '01',
         '01',
     ],
@@ -153,7 +153,7 @@ bullets_shell = [
     ],
     [
         '¿Cómo comprimo archivos?',
-        '<p>Simplemente hago clic con el botón derecho y elijo la opción <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Archivos-y-carpetas#sec:Comprimir-y-descomprimir">"Comprimir"</a>. Luego elijo el nombre del archivo final y la extensión (zip, rar, 7z, tar.gz etc.). La opción 7z que es la que más y mejor comprime.</p>',
+        '<p>Simplemente hago clic con el botón derecho y elijo la opción <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Archivos-y-carpetas#sec:Comprimir-y-descomprimir">"Comprimir"</a>. Luego elijo el nombre del archivo final y la extensión (zip, rar, 7z, tar.gz, etc.). La opción 7z que es la que más y mejor comprime.</p>',
         '01',
         '01',
     ],
@@ -186,7 +186,7 @@ bullets_mate = [
     ],
     [
         '¿Cómo creo MI USUARIO en Huayra?',
-        '<p>Creo <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">MI USUARIO</a> en <a href="[exec]mate-control-center"> Configuración del sistema</a>/Usuarios y grupos. Primero hago clic en "+ Añadir" y luego desbloqueo con mi <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default).</p>',
+        '<p>Creo <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">MI USUARIO</a> en <a href="[exec]mate-control-center"> Configuración del sistema</a>/Usuarios y grupos. Primero hago clic en "+ Añadir" y luego desbloqueo con mi <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por defecto).</p>',
         '01',
         '01',
     ],
@@ -198,7 +198,7 @@ bullets_mate = [
     ],
     [
         '¿Cómo creo accesos directos?',
-        '<p>Puedo crear accesos directos o <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#lanzadores">lanzadores</a> de mis <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:Aplicaciones">aplicaciones</a>, <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#archivos">archivos y carpetas</a>, no solamente en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:tu-escritorio">escritorio</a> sino también en los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles">paneles</a> y en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>.</p>',
+        '<p>Puedo crear accesos directos o <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#lanzadores">lanzadores</a> de mis <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:Aplicaciones">aplicaciones</a>, <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#archivos">archivos y carpetas</a>, simplemente arrastrándolos al <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:tu-escritorio">escritorio</a>. También puedo crearlos en los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles">paneles</a> y en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>.</p>',
         '01',
         '01',
     ],
@@ -210,19 +210,19 @@ bullets_mate = [
     ],
     [
         '¿Cómo me conecto a Internet?',
-        '<p>Hago clic en el ícono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#prefs-internet-and-network">conexiones</a> en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#panel-superior">Panel Superior</a> a la derecha y elijo la red (WiFi o cableada). La primera vez que me conecte tengo que ingresar mi <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por default).</p>',
+        '<p>Hago clic en el ícono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#prefs-internet-and-network">conexiones</a> en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#panel-superior">Panel Superior</a> a la derecha y elijo la red (WiFi o cableada). La primera vez que me conecte tengo que ingresar mi <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por defecto).</p>',
         '01',
         '01',
     ],
     [
         '¿Qué es el Menú Huayra?',
-        '<p>Cuando hago clic en el ícono del panadero en el Panel Superior se despliega el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>. En el Menú encuentro todas las <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:Aplicaciones">aplicaciones</a> instaladas. En "Lugares" mis <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#archivos">Archivos y carpetas</a> con los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">Marcadores</a> y en "Sistema" la <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#mate-control">Configuración del sistema</a>.</p>',
+        '<p>Cuando hago clic en el ícono del panadero en el Panel Superior a la izquierda se despliega el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>, donde encuentro todas las <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:Aplicaciones">aplicaciones</a> instaladas. En "Lugares" encuentro mis <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#archivos">Archivos y carpetas</a> con los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">Marcadores</a> y en "Sistema" la <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#mate-control">Configuración del sistema</a>.</p>',
         '01',
         '01',
     ],
     [
         '¿Dónde encuentro mis archivos?',
-        '<p>En <a href="[exec]caja">Carpeta Personal</a> están las carpetas de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">MI usuario</a> organizadas por categorías ("Imágenes", "Descargas", etc:) con su ícono. También puedo acceder desde el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>/Lugares usando <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">los marcadores </a> de carpetas.</p>',
+        '<p>En <a href="[exec]caja">Carpeta Personal</a> están las carpetas de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">MI USUARIO</a>  organizadas por categorías ("Imágenes", "Descargas", etc:) con su ícono. También puedo acceder desde el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>/Lugares usando <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">los marcadores </a> de carpetas.</p>',
         '01',
         '01',
     ],
@@ -234,7 +234,7 @@ bullets_mate = [
     ],
     [
         '¿Cómo abro un pendrive?',
-        '<p>Huayra detecta el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Extraer-una-unidad">pendrive</a> automáticamente y muestra un ícono en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#escritorio">Escritorio</a> desde donde puedo abrir el contenido. Puedo expulsarlo de forma segura haciendo clic con el botón derecho en el ícono del pen que está en el escritorio.</p>',
+        '<p>Huayra detecta el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Extraer-una-unidad">pendrive</a> automáticamente y muestra un ícono en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#escritorio">Escritorio</a>, desde donde puedo abrir el contenido. Puedo expulsarlo de forma segura haciendo clic con el botón derecho en el ícono del pendrive que está en el escritorio.</p>',
         '01',
         '01',
     ],
@@ -300,7 +300,7 @@ bullets_mate = [
     ],
     [
         '¿Cómo comprimo archivos?',
-        '<p>Simplemente hago clic con el botón derecho y elijo la opción <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Comprimir-y-descomprimir">"Comprimir"</a>. Luego elijo el nombre del archivo final y la extensión (zip, rar, 7z, tar.gz etc.). La opción 7z que es la que más y mejor comprime.</p>',
+        '<p>Simplemente hago clic con el botón derecho y elijo la opción <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Comprimir-y-descomprimir">"Comprimir"</a>. Luego elijo el nombre del archivo final y la extensión (zip, rar, 7z, tar.gz, etc.). La opción 7z que es la que más y mejor comprime.</p>',
         '01',
         '01',
     ],
