@@ -44,7 +44,7 @@ bullets_shell = [
     ],
     [
         '¿Sabías que Huayra no tiene virus?',
-        '<p>Es sencillo como eso, con Huayra no hay virus. Los diferentes permisos bloquean toda actividad nociva y las rápidas actualizaciones de la comunidad del <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#sec:S#sub:Software-libre">Software Libre</a> eliminan toda amenaza.</p>',
+        '<p>Es sencillo como eso, con Huayra no hay virus. La asignación de diferentes permisos según el tipo de usuario bloquea la instalación indiscriminada de aplicaciones desconocidas y las rápidas actualizaciones de la comunidad del <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#sec:S#sub:Software-libre">Software Libre</a> eliminan las amenazas que se van conociendo.</p>',
         '01',
         '01',
     ],
@@ -73,14 +73,14 @@ bullets_shell = [
         '01',
     ],
     [
-        '¿Cómo abro un pen-drive?',
-        '<p>Huayra detecta el <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Discos-y-almacenamiento#sec:pendrive">pen-drive</a> automáticamente y muestra un recuadro en la <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Barra-inferior#sec:notificaciones">Barra de notificaciones</a> desde donde podés abrir el contenido. Expulsalo de forma segura con haciendo clic con el botón derecho en el ícono del pen que está en el escritorio.</p>',
+        '¿Cómo abro un pendrive?',
+        '<p>Huayra detecta el <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Discos-y-almacenamiento#sec:pendrive">pendrive</a> automáticamente y muestra un recuadro en la <a href="[doc]/usr/share/huayra/help/gnome/ayuda.xml#chap:Barra-inferior#sec:notificaciones">Barra de notificaciones</a> desde donde podés abrir el contenido. Expulsalo de forma segura con haciendo clic con el botón derecho en el ícono del pen que está en el escritorio.</p>',
         '01',
         '01',
     ],
     [
         '¿Qué navegador de Internet uso?',
-        '<p>Huayra viene con Chromium como navegador web predeterminado y puedo instalar todos los navegadores libres que quiera como Firefox,Iceweasel, etc. desde el  <a href="[exec]software-center">Centro de software</a>.</p>',
+        '<p>Huayra viene con Chromium como navegador web predeterminado y puedo instalar todos los navegadores libres que quiera como Firefox, Iceweasel, etc. desde el  <a href="[exec]software-center">Centro de software</a>.</p>',
         '01',
         '01',
     ],
@@ -161,7 +161,7 @@ bullets_shell = [
 bullets_mate = [
     [
         '¿Cómo instalo programas en Huayra?',
-        '<p>Desde el <a href="[exec]software-center">Centro de software</a> <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cmo-instalar-aplicaciones-3">instalás</a> todos los programas en sus versiones oficiales y libres. Podés buscar por tema o por categoría. El Centro está en <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>/Sistema/Administración.</p>',
+        '<p>Desde el <a href="[exec]software-center">Centro de software</a> <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cmo-instalar-aplicaciones-3">instalo</a> todos los programas en sus versiones oficiales y libres. Puedo buscar por tema o por categoría. El Centro está en <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>/Sistema/Administración.</p>',
         '01',
         '01',
     ],
@@ -179,7 +179,7 @@ bullets_mate = [
     ],
     [
         '¿Sabías que Huayra no tiene virus?',
-        '<p>Es sencillo como eso, con Huayra no hay virus. Los diferentes permisos bloquean toda actividad nociva y las rápidas actualizaciones de la comunidad del <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#sec:S#sub:Software-libre">Software Libre</a> eliminan toda amenaza.</p>',
+        '<p>Es sencillo como eso, con Huayra no hay virus.  La asignación de diferentes permisos según el tipo de usuario bloquea la instalación indiscriminada de aplicaciones desconocidas y las rápidas actualizaciones de la comunidad del  <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#sec:S#sub:Software-libre">Software Libre</a> eliminan las amenazas que se van conociendo.</p>',
         '01',
         '01',
     ],
@@ -191,19 +191,19 @@ bullets_mate = [
     ],
     [
         '¿Cómo veo la Televisión Digital Abierta en Huayra?',
-        '<p>Conectá la antena, hacé clic en el icono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:TDA"> TDA</a> que está en el escritorio y elegí qué canales querés ver (la primera vez hacé un escaneo para que capte los canales disponibles en tu región).</p>',
+        '<p>Conecto la antena, hago clic en el ícono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:TDA"> TDA</a> que está en el escritorio y después elijo qué canales ver (la primera vez tengo que hacer un escaneo para que capte los canales disponibles en mi región).</p>',
         '01',
         '01',
     ],
     [
         '¿Cómo creo accesos directos?',
-        '<p>Podés crear accesos directos o <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#lanzadores">lanzadores</a> de tus <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:Aplicaciones">aplicaciones</a>, <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#archivos">archivos y carpetas</a>, no solamente en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:tu-escritorio">escritorio</a> sino también en los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles">paneles</a> y en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>.</p>',
+        '<p>Puedo crear accesos directos o <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#lanzadores">lanzadores</a> de mis <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:Aplicaciones">aplicaciones</a>, <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#archivos">archivos y carpetas</a>, no solamente en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:tu-escritorio">escritorio</a> sino también en los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles">paneles</a> y en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>.</p>',
         '01',
         '01',
     ],
     [
-        '¿Cómo compartir archivos sin Internet en Huayra? ',
-        '<p>En Huayra podés <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos">Compartir archivos</a> con todos tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos#compartir-iptux">ipTux</a> o <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos#compartirweb">Compartir Web</a>.</p>',
+        '¿Cómo comparto archivos sin Internet en Huayra? ',
+        '<p>En Huayra puedo <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos">Compartir archivos</a> con todos mis compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos#compartir-iptux">ipTux</a> o <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos#compartirweb">Compartir Web</a>.</p>',
         '01',
         '01',
     ],
@@ -215,7 +215,7 @@ bullets_mate = [
     ],
     [
         '¿Qué es el Menú Huayra?',
-        '<p>Cuando hacés clic en el ícono del panadero en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior">Panel Superior</a> lo que se despliega es el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>. En el Menú encontrás todas las <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:Aplicaciones">aplicaciones</a> instaladas, en "Lugares" tus <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#archivos">Archivos y carpetas</a> con los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">Marcadores</a> y en "Sistema" la <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#mate-control">Configuración del sistema</a>.</p>',
+        '<p>Cuando hago clic en el ícono del panadero en el Panel Superior se despliega el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>. En el Menú encuentro todas las <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:Aplicaciones">aplicaciones</a> instaladas. En "Lugares" mis <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#archivos">Archivos y carpetas</a> con los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">Marcadores</a> y en "Sistema" la <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#mate-control">Configuración del sistema</a>.</p>',
         '01',
         '01',
     ],
@@ -232,8 +232,8 @@ bullets_mate = [
         '01',
     ],
     [
-        '¿Cómo abro un pen-drive?',
-        '<p>Huayra detecta el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Extraer-una-unidad">pen-drive</a> automáticamente y muestra un ícono en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#escritorio">Escritorio</a> desde donde puedo abrir el contenido. Puedo expulsarlo de forma segura haciendo clic con el botón derecho en el ícono del pen que está en el escritorio.</p>',
+        '¿Cómo abro un pendrive?',
+        '<p>Huayra detecta el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Extraer-una-unidad">pendrive</a> automáticamente y muestra un ícono en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#escritorio">Escritorio</a> desde donde puedo abrir el contenido. Puedo expulsarlo de forma segura haciendo clic con el botón derecho en el ícono del pen que está en el escritorio.</p>',
         '01',
         '01',
     ],
@@ -244,7 +244,7 @@ bullets_mate = [
         '01',
     ],
         [
-        '¿Cómo apagó el equipo?',
+        '¿Cómo apago el equipo?',
         '<p>Hago clic en el ícono de apagado en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior">Panel Superior</a> y selecciono "Apagar".</p>',
         '01',
         '01',
@@ -320,7 +320,7 @@ bullets_other = [
     ],
     [
         '¿Sabías que Huayra no tiene virus?',
-        '<p>Es sencillo como eso, con Huayra no hay virus. Los diferentes permisos bloquean toda actividad nociva y las rápidas actualizaciones de la comunidad del Software Libre eliminan toda amenaza.</p>',
+        '<p>Es sencillo como eso, con Huayra no hay virus.  La asignación de diferentes permisos según el tipo de usuario bloquea la instalación indiscriminada de aplicaciones desconocidas y las rápidas actualizaciones de la comunidad del Software Libre eliminan las amenazas que se van conociendo.</p>',
         '01',
         '01',
     ],
