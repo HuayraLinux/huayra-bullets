@@ -273,8 +273,12 @@ def build_app_window(start_page):
     Win.set_position(gtk.WIN_POS_CENTER)
     Win.set_deletable(True)
     Win.connect("destroy", gtk.main_quit)
+    Win.connect("destroy", on_win_destroy)
     return Win
 
+
+def on_win_destroy(gtkobject, data=None):
+    exit_app()
 
 def exit_app():
     """
