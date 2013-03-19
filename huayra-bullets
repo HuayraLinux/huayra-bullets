@@ -117,7 +117,7 @@ class BulletsBrowser(webkit.WebView):
     bullets_dir = app_dir + 'bullets/' + RunningDesktop + '/'
 
 
-    def __init__(self, start_page):
+    def __init__(self):
         """
         Widget for browsing the bullets.
         """
@@ -253,12 +253,12 @@ class BulletsBrowser(webkit.WebView):
         return False
 
 
-def build_app_window(start_page):
+def build_app_window():
     """
     Build application window.
     """
     sw = gtk.ScrolledWindow()
-    bullet_browser = BulletsBrowser(start_page)
+    bullet_browser = BulletsBrowser()
     sw.add(bullet_browser)
     Win = gtk.Window(gtk.WINDOW_TOPLEVEL)
     if not Config.DEV:
@@ -278,7 +278,7 @@ def build_app_window(start_page):
 
 
 def on_win_destroy(gtkobject, data=None):
-    exit_app()
+    exit_app()  
 
 def exit_app():
     """
@@ -292,7 +292,6 @@ if __name__ == '__main__':
     Config.load()
     if '--autostart' in sys.argv and not Config.AUTOSTART_ENABLED:
         sys.exit()
-    PATH = "file://" + BulletsBrowser.bullets_dir
-    WIN = build_app_window(PATH + "/pages/bullets.html")
+    WIN = build_app_window()
     WIN.show_all()
     gtk.main()
