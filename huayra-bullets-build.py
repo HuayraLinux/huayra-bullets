@@ -306,7 +306,7 @@ bullets_mate = [
     ],
     [
         '¿Cómo funciona el Agente de Seguridad TPM?',
-        '<p>Si la netbook no se vincula al servidor escolar periódicamente el Agente la bloquea. La cantidad de días cambia según la escuela. Si se bloquea, consultá con el Referente Técnico Escolar (RTE) o cualquier autoridad. Recordá que no hay que enviarla a reparación, UNICAMENTE puede ser desbloqueada en el seridor de la escuela. Para más información ver: <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#tpm">"Agente de Seguridad TPM"</a>.</p>',
+        '<p>Si la netbook no se vincula al servidor escolar periódicamente el Agente la bloquea. La cantidad de días cambia según la escuela. Si se bloquea, consultá con el Referente Técnico Escolar (RTE) o cualquier autoridad. Recordá que no hay que enviarla a reparación, ÚNICAMENTE puede ser desbloqueada en el servidor de la escuela. Para más información ver: <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#tpm">"Agente de Seguridad TPM"</a>.</p>',
         '01',
         '01',
     ],

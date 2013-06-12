@@ -29,4 +29,5 @@ bullets_list = [
     {"file": "22.html", "title": "¿Cómo escucho música?", "variant": "01", "animation": animations["01"]},
     {"file": "23.html", "title": "¿Cómo veo videos?", "variant": "01", "animation": animations["01"]},
     {"file": "24.html", "title": "¿Cómo comprimo archivos?", "variant": "01", "animation": animations["01"]},
+    {"file": "25.html", "title": "¿Cómo funciona el Agente de Seguridad TPM?", "variant": "01", "animation": animations["01"]},
 ]
