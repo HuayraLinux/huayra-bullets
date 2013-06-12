@@ -1,3 +1,9 @@
+huayra-bullets (0.21) testing; urgency=low
+
+  * Nuevo bullet de TPM
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Wed, 12 Jun 2013 16:22:01 -0300
+
 huayra-bullets (0.20) testing; urgency=low
 
   * Limpieza de código obsoleto
