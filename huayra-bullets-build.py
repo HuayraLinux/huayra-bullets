@@ -168,7 +168,7 @@ bullets_mate = [
     ],
     [
         '1- Create tu propio usuario',
-        '<p>Con Huayra cada uno puede tener su propio <a href="[doc]<a href="[doc]/articles/u/s/u/Usuarios_y_sesiones.html">usuario</a> con su configuración y más privacidad. Es muy útil si no sos el único que usa la netbook. Papá, mamá, hermanos/as, cada uno puede tener sus archivos, configuraciones, fondos de pantalla, escritorios, etc.<br>1- Andá al Centro de control y después a Usuarios y grupos<br>2- Hacé clic en "+ Añadir"<br>3- Desbloqueá con la contraseña de administrador (-alumno- por defecto).<br>4- Agregá tu propio usuario (acordate de poner Tipo de cuenta Administrador).</p>',
+        '<p>Con Huayra cada uno puede tener su propio <a href="[doc]/articles/u/s/u/Usuarios_y_sesiones.html">usuario</a> con su configuración y más privacidad. Es muy útil si no sos el único que usa la netbook. Papá, mamá, hermanos/as, cada uno puede tener sus archivos, configuraciones, fondos de pantalla, <a href="[doc]/articles/t/u/Tu_escritorio.html">escritorios</a>, etc.<br>1- Andá al < href="[doc]/articles/">Centro de control</a> y después a Usuarios y grupos<br>2- Hacé clic en "+ Añadir"<br>3- Desbloqueá con la contraseña de administrador (-alumno- por defecto).<br>4- Agregá tu propio usuario (acordate de poner Tipo de cuenta Administrador).</p>',
         '01',
         '01',
     ],
