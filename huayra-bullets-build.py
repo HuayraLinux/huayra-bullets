@@ -167,25 +167,66 @@ bullets_mate = [
         '01',
     ],
     [
-        '1 Create tu propio usuario',
+        '1- Create tu propio usuario',
         '<p>Así cada usuario puede tener su propio usuario con su configuración y más privacidad. Es muy útil si no sos el único que usa la netbook. Papá, mamá, hermanos/as, cada uno puede tener sus archivos, configuraciones, fondos de pantalla, escritorios, etc.<br>1- Andá al Centro de control y después a Usuarios y grupos<br>2- Hacé clic en "+ Añadir"<br>3- Desbloqueá con la contraseña de administrador (-alumno- por defecto).<br>4- Agregá tu propio usuario (acordate de poner Tipo de cuenta Administrador).</p>',
         '01',
         '01',
     ],
     [
-        '2 Actualizá Huayra',
-        '<p>Una de las ventajas de Huayra, y del Software Libre en general, es que siempre podés tener a mano las últimas versiones oficiales. Esto te permite beneficiarte de todas las mejoras que cada aplicación va incorporando, así como también de las novedades. ¡Es muy importante mantener Huayra actualizado al menos una vez por mes!<br>1- Abrí la Terminal desde el Docky inferior<br>2- Tipeá: sudo apt-get update y después apretá Enter<br>3- Ingresá la contraseña de administrador<br>4- Tipeá: sudo apt-get upgrade y después apretá Enter.</p>',
+        '2- Actualizá Huayra',
+        '<p>Una de las ventajas de Huayra, y del Software Libre en general, es que siempre podés tener a mano las últimas versiones oficiales. Esto te permite beneficiarte de todas las mejoras que cada aplicación va incorporando, así como también de las novedades. ¡Es muy importante mantener Huayra actualizado al menos una vez por mes!<br><br>1- Abrí la Terminal desde el Docky inferior<br>2- Tipeá: sudo apt-get update y después apretá Enter<br>3- Ingresá la contraseña de administrador<br>4- Tipeá: sudo apt-get upgrade y después apretá Enter.</p>',
         '01',
         '01',
     ],
-'''
     [
-        'Titulo',
-        '<p>Texto para ejecutar<a href="[exec]software-center">Centro de software</a> Texto para linkear <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cmo-instalar-aplicaciones-3">instalo</a> </p>',
+        '3- Cambiá por completo tu escritorio',
+        '<p>Con Huayra podés modificar por completo tu escritorio para que se adapte a tu forma de trabajo, y no al revés. Cambiá por completo no sólo la apariencia sino toda su funcionalidad. Con Huayra ningún escritorio es igual a otro.<br><br>1- Andá al Centro de control y después a Apariencia<br>2- Seleccioná el tema que más te guste<br>3- Hacé clic en Personalizar y combina los diferentes temas</p>',
         '01',
         '01',
     ],
-'''
+    [
+        '4- Usá Synapse para lanzar aplicaciones',
+        '<p>Apretá Ctrl + Espacio y empezá a tipear el nombre de la aplicación que querés abrir (Chromium, por ejemplo, el navegador web) y va a ir apareciendo. <br> Con las flechas hacia abajo buscas entre aplicaciones de nombres similares. En las netbooks a veces usar el mousepad es medio incómodo. Por eso te proponemos que uses Synapse, un lanzador con el que usando solamente el teclado de manera muy rápida y cómoda vas a poder abrir aplicaciones, directorios, archivos, buscar en Internet, ejecutar comandos y mucho más. </p>',
+        '01',
+        '01',
+    ],
+    [
+        '5- Olvidate de los virus',
+        '<p>Es sencillo como eso, con Huayra no hay virus. La asignación de diferentes permisos según el tipo de usuario bloquea la instalación indiscriminada de aplicaciones desconocidas y las rápidas actualizaciones de la comunidad del Software Libre eliminan las amenazas que se van conociendo.</p>',
+        '01',
+        '01',
+    ],
+    [
+        '6- Buscá e instalá otras aplicaciones',
+        '<p>Desde el Centro de software instalo todos los programas en sus versiones oficiales y libres. Puedo buscar por tema o por categoría.<br><br>1- Andá al Centro de control y después a Centro de Software<br>2- Buscá aplicaciones por nombre o tema<br>3- Hacé clic en Instalar</p>',
+        '01',
+        '01',
+    ],
+    [
+        '7- Encontrá en Huayra todos los programas que usabas en Windows',
+        '<p>Lo que antes hacías con Microsoft Word ahora lo podés hacer con Libre Office Writer. ¿Dónde encuentro en Huayra los otros programas que más usaba en Windows? </p>',
+        '01',
+        '01',
+    ],
+    [
+        '8- Mirá la Televisión Digital Abierta TDA en Huayra',
+        '<p>Con Huayra accedé a todos los canales de la TDA<br><br>1- Conectá la antena<br>2- Hacé clic en el ícono de Wari del dock<br>3- La primera vez que lo abras escanea los canales<br>4- Elegí qué canales ver</p>',
+        '01',
+        '01',
+    ],
+    [
+        '9- Compartí archivos',
+        '<p>En Huayra podés Compartir archivos con todos tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando ipTux o Huayra Compartir.<br><br>1- Guardá el archivo que quieras compartir en la carpeta Compartido en tu carpeta personal<br>2- Abrí Huayra Compartir (la primera vez configuralo con tu nombre e imagen)<br>3- Buscá entre los amigos los archivos a compartir</p>',
+        '01',
+        '01',
+    ],
+    [
+        '10- Mirá que otras cosas podés hacer con los tutoriales de Huayra',
+        '<p>Explorá todo el potencial de Huayra: stopmotion, fotos en 3d, edición de video, etc. Abrí la ayuda desde el ícono del panel superior o desde el ícono en el dock inferior</p>',
+        '01',
+        '01',
+    ],
+
 ]
 
 bullets_other = [
