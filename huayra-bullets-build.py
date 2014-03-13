@@ -161,155 +161,31 @@ bullets_shell = [
 
 bullets_mate = [
     [
-        '¿Cómo instalo programas en Huayra?',
-        '<p>Desde el <a href="[exec]software-center">Centro de software</a> <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cmo-instalar-aplicaciones-3">instalo</a> todos los programas en sus versiones oficiales y libres. Puedo buscar por tema o por categoría. El Centro está en <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>/Sistema/Administración.</p>',
+        'Huayra en 10 simples pasos',
+        'Mirá todo el potencial de Huayra siguiendo estos 10 pasos. Te va a llevar muy pocos minutos y después vas a manejarte mucho mejor con Huayra. Te van a servir mucho. Cada uno te lleva después a una ayuda donde te muestra más cosas y donde podés resolver cualquier duda que te aparezca más adelante.',
         '01',
         '01',
     ],
     [
-        'Adaptá tu escritorio a tu forma de trabajo',
-        '<p>Con Huayra no tenés que adaptar cómo trabajás al escritorio, sino todo lo contrario. Cambiá por completo no sólo la <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#prefs">apariencia</a> sino toda su funcionalidad combinando la configuración de los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles">Paneles</a>, los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#lanzadores">Lanzadores</a> y las <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#miniaplicaciones">Miniaplicaciones</a>. Con Huayra ningún escritorio es igual a otro.</p>',
+        '1 Create tu propio usuario',
+        '<p>Así cada usuario puede tener su propio usuario con su configuración y más privacidad. Es muy útil si no sos el único que usa la netbook. Papá, mamá, hermanos/as, cada uno puede tener sus archivos, configuraciones, fondos de pantalla, escritorios, etc.<br>1- Andá al Centro de control y después a Usuarios y grupos<br>2- Hacé clic en "+ Añadir"<br>3- Desbloqueá con la contraseña de administrador (-alumno- por defecto).<br>4- Agregá tu propio usuario (acordate de poner Tipo de cuenta Administrador).</p>',
         '01',
         '01',
     ],
     [
-       'Lo que hacías con MS Office lo hacés con Libre Office',
-       '<p>Lo que antes hacías con Microsoft Word ahora lo podés hacer con <a href="[exec]loffice">Libre Office Writer</a>. <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#sec:loquehaciascon">¿Dónde encuentro en Huayra los otros programas que más usaba en Windows?</a></p>',
-       '01',
-       '01',
+        '2 Actualizá Huayra',
+        '<p>Una de las ventajas de Huayra, y del Software Libre en general, es que siempre podés tener a mano las últimas versiones oficiales. Esto te permite beneficiarte de todas las mejoras que cada aplicación va incorporando, así como también de las novedades. ¡Es muy importante mantener Huayra actualizado al menos una vez por mes!<br>1- Abrí la Terminal desde el Docky inferior<br>2- Tipeá: sudo apt-get update y después apretá Enter<br>3- Ingresá la contraseña de administrador<br>4- Tipeá: sudo apt-get upgrade y después apretá Enter.</p>',
+        '01',
+        '01',
     ],
+'''
     [
-        '¿Sabías que Huayra no tiene virus?',
-        '<p>Es sencillo como eso, con Huayra no hay virus.  La asignación de diferentes permisos según el tipo de usuario bloquea la instalación indiscriminada de aplicaciones desconocidas y las rápidas actualizaciones de la comunidad del  <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#sec:S#sub:Software-libre">Software Libre</a> eliminan las amenazas que se van conociendo.</p>',
+        'Titulo',
+        '<p>Texto para ejecutar<a href="[exec]software-center">Centro de software</a> Texto para linkear <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cmo-instalar-aplicaciones-3">instalo</a> </p>',
         '01',
         '01',
     ],
-    [
-        '¿Cómo creo MI USUARIO en Huayra?',
-        '<p>Creo <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">MI USUARIO</a> en <a href="[exec]mate-control-center"> Configuración del sistema</a>/Usuarios y grupos. Primero hago clic en "+ Añadir" y luego desbloqueo con mi <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por defecto).</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cómo veo la Televisión Digital Abierta en Huayra?',
-        '<p>Conecto la antena, hago clic en el ícono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:TDA"> TDA</a> que está en el escritorio y después elijo qué canales ver (la primera vez tengo que hacer un escaneo para que capte los canales disponibles en mi región).</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cómo creo accesos directos?',
-        '<p>Puedo crear accesos directos o <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#lanzadores">lanzadores</a> de mis <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:Aplicaciones">aplicaciones</a>, <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#archivos">archivos y carpetas</a>, simplemente arrastrándolos al <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:tu-escritorio">escritorio</a>. También puedo crearlos en los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles">paneles</a> y en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>.</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cómo comparto archivos sin Internet en Huayra? ',
-        '<p>En Huayra puedo <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos">Compartir archivos</a> con todos mis compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos#compartir-iptux">ipTux</a> o <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Compartir-tus-archivos#compartirweb">Compartir Web</a>.</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cómo me conecto a Internet?',
-        '<p>Hago clic en el ícono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#prefs-internet-and-network">conexiones</a> en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#panel-superior">Panel Superior</a> a la derecha y elijo la red (WiFi o cableada). La primera vez que me conecte tengo que ingresar mi <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por defecto).</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Qué es el Menú Huayra?',
-        '<p>Cuando hago clic en el ícono del panadero en el Panel Superior a la izquierda se despliega el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>, donde encuentro todas las <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#part:Aplicaciones">aplicaciones</a> instaladas. En "Lugares" encuentro mis <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#archivos">Archivos y carpetas</a> con los <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">Marcadores</a> y en "Sistema" la <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#mate-control">Configuración del sistema</a>.</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Dónde encuentro mis archivos?',
-        '<p>En <a href="[exec]caja">Carpeta Personal</a> están las carpetas de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">MI USUARIO</a>  organizadas por categorías ("Imágenes", "Descargas", etc:) con su ícono. También puedo acceder desde el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:menuhuayra">Menú Huayra</a>/Lugares usando <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Marcadores-de-carpeta">los marcadores </a> de carpetas.</p>',
-        '01',
-        '01',
-    ],
-        [
-        'Con F3 y Ctrl + T veo mejor mis archivos',
-        '<p>Cuando esté viendo <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Examinar-archivos-y">mis archivos y carpetas</a>, puedo usar Ctrl + T para abrir dentro de una misma ventana diferentes solapas, igual que en los navegadores de Internet. También puedo dividir la ventana en dos con F3.</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cómo abro un pendrive?',
-        '<p>Huayra detecta el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Extraer-una-unidad">pendrive</a> automáticamente y muestra un ícono en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#escritorio">Escritorio</a>, desde donde puedo abrir el contenido. Puedo expulsarlo de forma segura haciendo clic con el botón derecho en el ícono del pendrive que está en el escritorio.</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Qué navegador de Internet uso?',
-        '<p>Huayra viene con Chromium como navegador web predeterminado y puedo instalar todos los navegadores libres que quiera como Firefox, Iceweasel, etc. desde el  <a href="[exec]software-center">Centro de software</a>.</p>',
-        '01',
-        '01',
-    ],
-        [
-        '¿Cómo apago el equipo?',
-        '<p>Hago clic en el ícono de apagado en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior">Panel Superior</a> y selecciono "Apagar".</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cómo recupero archivos borrados?',
-        '<p>En <a href="[exec]caja trash://">la papelera</a> selecciono el archivo borrado y hago clic en <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Recuperar-un-archivo">"Restaurar los elementos seleccionados"</a>. De esa manera, el archivo irá a su carpeta original.</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cómo agrego una impresora?',
-        '<p>En <a href="[exec]mate-control-center"> Configuración del sistema</a> en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior"> Panel Superior</a>, bajo el título Hardware, hago clic en la opción <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Impresoras">"Impresión"</a> y ahí "Añadir".</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cuánta batería me queda?',
-        '<p>El ícono de <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#energia">batería</a> en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior"> Panel Superior</a> a la derecha me lo indica al hacer clic. Desde <a href="[exec]mate-control-center">Configuración del sistema</a> puedo optimizar el uso haciendo clic en "Gestor de energía".</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cómo cambio mis aplicaciones predeterminadas?',
-        '<p>Puedo elegir <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#sec:Abrir-archivos-con">con qué aplicación</a> quiero abrir mi música, videos, etc. en <a href="[exec]mate-control-center"> Configuración del sistema</a>, en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior"> Panel Superior</a> a la derecha. En “Aplicaciones preferidas” elijo la opción (Internet, Multimedia, Sistema)</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿"Software libre" es lo mismo que "software gratuito"?',
-        '<p>No. El <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#sec:S#sub:Software-libre">Software Libre</a> no necesariamente es gratis, pero asegura a sus usuarios la libertad de estudiar cómo funciona, compartirlo con otros, modificarlo según sus necesidades, y distribuir esas modificaciones. El software libre tiene que ver con la libertad, y no con el precio, aunque muchísimo software libre está disponible de manera gratuita.</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cómo cambio mi clave?',
-        '<p>Cambio la clave en <a href="[exec]mate-control-center">Configuración del sistema</a> (en el <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#paneles#panel-superior"> Panel Superior</a>), Usuarios y Grupos. Hago clic en "Cambiar" al lado de “Contraseña” y después desbloqueo con mi <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Cuentas-de-usuario">contraseña</a> (-alumno- por defecto).</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cómo escucho música?',
-        '<p>Con un simple doble clic en el archivo de música se abre el reproductor <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Aplicaciones-recomendadas-en#sec:Clementine">Clementine</a> desde donde puedo administrar mis discos, listas y mucho más. Puedo <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#sec:Abrir-archivos-con">cambiar la aplicación predeterminada</a> para abrir mi música.</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cómo veo videos?',
-        '<p>Con un simple doble clic en el archivo de música se abre el reproductor <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Aplicaciones-recomendadas-en#sec:VLC-Media-Player">VLC Media Player</a>. Puedo <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#sec:Abrir-archivos-con">cambiar la aplicación predeterminada</a> para abrir mis videos.</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cómo comprimo archivos?',
-        '<p>Simplemente hago clic con el botón derecho y elijo la opción <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#chap:Archivos-y-carpetas#sec:Comprimir-y-descomprimir">"Comprimir"</a>. Luego elijo el nombre del archivo final y la extensión (zip, rar, 7z, tar.gz, etc.). La opción 7z que es la que más y mejor comprime.</p>',
-        '01',
-        '01',
-    ],
-    [
-        '¿Cómo funciona el Agente de Seguridad TPM?',
-        '<p>Si la netbook no se vincula al servidor escolar periódicamente el Agente la bloquea. La cantidad de días cambia según la escuela. Si se bloquea, consultá con el Referente Técnico Escolar (RTE) o cualquier autoridad. Recordá que no hay que enviarla a reparación, ÚNICAMENTE puede ser desbloqueada en el servidor de la escuela. Para más información ver: <a href="[doc]/usr/share/huayra/help/mate/ayuda.xml#tpm">"Agente de Seguridad TPM"</a>.</p>',
-        '01',
-        '01',
-    ],
+'''
 ]
 
 bullets_other = [

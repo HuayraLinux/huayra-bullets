@@ -248,7 +248,7 @@ class BulletsBrowser(webkit.WebView):
             # Documentation - Abrir con Huayra Visor Manual
             elif parts[0] == 'doc':
                 doc_page = parts[1]
-                subprocess.Popen(["huayra-visor-manual", "app://./documentacion/" + doc_page])
+                subprocess.Popen(["huayra-visor-manual", doc_page])
                 return True
         return False
 
