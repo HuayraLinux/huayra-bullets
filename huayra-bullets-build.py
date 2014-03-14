@@ -168,13 +168,13 @@ bullets_mate = [
     ],
     [
         '1- Create tu propio usuario',
-        '<p>Con Huayra cada uno puede tener su propio <a href="[doc]/articles/u/s/u/Usuarios_y_sesiones.html">usuario</a> con su configuración y más privacidad. Es muy útil si no sos el único que usa la netbook. Papá, mamá, hermanos/as, cada uno puede tener sus archivos, configuraciones, fondos de pantalla, <a href="[doc]/articles/t/u/Tu_escritorio.html">escritorios</a>, etc.<br>1- Andá al < href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a Usuarios y grupos<br>2- Hacé clic en "+ Añadir"<br>3- Desbloqueá con la contraseña de administrador (-alumno- por defecto).<br>4- Agregá tu propio usuario (acordate de poner Tipo de cuenta <a href="[doc]/articles/u/s/u/Usuarios_y_sesiones.html#.C2.BFQu.C3.A9_son_los_.22Privilegios_de_administrador.22.3F">Administrador</a>).</p>',
+        '<p>Con Huayra cada uno puede tener su propio <a href="[doc]/articles/u/s/u/Usuarios_y_sesiones.html">usuario</a> con su configuración y más privacidad. Es muy útil si no sos el único que usa la netbook. Papá, mamá, hermanos/as, cada uno puede tener sus archivos, configuraciones, fondos de pantalla, <a href="[doc]/articles/t/u/_/Tu_escritorio.html">escritorios</a>, etc.<br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a Usuarios y grupos<br>2- Hacé clic en "+ Añadir"<br>3- Desbloqueá con la contraseña de administrador (-alumno- por defecto).<br>4- Agregá tu propio usuario (acordate de poner Tipo de cuenta <a href="[doc]/articles/u/s/u/Usuarios_y_sesiones.html#.C2.BFQu.C3.A9_son_los_.22Privilegios_de_administrador.22.3F">Administrador</a>).</p>',
         '01',
         '01',
     ],
     [
         '2- Actualizá Huayra',
-        '<p>Una de las ventajas de Huayra, y del Software Libre en general, es que siempre podés tener a mano las últimas versiones oficiales. Esto te permite beneficiarte de todas las mejoras que cada aplicación va incorporando, así como también de las novedades. ¡Es muy importante mantener <a herf="[doc]/articles/p/r/i/Primeros_pasos.html#Actualiz.C3.A1_Huayra">Huayra actualizado</a> al menos una vez por mes!<br><br>1- Abrí la Terminal desde el Docky inferior<br>2- Tipeá: sudo apt-get update y después apretá Enter<br>3- Ingresá la contraseña de administrador<br>4- Tipeá: sudo apt-get upgrade y después apretá Enter.</p>',
+        '<p>Una de las ventajas de Huayra, y del Software Libre en general, es que siempre podés tener a mano las últimas versiones oficiales. Esto te permite beneficiarte de todas las mejoras que cada aplicación va incorporando, así como también de las novedades. ¡Es muy importante mantener <a href="[doc]/articles/p/r/i/Primeros_pasos.html#Actualiz.C3.A1_Huayra">Huayra actualizado</a> al menos una vez por mes!<br><br>1- Abrí la Terminal desde el Docky inferior<br>2- Tipeá: sudo apt-get update y después apretá Enter<br>3- Ingresá la contraseña de administrador<br>4- Tipeá: sudo apt-get upgrade y después apretá Enter.</p>',
         '01',
         '01',
     ],
