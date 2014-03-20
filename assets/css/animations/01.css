@@ -8,10 +8,10 @@ div#animation.animation-01 div#globo {
 	width: 320px;
 	height: 261px;
 	cursor: pointer;
-	background: url(../../images/animations/01/globo_amarillo-320x261.png) no-repeat;
+	background: url(../../images/animations/01/preguntas.png) no-repeat;
 }
 div#animation.animation-01 div#globo:hover {
-	background: url(../../images/animations/01/globo_violeta-320x261.png) no-repeat;
+	background: url(../../images/animations/01/preguntas.png) no-repeat;
 }
 div#animation.animation-01 div#globo.clicked {
 	cursor: default;
