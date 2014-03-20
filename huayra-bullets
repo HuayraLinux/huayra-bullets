@@ -176,7 +176,7 @@ class BulletsBrowser(webkit.WebView):
         Prev bullet link
         """
         if int(current_bullet) == 0:
-            return '<div class="action bullet-navigation inactive" id="prev-bullet"><span>Anterior</span></div>'
+            return '<div class="action bullet-navigation inactive" id="prev-bullet"></div>'
         return '<div class="action bullet-navigation" id="prev-bullet"><a href="[bullet]?%s">Anterior</a></div>' % str(int(current_bullet) - 1)
 
     def __build_next_bullet_link(self, current_bullet):
@@ -184,7 +184,7 @@ class BulletsBrowser(webkit.WebView):
         Next bullet link
         """
         if int(current_bullet) == len(self.bullets_list) - 1:
-            return '<div class="action bullet-navigation inactive" id="next-bullet"><span>Siguiente</span></div>'
+            return '<div class="action bullet-navigation inactive" id="next-bullet"></div>'
         return '<div class="action bullet-navigation" id="next-bullet"><a href="[bullet]?%s">Siguiente</a></div>' % str(int(current_bullet) + 1)
 
     def __build_close_button(self, current_bullet):
@@ -193,8 +193,8 @@ class BulletsBrowser(webkit.WebView):
         """
         if current_bullet <= self.bullet_close_number and not \
                 self.bullet_close_active:
-            return '<div class="action inactive" id="close-app"><span>CERRAR</span></div>'
-        return '<div class="action" id="close-app"><a href="#" onclick="finalize();">CERRAR</a></div>'
+            return '<div class="action inactive" id="close-app"></div>'
+        return '<div class="action" id="close-app"><a href="#" onclick="finalize();"></a></div>' # Saque CERRAR 
 
     def __build_show_next_startup(self):
         """

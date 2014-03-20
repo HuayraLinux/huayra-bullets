@@ -15,7 +15,7 @@ body.variant-01 a:visited {
  * 
  */
 body.variant-01 div#wrapper {
-	width: 638px;
+	width: 600px;
 	height: 440px;
 	margin: -7px 0 0 -7px;
 	padding: 0;
@@ -27,8 +27,8 @@ body.variant-01 div#wrapper {
  *
  */
 body.variant-01 div#question {
-	width: 300px;
-	height: 370px;
+	width: 500px;
+	height: 200px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -36,10 +36,10 @@ body.variant-01 div#question {
 body.variant-01 div#question h1 {
 	color: #fff;
 	text-shadow: 1px 1px 2px #595959;
-	font-size: 2.2em;
+	font-size: 1.8em;
 	font-weight: bold;
-	width: 260px;
-	margin: 110px auto 0;
+	width: 500px;
+	margin: 10px auto 0;
 	text-align: center;
 }
 /*
@@ -48,38 +48,101 @@ body.variant-01 div#question h1 {
  *
  */
 body.variant-01 div#actions {
-	width: 650px;
-	height: 10px;
+	width: 640px;
+	height: 30px;
 	position: absolute;
 	bottom: 0;
 	left: 10px;
 }
 body.variant-01 div#actions div.action {
-	width: 650px;
+	width: 100px;
 	float: left;
 }
 body.variant-01 div#actions div#close-app.inactive {
 	opacity: 0.2;
 }
-body.variant-01 div#actions div#prev-bullet {
+
+
+body.variant-01 div#actions div#prev-bullet a:link {
+	position: absolute;
+	bottom: 10;
+	left: 10px;
 	text-align: left;
+	background: url(../../images/botones/anterior_normal.png) no-repeat;
 }
-body.variant-01 div#actions div#next-bullet {
+body.variant-01 div#actions div#prev-bullet a:visited {
+	background: url(../../images/botones/anterior_normal.png) no-repeat;
+}
+body.variant-01 div#actions div#prev-bullet a:active {
+	background: url(../../images/botones/anterior_presionado.png) no-repeat;
+}
+body.variant-01 div#actions div#prev-bullet a:hover {
+	background: url(../../images/botones/anterior_resaltado.png) no-repeat;
+}
+
+
+body.variant-01 div#actions div#next-bullet a:link {
+	position: absolute;
+	bottom: 10;
+	left: 200px;
+	background: url(../../images/botones/proximo_normal.png) no-repeat;
 	float: right;
 	text-align: right;
 }
-body.variant-01 div#actions div#close-app {
-	float: left;
-	width: 140px;
-	text-align: center;
+body.variant-01 div#actions div#next-bullet a:visited {
+	background: url(../../images/botones/proximo_normal.png) no-repeat;
 }
+body.variant-01 div#actions div#next-bullet a:active {
+	background: url(../../images/botones/proximo_presionado.png) no-repeat;
+}
+body.variant-01 div#actions div#next-bullet a:hover {
+	background: url(../../images/botones/proximo_resaltado.png) no-repeat;
+}
+
+
+body.variant-01 div#actions div#close-app a:link {
+	float: right;
+	width: 26px;
+	height: 24px; 
+	text-align: center;
+	background: url(../../images/botones/cerrar_normal.png) no-repeat;
+	position: absolute;
+	bottom: 10;
+	right: 30px;
+
+}
+body.variant-01 div#actions div#close-app a:visited {
+	background: url(../../images/botones/cerrar_normal.png) no-repeat;
+}
+body.variant-01 div#actions div#close-app a:active {
+	background: url(../../images/botones/cerrar_presionado.png) no-repeat;
+}
+body.variant-01 div#actions div#close-app a:hover {
+	background: url(../../images/botones/cerrar_resaltado.png) no-repeat;
+}
+
+
+
+body.variant-01 div#answer div#vaca-volve a:link,
+body.variant-01 div#answer div#vaca-volve a:visited {
+	background: url(../../images/botones/vaca-boton_normal.png) no-repeat;
+}
+body.variant-01 div#answer div#vaca-volve a:hover {
+	background: url(../../images/botones/vaca-boton_resaltado.png) no-repeat;
+}
+body.variant-01 div#answer div#vaca-volve a:active {
+	background: url(../../images/botones/vaca-boton_presionado.png) no-repeat;
+}
+
+
+
 /*=SHOW-NEXT-STARTUP */
 body.variant-01 div#show-next-startup {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	font-family: 'Asap';
-	font-size: .9em;
+	font-size: .7em;
 	color: #fff;
 	text-shadow: 1px 1px 2px #595959;
 }
@@ -89,18 +152,19 @@ body.variant-01 div#show-next-startup {
  *
  */
 body.variant-01 div#answer {
-	width: 280px;
-	height: 290px;
+	width: 500px;
+	height: 400px;
 	color: #EBEBEB;
 	position: absolute;
-	top: 100px;
+	top: 50px;
 	right: 20px;
 	text-align: justify;
 	font-weight: normal;
 	font-family: 'Asap', sans-serif;
+	font-size: 1.0em;
 	overflow-y: auto;
 	overflow-x: none;
-	padding: 0;
+	margin: 50px;
 	display: none; /* FIRST TIME */
 }
 body.variant-01 div#animation {
@@ -124,8 +188,9 @@ body.variant-01 div#answer div#vaca-volve {
 	width: 48px;
 	height: 48px;
 	position: absolute;
-	bottom: 0;
+	bottom: 200px;
 	right: 0;
+	margin: 10px;
 }
 body.variant-01 div#answer div#vaca-volve a span {
 	display: none;
@@ -140,7 +205,7 @@ body.variant-01 div#answer div#vaca-volve a:visited {
 	background: url(../../images/botones/vaca-boton_normal.png) no-repeat;
 }
 body.variant-01 div#answer div#vaca-volve a:hover {
-	background: url(../../images/botones/vaca-boton_normal.png) no-repeat;
+	background: url(../../images/botones/vaca-boton_resaltado.png) no-repeat;
 }
 body.variant-01 div#answer div#vaca-volve a:active {
 	background: url(../../images/botones/vaca-boton_presionado.png) no-repeat;
