@@ -168,19 +168,19 @@ bullets_mate = [
     ],
     [
         '1- Create tu propio usuario',
-        '<p>Con Huayra cada uno puede tener su propio <a href="[doc]/articles/u/s/u/Usuarios_y_sesiones.html">usuario</a> con su configuración y más privacidad. Es muy útil si no sos el único que usa la netbook. Papá, mamá, hermanos/as, cada uno puede tener sus archivos, configuraciones, fondos de pantalla, <a href="[doc]/articles/t/u/_/Tu_escritorio.html">escritorios</a>, etc.<br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a Usuarios y grupos<br>2- Hacé clic en "+ Añadir"<br>3- Desbloqueá con la contraseña de administrador (-alumno- por defecto).<br>4- Agregá tu propio usuario (acordate de poner Tipo de cuenta <a href="[doc]/articles/u/s/u/Usuarios_y_sesiones.html#.C2.BFQu.C3.A9_son_los_.22Privilegios_de_administrador.22.3F">Administrador</a>).</p>',
+        '<p>Con Huayra cada uno puede tener su propio <a href="[doc]/articles/u/s/u/Usuarios_y_sesiones.html">usuario</a> con su configuración y más privacidad. Es muy útil si no sos el único que usa la netbook. Papá, mamá, hermanos/as, cada uno puede tener sus archivos, configuraciones, fondos de pantalla, <a href="[doc]/articles/t/u/_/Tu_escritorio.html">escritorios</a>, etc.<br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a Usuarios y grupos<br>2- Hacé clic en "+ Añadir"<br>3- Desbloqueá con la contraseña de administrador (-alumno- por defecto).<br>4- Agregá tu propio usuario (acordate de poner Tipo de cuenta <a href="[doc]/articles/u/s/u/Usuarios_y_sesiones.html%000.C2.BFQu.C3.A9_son_los_.22Privilegios_de_administrador.22.3F">Administrador</a>).</p>',
         '01',
         '01',
     ],
     [
         '2- Actualizá Huayra',
-        '<p>Una de las ventajas de Huayra, y del Software Libre en general, es que siempre podés tener a mano las últimas versiones oficiales. Esto te permite beneficiarte de todas las mejoras que cada aplicación va incorporando, así como también de las novedades. ¡Es muy importante mantener <a href="[doc]/articles/p/r/i/Primeros_pasos.html#Actualiz.C3.A1_Huayra">Huayra actualizado</a> al menos una vez por mes!<br><br>1- Abrí la <a href="/articles/t/e/r/Terminal.html">Terminal</a> desde el <a href="/articles/d/o/c/Docky.htmlcen">Docky</a> inferior<br>2- Tipeá: <i>sudo apt-get update</i> y después apretá Enter<br>3- Ingresá la contraseña de administrador<br>4- Tipeá: <i>sudo apt-get upgrade</i> y después apretá Enter.</p>',
+        '<p>Una de las ventajas de Huayra, y del Software Libre en general, es que siempre podés tener a mano las últimas versiones oficiales. Esto te permite beneficiarte de todas las mejoras que cada aplicación va incorporando, así como también de las novedades. ¡Es muy importante mantener <a href="[doc]/articles/p/r/i/Primeros_pasos.html%000Actualiz.C3.A1_Huayra">Huayra actualizado</a> al menos una vez por mes!<br><br>1- Abrí la <a href="/articles/t/e/r/Terminal.html">Terminal</a> desde el <a href="/articles/d/o/c/Docky.htmlcen">Docky</a> inferior<br>2- Tipeá: <i>sudo apt-get update</i> y después apretá Enter<br>3- Ingresá la contraseña de administrador<br>4- Tipeá: <i>sudo apt-get upgrade</i> y después apretá Enter.</p>',
         '01',
         '01',
     ],
     [
         '3- Cambiá por completo tu escritorio',
-        '<p>Con Huayra podés <a href="[doc]/articles/p/r/i/Primeros_pasos.html#Cambi.C3.A1_por_completo_la_apariencia_del_escritorio">modificar por completo tu escritorio</a> para que se adapte a tu forma de trabajo, y no al revés. Cambiá por completo no sólo la apariencia sino toda su funcionalidad. Con Huayra ningún escritorio es igual a otro.<br><br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a <i>Apariencia</i><br>2- Seleccioná el tema que más te guste<br>3- Hacé clic en <i>Personalizar</i> y combina los diferentes temas</p>',
+        '<p>Con Huayra podés <a href="[doc]/articles/p/r/i/Primeros_pasos.html%000Cambi.C3.A1_por_completo_la_apariencia_del_escritorio">modificar por completo tu escritorio</a> para que se adapte a tu forma de trabajo, y no al revés. Cambiá por completo no sólo la apariencia sino toda su funcionalidad. Con Huayra ningún escritorio es igual a otro.<br><br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a <i>Apariencia</i><br>2- Seleccioná el tema que más te guste<br>3- Hacé clic en <i>Personalizar</i> y combina los diferentes temas</p>',
         '01',
         '01',
     ],
@@ -192,7 +192,7 @@ bullets_mate = [
     ],
     [
         '5- Olvidate de los virus',
-        '<p>Es sencillo como eso, con Huayra no hay virus. La asignación de diferentes <a href="/articles/u/s/u/Usuarios_y_sesiones.html#.C2.BFQu.C3.A9_son_los_.22Privilegios_de_administrador.22.3F">permisos</a> según el tipo de usuario bloquea la instalación indiscriminada de aplicaciones desconocidas y las rápidas <a href="/articles/%C2%BF/c/%C3%B3/%C2%BFC%C3%B3mo_actualizo_Huayra%3F.html">actualizaciones</a> de la comunidad del <a href="[doc]/articles/s/o/f/Software_Libre.html">Software Libre</a> eliminan las amenazas que se van conociendo.</p>',
+        '<p>Es sencillo como eso, con Huayra no hay virus. La asignación de diferentes <a href="/articles/u/s/u/Usuarios_y_sesiones.html%000.C2.BFQu.C3.A9_son_los_.22Privilegios_de_administrador.22.3F">permisos</a> según el tipo de usuario bloquea la instalación indiscriminada de aplicaciones desconocidas y las rápidas <a href="/articles/%C2%BF/c/%C3%B3/%C2%BFC%C3%B3mo_actualizo_Huayra%3F.html">actualizaciones</a> de la comunidad del <a href="[doc]/articles/s/o/f/Software_Libre.html">Software Libre</a> eliminan las amenazas que se van conociendo.</p>',
         '01',
         '01',
     ],
@@ -216,13 +216,13 @@ bullets_mate = [
     ],
     [
         '9- Compartí archivos',
-        '<p>En Huayra podés <a href="/articles/p/r/i/Primeros_pasos.html#Compart.C3.AD_archivos">Compartir archivos</a> con todos tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/articles/i/p/t/IpTux.html">ipTux</a> o <a href="[doc]/articles/h/u/a/Huayra_Compartir.html">Huayra Compartir</a>.<br><br>1- Guardá el archivo que quieras compartir en la carpeta <i>Compartido</i> en tu carpeta personal<br>2- Abrí Huayra Compartir (la primera vez configuralo con tu nombre e imagen)<br>3- Buscá entre los amigos los archivos a compartir</p>',
+        '<p>En Huayra podés <a href="/articles/p/r/i/Primeros_pasos.html%000Compart.C3.AD_archivos">Compartir archivos</a> con todos tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/articles/i/p/t/IpTux.html">ipTux</a> o <a href="[doc]/articles/h/u/a/Huayra_Compartir.html">Huayra Compartir</a>.<br><br>1- Guardá el archivo que quieras compartir en la carpeta <i>Compartido</i> en tu carpeta personal<br>2- Abrí Huayra Compartir (la primera vez configuralo con tu nombre e imagen)<br>3- Buscá entre los amigos los archivos a compartir</p>',
         '01',
         '01',
     ],
     [
         '10- Mirá que otras cosas podés hacer con los tutoriales de Huayra',
-        '<p>Explorá todo el potencial de Huayra viendo los <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html">tutoriales</a> disponibles: hacé animaciones StopMotion con Huayra Motion, sacá <a href="[doc]/articles/h/a/c/Hac%C3%A9_tus_propias_fotos_3D_con_Huayra.html">fotos en 3d</a> y muchos otros sobre <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html#Instalaci.C3.B3n.2C_actualizaci.C3.B3n_y_mantenimiendo>instalación</a>, el <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html#Escritorio>escritorio</a>, <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html#Multimedia>multimedia</a> y <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html#Educaci.C3.B3n>educación</a>, etc.</p>',
+        '<p>Explorá todo el potencial de Huayra viendo los <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html">tutoriales</a> disponibles: hacé animaciones StopMotion con Huayra Motion, sacá <a href="[doc]/articles/h/a/c/Hac%C3%A9_tus_propias_fotos_3D_con_Huayra.html">fotos en 3d</a> y muchos otros sobre <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html%000Instalaci.C3.B3n.2C_actualizaci.C3.B3n_y_mantenimiendo>instalación</a>, el <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html%000Escritorio>escritorio</a>, <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html%000Multimedia>multimedia</a> y <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html%000Educaci.C3.B3n>educación</a>, etc.</p>',
         '01',
         '01',
     ],
