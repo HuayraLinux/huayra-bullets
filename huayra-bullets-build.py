@@ -174,7 +174,7 @@ bullets_mate = [
     ],
     [
         '2- Actualizá Huayra',
-        '<p>Una de las ventajas de Huayra, y del Software Libre en general, es que siempre podés tener a mano las últimas versiones oficiales. Esto te permite beneficiarte de todas las mejoras que cada aplicación va incorporando, así como también de las novedades. ¡Es muy importante mantener <a href="[doc]/articles/p/r/i/Primeros_pasos.html%000Actualiz.C3.A1_Huayra">Huayra actualizado</a> al menos una vez por mes!<br><br>1- Abrí la <a href="[doc]/articles/t/e/r/Terminal.html">Terminal</a> desde el <a href="[doc]/articles/d/o/c/Docky.htmlcen">Docky</a> inferior<br>2- Tipeá: <i>sudo apt-get update</i> y después apretá Enter<br>3- Ingresá la contraseña de administrador<br>4- Tipeá: <i>sudo apt-get upgrade</i> y después apretá Enter.</p>',
+        '<p>Una de las ventajas de Huayra, y del Software Libre en general, es que siempre podés tener a mano las últimas versiones oficiales. Esto te permite beneficiarte de todas las mejoras que cada aplicación va incorporando, así como también de las novedades. ¡Es muy importante mantener <a href="[doc]/articles/p/r/i/Primeros_pasos.html%000Actualiz.C3.A1_Huayra">Huayra actualizado</a> al menos una vez por mes!<br><br>1- Abrí la <a href="[doc]/articles/t/e/r/Terminal.html">Terminal</a> desde el <a href="[doc]/articles/d/o/c/Docky.html">Docky</a> inferior<br>2- Tipeá: <i>sudo apt-get update</i> y después apretá Enter<br>3- Ingresá la contraseña de administrador<br>4- Tipeá: <i>sudo apt-get upgrade</i> y después apretá Enter.</p>',
         '01',
         '01',
     ],
@@ -222,7 +222,7 @@ bullets_mate = [
     ],
     [
         '10- Mirá que otras cosas podés hacer con los tutoriales de Huayra',
-        '<p>Explorá todo el potencial de Huayra viendo los <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html">tutoriales</a> disponibles: hacé animaciones StopMotion con Huayra Motion, sacá <a href="[doc]/articles/h/a/c/Hac%C3%A9_tus_propias_fotos_3D_con_Huayra.html">fotos en 3d</a> y muchos otros sobre <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html%000Instalaci.C3.B3n.2C_actualizaci.C3.B3n_y_mantenimiendo>instalación</a>, el <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html%000Escritorio>escritorio</a>, <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html%000Multimedia>multimedia</a> y <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html%000Educaci.C3.B3n>educación</a>, etc.</p>',
+        '<p>Explorá todo el potencial de Huayra viendo los <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html">tutoriales</a> disponibles: hacé animaciones StopMotion con Huayra Motion, sacá <a href="[doc]/articles/h/a/c/Hac%C3%A9_tus_propias_fotos_3D_con_Huayra.html">fotos en 3d</a> y muchos otros sobre <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html%000Instalaci.C3.B3n.2C_actualizaci.C3.B3n_y_mantenimiendo">instalación</a>, el <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html%000Escritorio">escritorio</a>, <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html%000Multimedia">multimedia</a> y <a href="[doc]/articles/t/u/t/Tutoriales_Huayra.html%000Educaci.C3.B3n">educación</a>, etc.</p>',
         '01',
         '01',
     ],
