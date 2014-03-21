@@ -27,11 +27,11 @@ body.variant-01 div#wrapper {
  *
  */
 body.variant-01 div#question {
-	width: 500px;
+	width: 400px;
 	height: 200px;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 40px;
 }
 body.variant-01 div#question h1 {
 	color: #fff;
@@ -55,7 +55,7 @@ body.variant-01 div#actions {
 	left: 10px;
 }
 body.variant-01 div#actions div.action {
-	width: 100px;
+	width: 150px;
 	float: left;
 }
 body.variant-01 div#actions div#close-app.inactive {
@@ -66,9 +66,10 @@ body.variant-01 div#actions div#close-app.inactive {
 body.variant-01 div#actions div#prev-bullet a:link {
 	position: absolute;
 	bottom: 10;
-	left: 10px;
+	left: 100px;
 	text-align: left;
 	background: url(../../images/botones/anterior_normal.png) no-repeat;
+	color: transparent;
 }
 body.variant-01 div#actions div#prev-bullet a:visited {
 	background: url(../../images/botones/anterior_normal.png) no-repeat;
@@ -84,10 +85,11 @@ body.variant-01 div#actions div#prev-bullet a:hover {
 body.variant-01 div#actions div#next-bullet a:link {
 	position: absolute;
 	bottom: 10;
-	left: 200px;
+	left: 300px;
 	background: url(../../images/botones/proximo_normal.png) no-repeat;
 	float: right;
 	text-align: right;
+	color: transparent;
 }
 body.variant-01 div#actions div#next-bullet a:visited {
 	background: url(../../images/botones/proximo_normal.png) no-repeat;
