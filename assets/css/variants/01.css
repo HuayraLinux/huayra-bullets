@@ -15,9 +15,12 @@ body.variant-01 a:visited {
  * 
  */
 body.variant-01 div#wrapper {
-	width: 600px;
-	height: 440px;
-	margin: -7px 0 0 -7px;
+	border: 1px;
+	border-color: red;
+	border-style: transparent;
+	width: 620px;
+	height: 430px;
+	margin: 0;
 	padding: 0;
 	position: relative;
 }
@@ -27,19 +30,19 @@ body.variant-01 div#wrapper {
  *
  */
 body.variant-01 div#question {
-	width: 400px;
-	height: 200px;
+	width: 500px;
+	height: 50px;
 	position: absolute;
-	top: 0;
+	top: 30;
 	left: 40px;
 }
 body.variant-01 div#question h1 {
+	width: 500px;
 	color: #fff;
 	text-shadow: 1px 1px 2px #595959;
 	font-size: 1.8em;
 	font-weight: bold;
-	width: 500px;
-	margin: 10px auto 0;
+	margin: 0px auto 0;
 	text-align: center;
 }
 /*
@@ -48,13 +51,19 @@ body.variant-01 div#question h1 {
  *
  */
 body.variant-01 div#actions {
-	width: 640px;
+	border: 2px;
+	border-color: blue;
+	border-style: transparent;
+	width: 600px;
 	height: 30px;
 	position: absolute;
 	bottom: 0;
-	left: 10px;
+	left: 20px;
 }
 body.variant-01 div#actions div.action {
+	border: 2px;
+	border-color: purple;
+	border-style: transparent;
 	width: 150px;
 	float: left;
 }
@@ -64,9 +73,12 @@ body.variant-01 div#actions div#close-app.inactive {
 
 
 body.variant-01 div#actions div#prev-bullet a:link {
+	border: 3px;
+	border-color: red;
+	border-style: transparent;
 	position: absolute;
-	bottom: 10;
-	left: 100px;
+	bottom: 0px;
+	left: 220px;
 	text-align: left;
 	background: url(../../images/botones/anterior_normal.png) no-repeat;
 	color: transparent;
@@ -83,9 +95,12 @@ body.variant-01 div#actions div#prev-bullet a:hover {
 
 
 body.variant-01 div#actions div#next-bullet a:link {
+	border: 2px;
+	border-color: purple;
+	border-style: transparent;
 	position: absolute;
-	bottom: 10;
-	left: 300px;
+	bottom: 0px;
+	right: 220px;
 	background: url(../../images/botones/proximo_normal.png) no-repeat;
 	float: right;
 	text-align: right;
@@ -103,14 +118,18 @@ body.variant-01 div#actions div#next-bullet a:hover {
 
 
 body.variant-01 div#actions div#close-app a:link {
+	border: 2px;
+	border-color: blue;
+	border-style: transparent;
+
 	float: right;
 	width: 26px;
 	height: 24px; 
 	text-align: center;
 	background: url(../../images/botones/cerrar_normal.png) no-repeat;
 	position: absolute;
-	bottom: 10;
-	right: 30px;
+	bottom: 0px;
+	right: 0px;
 
 }
 body.variant-01 div#actions div#close-app a:visited {
@@ -140,13 +159,17 @@ body.variant-01 div#answer div#vaca-volve a:active {
 
 /*=SHOW-NEXT-STARTUP */
 body.variant-01 div#show-next-startup {
+	border:2px;
+	border-color:red;
+	border-style:transparent;
+
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	font-family: 'Asap';
-	font-size: .7em;
-	color: #fff;
-	text-shadow: 1px 1px 2px #595959;
+	font-size: .6em;
+	color: #101010;
+	text-shadow: none; /* 1px 1px 2px #595959;*/
 }
 /*
  *
@@ -154,27 +177,33 @@ body.variant-01 div#show-next-startup {
  *
  */
 body.variant-01 div#answer {
+
 	width: 500px;
-	height: 400px;
+	height: 250px;
 	color: #EBEBEB;
 	position: absolute;
-	top: 50px;
-	right: 20px;
+	top: 90px;
+	left: 50px;
 	text-align: justify;
 	font-weight: normal;
 	font-family: 'Asap', sans-serif;
 	font-size: 1.0em;
 	overflow-y: auto;
 	overflow-x: none;
-	margin: 50px;
+	margin: 0px;
 	display: none; /* FIRST TIME */
 }
+
 body.variant-01 div#animation {
-	width: 320px;
-	height: 380px;
-	position: absolute;
-	top: 0;
-	right: 0;
+	border: 2px;
+	border-color: yellow;
+	border-style: transparent;
+
+	width: 225px;
+	height: 200px;
+	position: relative;
+	top: 110px;
+	left: 200px;
 }
 
 body.variant-01 div#answer a:link,
@@ -187,12 +216,16 @@ body.variant-01 div#answer a:hover {
 }
 /* VACA-VOLVE */
 body.variant-01 div#answer div#vaca-volve {
+	border: 2px;
+	border-color: yellow;
+	border-style: transparent;
+
 	width: 48px;
 	height: 48px;
 	position: absolute;
-	bottom: 200px;
+	bottom: 0px;
 	right: 0;
-	margin: 10px;
+	margin: 2px;
 }
 body.variant-01 div#answer div#vaca-volve a span {
 	display: none;
