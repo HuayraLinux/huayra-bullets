@@ -162,7 +162,7 @@ bullets_shell = [
 bullets_mate = [
     [
         'Huayra en 10 simples pasos',
-        'Mirá todo el potencial de Huayra siguiendo estos 10 pasos. Te va a llevar muy pocos minutos y después vas a manejarte mucho mejor con Huayra. Te van a servir mucho. Cada uno te lleva después a una ayuda donde te muestra más cosas y donde podés resolver cualquier duda que te aparezca más adelante.',
+        'Mirá todo el potencial de Huayra siguiendo estos 10 pasos. Te va a llevar muy pocos minutos y después vas a manejarte mucho mejor con Huayra. Son muy útles. En cada uno vas a poder acceder a la Ayuda donde te muestra más información. Siempre que tengas alguna duda sobre Huayra abrí la Ayuda que vas a encontrar la respuesta.',
         '01',
         '01',
     ],
@@ -174,7 +174,7 @@ bullets_mate = [
     ],
     [
         '2- Actualizá Huayra',
-        '<p>Una de las ventajas de Huayra, y del Software Libre en general, es que siempre podés tener a mano las últimas versiones oficiales. Esto te permite beneficiarte de todas las mejoras que cada aplicación va incorporando, así como también de las novedades. ¡Es muy importante mantener <a href="[doc]/articles/p/r/i/Primeros_pasos.html%000Actualiz.C3.A1_Huayra">Huayra actualizado</a> al menos una vez por mes!<br><br>1- Abrí la <a href="[doc]/articles/t/e/r/Terminal.html">Terminal</a> desde el <a href="[doc]/articles/d/o/c/Docky.html">Docky</a> inferior<br>2- Tipeá: <i>sudo apt-get update</i> y después apretá Enter<br>3- Ingresá la contraseña de administrador<br>4- Tipeá: <i>sudo apt-get upgrade</i> y después apretá Enter.</p>',
+        '<p>Una de las ventajas de Huayra, y del <a href="[doc]/articles/s/o/f/Software_Libre.html">Software Libre</a> en general, es que siempre podés tener a mano las últimas versiones oficiales. Esto te permite beneficiarte de todas las mejoras que cada aplicación va incorporando, así como también de las novedades. ¡Es muy importante mantener <a href="[doc]/articles/p/r/i/Primeros_pasos.html%000Actualiz.C3.A1_Huayra">Huayra actualizado</a> al menos una vez por mes!<br><br>1- Abrí la <a href="[doc]/articles/t/e/r/Terminal.html">Terminal</a> desde el <a href="[doc]/articles/d/o/c/Docky.html">Docky</a> inferior<br>2- Tipeá: <i>sudo apt-get update</i> y después apretá Enter<br>3- Ingresá la contraseña de administrador<br>4- Tipeá: <i>sudo apt-get upgrade</i> y después apretá Enter.</p>',
         '01',
         '01',
     ],
@@ -198,7 +198,7 @@ bullets_mate = [
     ],
     [
         '6- Buscá e instalá otras aplicaciones',
-        '<p>Desde el Centro de software instalá todos los programas en sus versiones oficiales y libres. Podés buscar por tema o por categoría.<br><br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a <a href="[doc]/articles/c/e/n/Centro_de_Software.html">Centro de Software</a><br>2- Buscá aplicaciones por nombre o tema<br>3- Hacé clic en <a href="[doc]/articles/%C2%BF/c/%C3%B3/%C2%BFC%C3%B3mo_instalar/desinstalar_aplicaciones_en_Huayra%3F.html">Instalar</a></p>',
+        '<p>Desde el <a href="[doc]/articles/c/e/n/Centro_de_Software.html">Centro de Software</a> instalá todos los programas en sus versiones oficiales y libres. Podés buscar por tema o por categoría.<br><br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a <a href="[doc]/articles/c/e/n/Centro_de_Software.html">Centro de Software</a><br>2- Buscá la aplicación que quieras por nombre o tema<br>3- Hacé clic en <a href="[doc]/articles/%C2%BF/c/%C3%B3/%C2%BFC%C3%B3mo_instalar/desinstalar_aplicaciones_en_Huayra%3F.html">Instalar</a></p>',
         '01',
         '01',
     ],
@@ -216,7 +216,7 @@ bullets_mate = [
     ],
     [
         '9- Compartí archivos',
-        '<p>En Huayra podés <a href="[doc]/articles/p/r/i/Primeros_pasos.html%000Compart.C3.AD_archivos">Compartir archivos</a> con todos tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/articles/i/p/t/IpTux.html">ipTux</a> o <a href="[doc]/articles/h/u/a/Huayra_Compartir.html">Huayra Compartir</a>.<br><br>1- Guardá el archivo que quieras compartir en la carpeta <i>Compartido</i> en tu carpeta personal<br>2- Abrí Huayra Compartir (la primera vez configuralo con tu nombre e imagen)<br>3- Buscá entre los amigos los archivos a compartir</p>',
+        '<p>En Huayra podés <a href="[doc]/articles/p/r/i/Primeros_pasos.html%000Compart.C3.AD_archivos">Compartir archivos</a> con todos tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/articles/i/p/t/IpTux.html">ipTux</a> o <a href="[doc]/articles/h/u/a/Huayra_Compartir.html">Huayra Compartir</a>.<br><br>1- Guardá el archivo que quieras compartir en la carpeta <i>Compartido</i> en tu carpeta personal<br>2- Abrí Huayra Compartir (la primera vez configuralo con tu nombre e imagen)<br>3- Buscá entre tus amigos los archivos a compartir</p>',
         '01',
         '01',
     ],
