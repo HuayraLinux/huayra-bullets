@@ -1,3 +1,9 @@
+huayra-bullets (1.01) unstable; urgency=low
+
+  * Nueva versión para Huayra 2.0
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 04 Apr 2014 15:43:31 -0300
+
 huayra-bullets (0.21) testing; urgency=low
 
   * Nuevo bullet de TPM

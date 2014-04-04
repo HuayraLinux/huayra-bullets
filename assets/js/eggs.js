@@ -28,7 +28,7 @@ easter_eggs['equipo_huayra'] = "\
         <h3>Equipo Desarrollo:</h3>\
 		<p>Héctor \"Karucha\" Sanchez, Fernando Toledo, Mike García, Luciano Baraglia, Mauro Lizaur, Hugol Ruscitti, Ignacio \"Preciosa\" Benedetti</p>\
 		<h3>Equipo de Documentación:</h3>\
-		<p>Felipe Diego González, Ornella Lotito, Celeste Mandrut</p>\
+		<p>Felipe \"|\" González, Ornella Lotito, Celeste Mandrut</p>\
 		<h3>Equipo Arte y Diseño:</h3>\
 		<p>Claudio Andaur, Carolina Hortal, Iván Hoffmann</p>\
         <h3>Servidores y soporte:</h3>\
