@@ -162,31 +162,31 @@ bullets_shell = [
 bullets_mate = [
     [
         'Huayra en 10 simples pasos',
-        'Mirá todo el potencial de Huayra siguiendo estos 10 pasos. Te va a llevar muy pocos minutos y después vas a manejarte mucho mejor con Huayra. Son muy útles. En cada uno vas a poder acceder a la Ayuda donde te muestra más información. Siempre que tengas alguna duda sobre Huayra abrí la Ayuda que vas a encontrar la respuesta.',
+        'Mirá todo el potencial de Huayra siguiendo estos 10 pasos. Te va a llevar muy pocos minutos y después vas a manejarte mucho mejor con Huayra. Son muy útles. Cada uno tiene links a la Ayuda, donde vas a encontrar mucha más información. Siempre que tengas alguna duda sobre Huayra abrí la Ayuda que vas a encontrar la respuesta.',
         '01',
         '01',
     ],
     [
         '1- Create tu propio usuario',
-        '<p>Con Huayra cada uno puede tener su propio <a href="[doc]/articles/u/s/u/Usuarios_y_sesiones.html">usuario</a> con su propia configuración y mayor privacidad. Es muy útil si no sos el único que usa la netbook. Papá, mamá, hermanos/as, cada uno puede tener sus archivos, configuraciones, fondos de pantalla, <a href="[doc]/articles/t/u/_/Tu_escritorio.html">escritorios</a>, etc.<br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a Usuarios y grupos<br>2- Hacé clic en "+ Añadir"<br>3- Desbloqueá con la contraseña de administrador (-alumno- por defecto).<br>4- Agregá tu propio usuario (acordate de poner Tipo de cuenta <a href="[doc]/articles/u/s/u/Usuarios_y_sesiones.html%000.C2.BFQu.C3.A9_son_los_.22Privilegios_de_administrador.22.3F">Administrador</a>).</p>',
+        '<p>Con Huayra cada uno puede tener su propio <a href="[doc]/articles/u/s/u/Usuarios_y_sesiones.html">usuario</a> con su propia configuración y mayor privacidad. Es muy útil si no sos el único que usa la netbook. Papá, mamá, hermanos/as, cada uno puede tener sus archivos, configuraciones, fondos de pantalla, <a href="[doc]/articles/t/u/_/Tu_escritorio.html">escritorios</a>, etc.<br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a Usuarios y grupos.<br>2- Hacé clic en "+ Añadir".<br>3- Desbloqueá con la contraseña de administrador (<i>alumno</i> por defecto).<br>4- Agregá tu propio usuario (acordate de poner <i>Tipo de cuenta <a href="[doc]/articles/u/s/u/Usuarios_y_sesiones.html%000.C2.BFQu.C3.A9_son_los_.22Privilegios_de_administrador.22.3F">Administrador</a>)</i>.</p>',
         '01',
         '01',
     ],
     [
         '2- Actualizá Huayra',
-        '<p>Una de las ventajas de Huayra, y del <a href="[doc]/articles/s/o/f/Software_Libre.html">Software Libre</a> en general, es que siempre podés tener a mano las últimas versiones oficiales. Esto te permite beneficiarte de todas las mejoras que cada aplicación va incorporando, así como también de las novedades. ¡Es muy importante mantener <a href="[doc]/articles/p/r/i/Primeros_pasos.html%000Actualiz.C3.A1_Huayra">Huayra actualizado</a> al menos una vez por mes!<br><br>1- Abrí la <a href="[doc]/articles/t/e/r/Terminal.html">Terminal</a> desde el <a href="[doc]/articles/d/o/c/Docky.html">Docky</a> inferior<br>2- Tipeá: <i>sudo apt-get update</i> y después apretá Enter<br>3- Ingresá la contraseña de administrador<br>4- Tipeá: <i>sudo apt-get upgrade</i> y después apretá Enter.</p>',
+        '<p>Una de las ventajas de Huayra, y del <a href="[doc]/articles/s/o/f/Software_Libre.html">Software Libre</a> en general, es que siempre podés tener a mano las últimas versiones oficiales. Esto te permite beneficiarte de todas las mejoras que cada aplicación va incorporando, así como también de las novedades. ¡Es muy importante mantener <a href="[doc]/articles/p/r/i/Primeros_pasos.html%000Actualiz.C3.A1_Huayra">Huayra actualizado</a>!. Actualizalo al menos una vez por mes<br><br>1- Abrí la <a href="[doc]/articles/t/e/r/Terminal.html">Terminal</a> desde el <a href="[doc]/articles/d/o/c/Docky.html">Docky</a> inferior.<br>2- Tipeá: <i>sudo apt-get update</i> y después apretá Enter.<br>3- Ingresá la contraseña de administrador (<i>alumno</i> por defecto).<br>4- Tipeá: <i>sudo apt-get upgrade</i> y después apretá Enter.</p>',
         '01',
         '01',
     ],
     [
         '3- Cambiá por completo tu escritorio',
-        '<p>Con Huayra podés <a href="[doc]/articles/p/r/i/Primeros_pasos.html%000Cambi.C3.A1_por_completo_la_apariencia_del_escritorio">modificar por completo tu escritorio</a> para que se adapte a tu forma de trabajo, y no al revés. Cambiá por completo no sólo la apariencia sino toda su funcionalidad. Con Huayra ningún escritorio es igual a otro.<br><br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a <i>Apariencia</i><br>2- Seleccioná el tema que más te guste<br>3- Hacé clic en <i>Personalizar</i> y combina los diferentes temas</p>',
+        '<p>Con Huayra podés <a href="[doc]/articles/p/r/i/Primeros_pasos.html%000Cambi.C3.A1_por_completo_la_apariencia_del_escritorio">modificar por completo tu escritorio</a> para que se adapte a tu forma de trabajo, y no al revés. Cambiá por completo no sólo la apariencia sino toda su funcionalidad. Con Huayra ningún escritorio es igual a otro.<br><br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a <i>Apariencia</i>.<br>2- Seleccioná el tema que más te guste.<br>3- Hacé clic en <i>Personalizar</i> y combina los diferentes temas.</p>',
         '01',
         '01',
     ],
     [
         '4- Usá Synapse para lanzar aplicaciones',
-        '<p>Con <a href="[doc]/articles/s/y/n/Synapse.html">Synapse</a> apretá <i>Ctrl + Espacio</i> y empezá a tipear el nombre de la aplicación que querés abrir (Chromium, por ejemplo, el navegador web) y va a ir apareciendo. <br> Con las flechas hacia abajo buscás entre aplicaciones de nombres similares. En las netbooks a veces usar el mousepad es medio incómodo. Por eso te proponemos que uses <a href="[doc]/articles/s/y/n/Synapse.html">Synapse</a>, un lanzador con el que usando solamente el teclado de manera muy rápida y cómoda vas a poder abrir aplicaciones, directorios, archivos, buscar en Internet, ejecutar comandos y mucho más. </p>',
+        '<p>En las netbooks a veces usar el mousepad es medio incómodo. Por eso te proponemos que uses <a href="[doc]/articles/s/y/n/Synapse.html">Synapse</a>, un lanzador que te permite de manera muy rápida y cómoda abrir aplicaciones, directorios, archivos, buscar en Internet, ejecutar comandos y mucho más. Con <a href="[doc]/articles/s/y/n/Synapse.html">Synapse</a> apretá <i>Ctrl + Espacio</i> y empezá a tipear el nombre de la aplicación que querés abrir (por ejemplo <i>Chromium</i>, el navegador web) y va a aparecer. <br> Con las flechas hacia abajo buscás entre aplicaciones de nombres similares.  </p>',
         '01',
         '01',
     ],
@@ -198,7 +198,7 @@ bullets_mate = [
     ],
     [
         '6- Buscá e instalá otras aplicaciones',
-        '<p>Desde el <a href="[doc]/articles/c/e/n/Centro_de_Software.html">Centro de Software</a> instalá todos los programas en sus versiones oficiales y libres. Podés buscar por tema o por categoría.<br><br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a <a href="[doc]/articles/c/e/n/Centro_de_Software.html">Centro de Software</a><br>2- Buscá la aplicación que quieras por nombre o tema<br>3- Hacé clic en <a href="[doc]/articles/%C2%BF/c/%C3%B3/%C2%BFC%C3%B3mo_instalar/desinstalar_aplicaciones_en_Huayra%3F.html">Instalar</a></p>',
+        '<p>Desde el <a href="[doc]/articles/c/e/n/Centro_de_Software.html">Centro de Software</a> instalá todos los programas en sus versiones oficiales y libres. Podés buscar por nombre o categoría.<br><br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a <a href="[doc]/articles/c/e/n/Centro_de_Software.html">Centro de Software</a>.<br>2- Buscá la aplicación que quieras por nombre o tema.<br>3- Hacé clic en <a href="[doc]/articles/%C2%BF/c/%C3%B3/%C2%BFC%C3%B3mo_instalar/desinstalar_aplicaciones_en_Huayra%3F.html">Instalar</a>.</p>',
         '01',
         '01',
     ],
@@ -210,13 +210,13 @@ bullets_mate = [
     ],
     [
         '8- Mirá la Televisión Digital Abierta TDA en Huayra',
-        '<p>Con Huayra accedé a todos los canales de la <a href="[doc]/articles/t/e/l/Televisi%C3%B3n_Digital_Argentina-_TDA.html">TDA</a><br><br>1- Conectá la antena<br>2- Hacé clic en el ícono de Wari del dock<br>3- La primera vez que lo abras escanea los canales<br>4- Elegí qué canales ver</p>',
+        '<p>Con Huayra accedé a todos los canales de la <a href="[doc]/articles/t/e/l/Televisi%C3%B3n_Digital_Argentina-_TDA.html">TDA</a><br><br>1- Conectá la antena.<br>2- Hacé clic en el ícono de <a href="[doc]/articles/t/e/l/Televisi%C3%B3n_Digital_Argentina-_TDA.html">Huayra TDA</a> del dock.<br>3- La primera vez que lo abras escaneá los canales.<br>4- Elegí qué canales ver.</p>',
         '01',
         '01',
     ],
     [
         '9- Compartí archivos',
-        '<p>En Huayra podés <a href="[doc]/articles/p/r/i/Primeros_pasos.html%000Compart.C3.AD_archivos">Compartir archivos</a> con todos tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/articles/i/p/t/IpTux.html">ipTux</a> o <a href="[doc]/articles/h/u/a/Huayra_Compartir.html">Huayra Compartir</a>.<br><br>1- Guardá el archivo que quieras compartir en la carpeta <i>Compartido</i> en tu carpeta personal<br>2- Abrí Huayra Compartir (la primera vez configuralo con tu nombre e imagen)<br>3- Buscá entre tus amigos los archivos a compartir</p>',
+        '<p>En Huayra podés <a href="[doc]/articles/p/r/i/Primeros_pasos.html%000Compart.C3.AD_archivos">Compartir archivos</a> con todos tus compañeros que estén conectados a la misma red (aunque no haya Internet) usando <a href="[doc]/articles/i/p/t/IpTux.html">ipTux</a> o <a href="[doc]/articles/h/u/a/Huayra_Compartir.html">Huayra Compartir</a>.<br><br>1- Guardá el archivo que quieras compartir en la carpeta <i>Compartido</i> en tu Carpeta Personal.<br>2- Abrí <a href="[doc]/articles/h/u/a/Huayra_Compartir.html">Huayra Compartir</a> (la primera vez configuralo con tu nombre e imagen).<br>3- Buscá entre tus amigos los archivos a compartir.</p>',
         '01',
         '01',
     ],
@@ -227,8 +227,8 @@ bullets_mate = [
         '01',
     ],
     [
-        'Usá la ayuda de Huayra para resolver todas tus preguntas',
-        '<p>Si querés saber más sobre Huayra o resolver cualquier problema que aparezca, Huayra te da una mano. Abrí la ayuda desde el ícono de mano del panel superior a la derecha o desde el ícono con forma de libro en el dock inferior</p>',
+        'Usá la Ayuda de Huayra para resolver todas tus preguntas',
+        '<p>Si querés saber más sobre Huayra o resolver cualquier problema que aparezca, Huayra te da una mano. Abrí la ayuda desde el ícono de mano del panel superior a la derecha o desde el ícono con forma de libro en el dock inferior.</p>',
         '01',
         '01',
     ],
