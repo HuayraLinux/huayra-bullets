@@ -26,18 +26,23 @@ easter_eggs['equipo_huayra'] = "\
 		<h3>Gestión y asistencia en coordinación:</h3>\
 		<p>Adriana Pauluk</p>\
         <h3>Equipo Desarrollo:</h3>\
-		<p>Héctor \"Karucha\" Sanchez, Fernando Toledo, Mike García, Luciano Baraglia, Mauro Lizaur, Hugol Ruscitti, Ignacio \"Preciosa\" Benedetti</p>\
+		<p>Héctor \"Karucha\" Sanchez, Fernando \"Maraka\" Toledo, Mike García, Luciano Baraglia, Mauro Lizaur, Hugo \"Hugol\" Ruscitti, Ignacio \"Preciosa\" Benedetti</p>\
 		<h3>Equipo de Documentación:</h3>\
 		<p>Felipe \"|\" González, Ornella Lotito, Celeste Mandrut</p>\
 		<h3>Equipo Arte y Diseño:</h3>\
-		<p>Claudio Andaur, Carolina Hortal, Iván Hoffmann</p>\
+		<p>Claudio \"Maléfico\" Andaur, Carolina Hortal, Iván Hoffmann</p>\
         <h3>Servidores y soporte:</h3>\
-		<p>Pablo Carrai, Facundo Alaniz, Santiago Armas</p>\
+		<p>Pablo \"Pablito\" Carrai, Facundo Alaniz, Santiago Armas</p>\
         <h3>Alma mater:</h3>\
 		<p>Laura Penacca</p>\
 	</div>\
 	<h3>Agradecemos:</h3>\
 	<p>A <strong>Pablo Fontdevila</strong> que desde el inicio creyó en este proyecto</p>\
+    <br><p>A los equipos provinciales del programa Conectar Igualdad,\
+ las comunidades de Huayra de todo el país, las organizaciones, organismos, universidades \
+y dependencias públicas que han adoptado Huayra, a los compañeros de educ.ar, \
+a todos los que han colaborado con código, reportando errores, ideas y proponiendo contenidos. \
+</p>\
 	\
 </div>\
 ";
