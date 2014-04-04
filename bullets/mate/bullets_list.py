@@ -16,5 +16,5 @@ bullets_list = [
     {"file": "09.html", "title": "8- Mirá la Televisión Digital Abierta TDA en Huayra", "variant": "01", "animation": animations["01"]},
     {"file": "10.html", "title": "9- Compartí archivos", "variant": "01", "animation": animations["01"]},
     {"file": "11.html", "title": "10- Mirá que otras cosas podés hacer con los tutoriales de Huayra", "variant": "01", "animation": animations["01"]},
-    {"file": "12.html", "title": "Usá la ayuda de Huayra para resolver todas tus preguntas", "variant": "01", "animation": animations["01"]},
+    {"file": "12.html", "title": "Usá la Ayuda de Huayra para resolver todas tus preguntas", "variant": "01", "animation": animations["01"]},
 ]
