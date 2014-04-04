@@ -23,7 +23,7 @@ easter_eggs['equipo_huayra'] = "\
 	<div class='personas' id='equipo-huayra'>\
 		<h3>Coordinador General:</h3>\
 		<p>Javier Castrillo</p>\
-		<h3>Gestión:</h3>\
+		<h3>Gestión y asistencia en coordinación:</h3>\
 		<p>Adriana Pauluk</p>\
         <h3>Equipo Desarrollo:</h3>\
 		<p>Héctor \"Karucha\" Sanchez, Fernando Toledo, Mike García, Luciano Baraglia, Mauro Lizaur, Hugol Ruscitti, Ignacio \"Preciosa\" Benedetti</p>\
