@@ -198,13 +198,13 @@ bullets_mate = [
     ],
     [
         '6- Buscá e instalá otras aplicaciones',
-        '<p>Desde el <a href="[doc]/articles/c/e/n/Centro_de_Software.html">Centro de Software</a> instalá todos los programas en sus versiones oficiales y libres. Podés buscar por nombre o categoría.<br><br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a <a href="[doc]/articles/c/e/n/Centro_de_Software.html">Centro de Software</a>.<br>2- Buscá la aplicación que quieras por nombre o tema.<br>3- Hacé clic en <a href="[doc]/articles/%C2%BF/c/%C3%B3/%C2%BFC%C3%B3mo_instalar/desinstalar_aplicaciones_en_Huayra%3F.html">Instalar</a>.</p>',
+        '<p>Desde el <a href="[doc]/articles/c/e/n/Centro_de_Software.html">Centro de Software</a> instalá todos los programas en sus versiones oficiales y libres. Podés buscar por nombre o categoría.<br><br>1- Andá al <a href="[doc]/articles/c/e/n/Centro_de_control.html">Centro de control</a> y después a <a href="[doc]/articles/c/e/n/Centro_de_Software.html">Centro de Software</a>.<br>2- Buscá la aplicación que quieras por nombre o tema.<br>3- Hacé clic en <a href="[doc]/articles/i/n/s/Instalar.html">Instalar</a>.</p>',
         '01',
         '01',
     ],
     [
         '7- Encontrá en Huayra todos los programas que usabas en Windows',
-        '<p>Lo que antes hacías con Microsoft Word ahora lo podés hacer con Libre Office Writer. <a href="[doc]/articles/%C2%BF/d/%C3%B3/%C2%BFD%C3%B3nde_encuentro_en_Huayra_GNU/Linux_los_programas_que_m%C3%A1s_usaba_en_MS_Windows%3F.html">¿Dónde encuentro en Huayra los otros programas que más usaba en Windows?</a> </p>',
+        '<p>Lo que antes hacías con Microsoft Word ahora lo podés hacer con Libre Office Writer. <a href="[doc]/articles/e/q/u/Equivalencia_de_aplicaciones_en_Huayra_-_Windows.html">¿Dónde encuentro en Huayra los otros programas que más usaba en Windows?</a> </p>',
         '01',
         '01',
     ],
