@@ -1,3 +1,12 @@
+huayra-bullets (1.2) unstable; urgency=medium
+
+  * Nuevo release
+  * Agrego source format
+  * Agrego misc:depends
+  * Bump standards-version
+
+ -- mauro <mauro@krutt.org>  Tue, 22 Apr 2014 13:01:59 -0300
+
 huayra-bullets (1.1) unstable; urgency=low
 
   * Fixes en js

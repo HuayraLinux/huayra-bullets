@@ -4,13 +4,13 @@ Priority: extra
 Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
 Uploaders: Fernando Toledo <ragnarok@docksud.cm.ar> 
 Build-Depends: debhelper (>= 8.0.0), python-support
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 Homepage: http://huayra.conectarigualdad.gob.ar
 Vcs-Git: http://github.com/huayralinux/huayra-identinet
 
 Package: huayra-bullets
 Architecture: all
-Depends: ${python:Depends}, python (>= 2.6), python-webkit, yelp
+Depends: ${misc:Depends}, ${python:Depends}, python (>= 2.6), python-webkit, yelp
 Conflicts: conectar-bullets
 Replaces: conectar-bullets
 Description: Visor de los bullets de ayuda
