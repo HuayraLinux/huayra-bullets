@@ -22,6 +22,32 @@
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
+		<style>
+		html, body {
+			overflow: auto !important;
+			height: auto !important;
+			background: #fff;
+			height: 100% !important;
+		}
+
+		.reveal-wrapper {
+			position: relative;
+			height: calc(100% - 50px);
+		}
+
+		.reveal {
+			background-color: #333;
+		}
+
+		.reveal .controls,
+		.reveal .progress,
+		.reveal .playback {
+			position: absolute;
+		}
+
+
+		</style>
+
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -38,12 +64,9 @@
 
 	<body>
 
-		<div class='barra-inferior'>
-			<label><input type="checkbox" name="some_name" value=""> Volver a mostrar al iniciar.</label>
-		</div>
 
 
-
+		<div class="reveal-wrapper">
 		<div class="reveal">
 
 			<!-- Any section element inside of this container is displayed as a slide -->
@@ -383,8 +406,18 @@ Reveal.addEventListener( 'customevent', function() {
 			</div>
 
 		</div>
+	</div> <!-- reveal-wrapper -->
 
+	<div class="barra-inferior">
+		<div class='izquierda'>
+			<label><input type="checkbox" name="some_name" value=""> Volver a mostrar al iniciar.</label>
+		</div>
 
+		<div class='derecha'>
+			<button id='botonIzquierda' class='btn btn-success'>Anterior</button>
+			<button id='botonDerecha' class='btn btn-success'>Siguiente</button>
+		</div>
+	</div>
 
 
 		<script src="lib/js/head.min.js"></script>
@@ -398,7 +431,9 @@ Reveal.addEventListener( 'customevent', function() {
 				controls: true,
 				progress: true,
 				history: true,
+				help:false,
 				center: true,
+				embedded: true,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
