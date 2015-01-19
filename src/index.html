@@ -73,7 +73,12 @@
 			<div class="slides">
 				<section>
 					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
+					<h3>The HasdasdasdasdTML Presentation Framework</h3>
+
+					<p data-markdown>
+						Un *slide* usando **markdown**.
+					</p>
+
 					<p>
 						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
 					</p>
@@ -448,7 +453,43 @@ Reveal.addEventListener( 'customevent', function() {
 				]
 			});
 
+			var botonIzquierda = document.getElementById('botonIzquierda');
+			var botonDerecha = document.getElementById('botonDerecha');
+
+			function actualizar_estados() {
+
+				if (Reveal.isFirstSlide())
+					botonIzquierda.setAttribute('disabled');
+				else
+					botonIzquierda.removeAttribute('disabled');
+
+				if (Reveal.isLastSlide())
+					botonDerecha.setAttribute('disabled');
+				else
+					botonDerecha.removeAttribute('disabled');
+			}
+
+			Reveal.addEventListener('ready', function(event) {
+				actualizar_estados();
+			});
+
+			botonIzquierda.onclick = function() {
+				// NOTA: usar Reveal.navigateLeft() si no queremos que ingrese en
+				// los slides inferiores.
+				Reveal.prev();
+				actualizar_estados();
+			}
+
+			botonDerecha.onclick = function() {
+				// NOTA: usar Reveal.navigateRight() si no queremos que ingrese en
+				// los slides inferiores.
+				Reveal.next();
+				actualizar_estados();
+			}
+
+
 		</script>
+
 
 	</body>
 </html>
