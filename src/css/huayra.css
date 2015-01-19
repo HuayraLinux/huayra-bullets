@@ -1,0 +1,10 @@
+.barra-inferior {
+  position: fixed;
+  bottom: 5px;
+  left: 0;
+  height: 20px;
+  color: black;
+  padding: 5px;
+  background-color: white;
+  z-index: 2000;
+}
