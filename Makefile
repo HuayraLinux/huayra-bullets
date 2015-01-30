@@ -17,7 +17,7 @@ all:
 test_mac:
 	open -a /Applications/node-webkit.app --args /Users/hugoruscitti/proyectos/huayra-bullets/src
 
-test_linux: build
+test_linux: 
 	nw src
 
 PHONY: dist
