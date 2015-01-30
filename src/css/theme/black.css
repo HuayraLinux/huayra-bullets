@@ -40,7 +40,7 @@ body {
   line-height: 1.2;
   letter-spacing: normal;
   text-transform: uppercase;
-  text-shadow: none;
+  text-shadow: 2px 2px #606060;
   word-wrap: break-word; }
 
 .reveal h1 {
@@ -56,7 +56,7 @@ body {
   font-size: 1em; }
 
 .reveal h1 {
-  text-shadow: none; }
+  text-shadow: 2px 2px #606060; }
 
 /*********************************************
  * OTHER

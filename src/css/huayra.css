@@ -10,6 +10,9 @@
   position:absolute;
   left: 5px;
   padding-top: 8px;
+  text-shadow: none;
+  font-family: Asap, sans-serif;
+  font-size: 14px;
 }
 
 .derecha {
