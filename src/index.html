@@ -24,7 +24,7 @@
 
 		<style>
 		html, body {
-			overflow: auto !important;
+			overflow: hidden;
 			height: auto !important;
 			background: #fff;
 			height: 100% !important;
@@ -73,7 +73,7 @@
 			<div class="slides">
 				<section>
 					<h1>Reveal.js</h1>
-					<h3>The HasdasdasdasdTML Presentation Framework</h3>
+					<h3>Primeros Pasos en Huayra</h3>
 
 					<p data-markdown>
 						Un *slide* usando **markdown**.
@@ -419,8 +419,8 @@ Reveal.addEventListener( 'customevent', function() {
 		</div>
 
 		<div class='derecha'>
-			<button id='botonIzquierda' class='btn btn-normal'>Anterior</button>
-			<button id='botonDerecha' class='btn btn-normal'>Siguiente</button>
+			<button id='botonIzquierda' class='btn btn-normal'> <i class='glyphicon glyphicon-chevron-left'></i> Anterior</button>
+			<button id='botonDerecha' class='btn btn-normal'> <i class='glyphicon glyphicon-chevron-right'></i> Siguiente</button>
 		</div>
 	</div>
 
@@ -441,6 +441,10 @@ Reveal.addEventListener( 'customevent', function() {
 				embedded: true,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Fondo paralaje
+				parallaxBackgroundImage: 'css/fondo.svg',
+				parallaxBackgroundSize: '1600px 900px',
 
 				// Optional reveal.js plugins
 				dependencies: [
