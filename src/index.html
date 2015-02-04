@@ -30,6 +30,10 @@
 			height: 100% !important;
 		}
 
+    label {
+      font-weight: normal;
+    }
+
 		.reveal-wrapper {
 			position: relative;
 			height: calc(100% - 50px);
@@ -414,7 +418,7 @@ Reveal.addEventListener( 'customevent', function() {
 
 	<div class="barra-inferior">
 		<div class='izquierda'>
-			<input type="checkbox" name="some_name" value=""> Volver a mostrar al iniciar.
+      <input type="checkbox" name="check" id='check' value=""> <label for='check'>Volver a mostrar al iniciar.</label>
 		</div>
 
 		<div class='derecha'>
