@@ -466,12 +466,12 @@ Reveal.addEventListener( 'customevent', function() {
 			function actualizar_estados() {
 
 				if (Reveal.isFirstSlide())
-					botonIzquierda.setAttribute('disabled');
+					botonIzquierda.setAttribute('disabled', 'disabled');
 				else
 					botonIzquierda.removeAttribute('disabled');
 
 				if (Reveal.isLastSlide())
-					botonDerecha.setAttribute('disabled');
+					botonDerecha.setAttribute('disabled', 'disabled');
 				else
 					botonDerecha.removeAttribute('disabled');
 			}
