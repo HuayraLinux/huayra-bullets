@@ -91,6 +91,8 @@ function mostrar_estado_iniciar_checkbox() {
     if (activado) {
       checkboxIniciar.checked = true;
     }
+  } else {
+    checkboxIniciar.checked = true;
   }
 }
 
