@@ -1,3 +1,6 @@
+var path = require('path');
+var fs = require('fs');
+
 Reveal.initialize({
   controls: true,
   progress: true,
@@ -25,6 +28,7 @@ Reveal.initialize({
 
 var botonIzquierda = document.getElementById('botonIzquierda');
 var botonDerecha = document.getElementById('botonDerecha');
+var checkboxIniciar = document.getElementById('check');
 
 function actualizar_estados() {
 
@@ -55,5 +59,28 @@ botonDerecha.onclick = function() {
   // los slides inferiores.
   Reveal.next();
   actualizar_estados();
+};
+
+
+function copiar_archivo(desde, hasta) {
+  return fs.createReadStream(desde).pipe(fs.createWriteStream(hasta));
 }
+
+
+
+function actualizar_acceso_inicio_automatico(reiniciar) {
+  var ruta_desktop_original = "/usr/share/applications/huayra-bullets.desktop";
+  var ruta_desktop_home = path.join(process.env['HOME'], '.config/autostart/huayra-bullets.desktop');
+
+  if (fs.existsSync(ruta_desktop_original)) {
+    copiar_archivo(ruta_desktop_original, ruta_desktop_home);
+  } else {
+    console.error("El archivo " + ruta_desktop_original + " no existe, no se puede cambiar preferencias de inicio...");
+  }
+
+}
+
+checkboxIniciar.onchange = function() {
+  actualizar_acceso_inicio_automatico(checkboxIniciar.checked);
+};
 

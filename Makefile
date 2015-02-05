@@ -10,9 +10,13 @@ all:
 	@echo ""
 	@echo "  $(A)De uso para desarrollo: $(N)"
 	@echo ""
+	@echo "    $(V)iniciar$(N)     Instala todas las dependencias"
 	@echo "    $(V)test_linux$(N)  Prueba la aplicación sobre GNU/Linux"
 	@echo "    $(V)test_mac$(N)    Prueba la aplicación sobre OSX"
 	@echo ""
+
+iniciar:
+	npm install
 
 test_mac:
 	open -a /Applications/node-webkit.app --args /Users/hugoruscitti/proyectos/huayra-bullets/src
