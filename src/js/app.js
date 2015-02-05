@@ -82,7 +82,21 @@ function actualizar_acceso_inicio_automatico(reiniciar) {
 
 }
 
+function mostrar_estado_iniciar_checkbox() {
+  var ruta_desktop_home = path.join(process.env['HOME'], '.config/autostart/huayra-bullets.desktop');
+
+  if (fs.existsSync(ruta_desktop_home)) {
+    var activado = /X-MATE-Autostart-enabled=true/.test(fs.readFileSync(ruta_desktop_home).toString());
+
+    if (activado) {
+      checkboxIniciar.checked = true;
+    }
+  }
+}
+
 checkboxIniciar.onchange = function() {
   actualizar_acceso_inicio_automatico(checkboxIniciar.checked);
 };
+
+mostrar_estado_iniciar_checkbox();
 
