@@ -1,5 +1,6 @@
 var path = require('path');
 var fs = require('fs');
+var replaceStream = require('replacestream');
 
 Reveal.initialize({
   controls: true,
@@ -62,10 +63,11 @@ botonDerecha.onclick = function() {
 };
 
 
-function copiar_archivo(desde, hasta) {
-  return fs.createReadStream(desde).pipe(fs.createWriteStream(hasta));
+function copiar_archivo(desde, hasta, autostart) {
+  fs.createReadStream(desde).
+    pipe(replaceStream('Terminal=false', "Terminal=false\nX-MATE-Autostart-enabled=" + autostart)).
+    pipe(fs.createWriteStream(hasta));
 }
-
 
 
 function actualizar_acceso_inicio_automatico(reiniciar) {
@@ -73,7 +75,7 @@ function actualizar_acceso_inicio_automatico(reiniciar) {
   var ruta_desktop_home = path.join(process.env['HOME'], '.config/autostart/huayra-bullets.desktop');
 
   if (fs.existsSync(ruta_desktop_original)) {
-    copiar_archivo(ruta_desktop_original, ruta_desktop_home);
+    copiar_archivo(ruta_desktop_original, ruta_desktop_home, reiniciar);
   } else {
     console.error("El archivo " + ruta_desktop_original + " no existe, no se puede cambiar preferencias de inicio...");
   }
