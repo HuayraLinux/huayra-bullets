@@ -1,5 +1,6 @@
 src usr/share/huayra-bullets
 bin/huayra-bullets usr/bin
+node_modules usr/share/huayra-bullets
 debian/huayra-bullets.desktop usr/share/applications
 debian/huayra-bullets.desktop etc/xdg/autostart
 debian/huayra-bullets.svg usr/share/icons/hicolor/scalable/apps
