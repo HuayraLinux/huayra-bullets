@@ -1,3 +1,9 @@
+huayra-bullets (1.3+nmu8) unstable; urgency=low
+
+  * Quitando la barra de navegacion.
+
+ -- Hugo Ruscitti <hugoruscitti@gmail.com>  Thu, 12 Feb 2015 19:51:29 +0100
+
 huayra-bullets (1.3+nmu7) unstable; urgency=low
 
   * Cambiando la opcion por omision del arranque. 
