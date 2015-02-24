@@ -3,12 +3,13 @@ var fs = require('fs');
 var replaceStream = require('replacestream');
 
 Reveal.initialize({
-  controls: true,
+  controls: false,
   progress: true,
   history: true,
   help:false,
   center: true,
   embedded: true,
+  autoSlide: 60000,
 
   transition: 'slide',
 
