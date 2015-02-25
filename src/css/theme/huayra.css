@@ -24,6 +24,10 @@ body {
   font-weight: normal;
   color: #fff; }
 
+.reveal-wrapper {
+    overflow: hidden;
+}
+
 .reveal div {
     text-shadow: none;
 }
@@ -293,3 +297,18 @@ body {
     color: #18496C !important;
 }
 
+h2.title_right {
+    float: right;
+    background-color: orange;
+    width: 700px;
+    height: 118px;
+    margin-top: 32px;
+}
+
+.clear_both {
+    clear: both;
+}
+
+.img_left {
+    float: left;
+}

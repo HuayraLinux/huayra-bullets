@@ -9,7 +9,16 @@ Reveal.initialize({
   help:false,
   center: true,
   embedded: true,
-  autoSlide: 60000,
+  autoSlide: 15000,
+  loop: true,
+  keyboard: {
+    13: 'next', // Enter
+    37: 'prev', // Flecha Izq
+    39: 'next', // Flecha Der
+    38: null, // Flecha Arriba
+    40: null, // Flecha Abajo
+    70: null // f: fullscreen off.
+  },
 
   transition: 'slide',
 
