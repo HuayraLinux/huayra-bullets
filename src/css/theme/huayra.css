@@ -79,7 +79,7 @@ body {
 .reveal p {
   font-family: 'Chivo';
   margin: 20px 0;
-  line-height: 1.3;
+  line-height: 1.2;
   text-shadow: none;
   text-align: justify;
   color: #18496C;
@@ -297,18 +297,59 @@ body {
     color: #18496C !important;
 }
 
-h2.title_right {
-    float: right;
-    background-color: orange;
-    width: 700px;
+h2.title {
+    width: 690px;
     height: 118px;
     margin-top: 32px;
+}
+
+h1.left,
+h2.left,
+h4.left {
+    float: left;
+}
+
+h1.right,
+h2.right,
+h4.right {
+    float: right;
+}
+
+.bg_naranja_01 {
+    background-color: rgb(255, 196, 89) !important;
+}
+
+.bg_azul_01 {
+    background-color: rgb(89, 167, 255) !important
 }
 
 .clear_both {
     clear: both;
 }
 
+.app_icon {
+    width: 256px;
+    height: 256px;
+}
+
 .img_left {
     float: left;
+}
+
+.img_right {
+    float: right;
+}
+
+h4.app_slogan {
+    font-size: 0.9em;
+    font-family: 'Chivo';
+    font-weight: 400;
+    width: 690px;
+}
+
+div.celda {
+    float: left;
+    width: 48%;
+    height: 170px;
+    margin: 8px;
 }

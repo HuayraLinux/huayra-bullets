@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="235.86879"
+   width="256"
    height="256"
    id="svg3188"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="Documento nuevo 2">
+   sodipodi:docname="huayra-cv.svg">
   <defs
      id="defs3190" />
   <sodipodi:namedview
@@ -25,7 +25,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="296.02624"
+     inkscape:cx="77.911497"
      inkscape:cy="107.75979"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,7 +58,7 @@
      transform="translate(374.59767,787.3066)">
     <g
        id="g3307"
-       transform="matrix(5.6916145,0,0,5.6916145,1759.7944,2490.1602)">
+       transform="matrix(5.6916145,0,0,5.6916145,1769.86,2490.1602)">
       <rect
          transform="matrix(0.99999503,-0.00315296,0.00315296,0.99999503,0,0)"
          y="-574.41901"
