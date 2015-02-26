@@ -3,12 +3,22 @@ var fs = require('fs');
 var replaceStream = require('replacestream');
 
 Reveal.initialize({
-  controls: true,
+  controls: false,
   progress: true,
   history: true,
   help:false,
   center: true,
   embedded: true,
+  autoSlide: 15000,
+  loop: true,
+  keyboard: {
+    13: 'next', // Enter
+    37: 'prev', // Flecha Izq
+    39: 'next', // Flecha Der
+    38: null, // Flecha Arriba
+    40: null, // Flecha Abajo
+    70: null // f: fullscreen off.
+  },
 
   transition: 'slide',
 
@@ -27,6 +37,7 @@ Reveal.initialize({
   ]
 });
 
+var botonAcercade = document.getElementById('botonAcercade');
 var botonIzquierda = document.getElementById('botonIzquierda');
 var botonDerecha = document.getElementById('botonDerecha');
 var checkboxIniciar = document.getElementById('check');
@@ -38,10 +49,13 @@ function actualizar_estados() {
   else
     botonIzquierda.removeAttribute('disabled');
 
-  if (Reveal.isLastSlide())
+  if (Reveal.isLastSlide()) {
     botonDerecha.setAttribute('disabled', 'disabled');
-  else
+    botonAcercade.setAttribute('disabled', 'disabled');
+  } else {
     botonDerecha.removeAttribute('disabled');
+    botonAcercade.removeAttribute('disabled');
+  }
 }
 
 Reveal.addEventListener('ready', function(event) {
@@ -59,6 +73,11 @@ botonDerecha.onclick = function() {
   // NOTA: usar Reveal.navigateRight() si no queremos que ingrese en
   // los slides inferiores.
   Reveal.next();
+  actualizar_estados();
+};
+
+botonAcercade.onclick = function() {
+  Reveal.slide(Reveal.getTotalSlides());
   actualizar_estados();
 };
 
