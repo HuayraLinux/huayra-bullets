@@ -17,7 +17,9 @@ Reveal.initialize({
     39: 'next', // Flecha Der
     38: null, // Flecha Arriba
     40: null, // Flecha Abajo
-    70: null // f: fullscreen off.
+    70: function() {    
+        location.reload(true);
+        } // refrescar página.
   },
 
   transition: 'slide',

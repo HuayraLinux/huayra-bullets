@@ -303,6 +303,13 @@ h2.title {
     margin-top: 32px;
 }
 
+h4.title {
+    width: 80%;
+    height: 64px;
+    margin-top: 16px;
+    font-size: 1.3em;
+}
+
 h1.left,
 h2.left,
 h4.left {
@@ -332,6 +339,12 @@ h4.right {
     height: 256px;
 }
 
+.app_icon_small {
+    width: 64px;
+    height: 64px;
+    margin: 7px;
+}
+
 .img_left {
     float: left;
 }
@@ -349,7 +362,11 @@ h4.app_slogan {
 
 div.celda {
     float: left;
-    width: 48%;
+    width: 42%;
     height: 170px;
-    margin: 8px;
+    margin: 0px 76px 51px 0;
+}
+
+p.small_app_p {
+    font-size: 0.8em;
 }
