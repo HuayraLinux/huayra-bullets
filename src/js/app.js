@@ -17,7 +17,7 @@ Reveal.initialize({
     39: 'next', // Flecha Der
     38: null, // Flecha Arriba
     40: null, // Flecha Abajo
-    70: function() {    
+    70: function() {
         location.reload(true);
         } // refrescar página.
   },
@@ -79,7 +79,7 @@ botonDerecha.onclick = function() {
 };
 
 botonAcercade.onclick = function() {
-  Reveal.slide(Reveal.getTotalSlides());
+  Reveal.slide(-1, -1);
   actualizar_estados();
 };
 
@@ -122,4 +122,3 @@ checkboxIniciar.onchange = function() {
 };
 
 mostrar_estado_iniciar_checkbox();
-
