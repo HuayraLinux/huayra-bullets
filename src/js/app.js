@@ -60,27 +60,23 @@ function actualizar_estados() {
   }
 }
 
-Reveal.addEventListener('ready', function(event) {
-  actualizar_estados();
-});
+Reveal.addEventListener('ready', actualizar_estados);
+Reveal.addEventListener( 'slidechanged', actualizar_estados);
 
 botonIzquierda.onclick = function() {
   // NOTA: usar Reveal.navigateLeft() si no queremos que ingrese en
   // los slides inferiores.
   Reveal.prev();
-  actualizar_estados();
-}
+};
 
 botonDerecha.onclick = function() {
   // NOTA: usar Reveal.navigateRight() si no queremos que ingrese en
   // los slides inferiores.
   Reveal.next();
-  actualizar_estados();
 };
 
 botonAcercade.onclick = function() {
   Reveal.slide(Reveal.getTotalSlides());
-  actualizar_estados();
 };
 
 
