@@ -1,3 +1,10 @@
+huayra-bullets (1.7) torbellino; urgency=medium
+
+  * Lanzando la ayuda
+  * Cambiados los estilos de los botones de 'Soy nuevo en Huayra' y 'Acerca de...'
+
+ -- Gonzalo Gluzman <dggluz@gmail.com>  Thu, 05 Mar 2015 12:26:43 -0300
+
 huayra-bullets (1.6) torbellino; urgency=medium
 
   * Nueva versión para evitar conflictos.
