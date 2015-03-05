@@ -40,14 +40,13 @@ Reveal.initialize({
   ]
 });
 
-var botonAcercade = document.getElementById('botonAcercade');
+var botonAcercaDe = document.getElementById('botonAcercaDe');
 var botonIzquierda = document.getElementById('botonIzquierda');
 var botonDerecha = document.getElementById('botonDerecha');
 var checkboxIniciar = document.getElementById('check');
 var botonNuevoEnHuayra = document.getElementById('nuevo-en-huayra');
 
 function actualizar_estados() {
-
   if (Reveal.isFirstSlide())
     botonIzquierda.setAttribute('disabled', 'disabled');
   else
@@ -55,10 +54,8 @@ function actualizar_estados() {
 
   if (Reveal.isLastSlide()) {
     botonDerecha.setAttribute('disabled', 'disabled');
-    botonAcercade.setAttribute('disabled', 'disabled');
   } else {
     botonDerecha.removeAttribute('disabled');
-    botonAcercade.removeAttribute('disabled');
   }
 }
 
@@ -77,7 +74,8 @@ botonDerecha.onclick = function() {
   Reveal.next();
 };
 
-botonAcercade.onclick = function() {
+botonAcercaDe.onclick = function(e) {
+  e.preventDefault();
   Reveal.slide(-1, -1);
 };
 
@@ -104,6 +102,7 @@ botonNuevoEnHuayra.onclick = function(e) {
       }
   });
 };
+document.getElementById('nuevo-en-huayra-2').onclick = botonNuevoEnHuayra.onclick;
 
 function copiar_archivo(desde, hasta, autostart) {
   fs.createReadStream(desde).

@@ -21,6 +21,10 @@
   right: 5px;
 }
 
+.derecha .img-button {
+  height: 30px;
+}
+
 * {
     -webkit-user-select: none;
     -khtml-user-select: none;
