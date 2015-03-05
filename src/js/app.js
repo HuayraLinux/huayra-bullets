@@ -1,6 +1,7 @@
 var path = require('path');
 var fs = require('fs');
 var replaceStream = require('replacestream');
+var exec = require('child_process').exec;
 
 Reveal.initialize({
   controls: false,
@@ -43,6 +44,7 @@ var botonAcercade = document.getElementById('botonAcercade');
 var botonIzquierda = document.getElementById('botonIzquierda');
 var botonDerecha = document.getElementById('botonDerecha');
 var checkboxIniciar = document.getElementById('check');
+var botonNuevoEnHuayra = document.getElementById('nuevo-en-huayra');
 
 function actualizar_estados() {
 
@@ -61,7 +63,7 @@ function actualizar_estados() {
 }
 
 Reveal.addEventListener('ready', actualizar_estados);
-Reveal.addEventListener( 'slidechanged', actualizar_estados);
+Reveal.addEventListener('slidechanged', actualizar_estados);
 
 botonIzquierda.onclick = function() {
   // NOTA: usar Reveal.navigateLeft() si no queremos que ingrese en
@@ -79,6 +81,29 @@ botonAcercade.onclick = function() {
   Reveal.slide(-1, -1);
 };
 
+botonNuevoEnHuayra.onclick = function(e) {
+  e.preventDefault();
+  var huayraManualProcess = exec('huayra-visor-manual articles/p/r/i/Primeros_pasos.html && echo \'EL_PID\' $$',
+    function (error, stdout, stderr) {
+      if (error !== null) {
+        console.log('exec error: ' + error);
+      }
+      else {
+        // Pone el foco en la ayuda
+        // WARNING: dependemos del título de la ventana de ayuda
+        var focoEnLaAyuda = function(focoEnLaAyudaInterval) {
+          setTimeout(function() {
+            exec('wmctrl -Fa \'Primeros pasos - Huayra\'', function(err, stdout, stderr) {
+              if(err !== null) {
+                focoEnLaAyuda(focoEnLaAyudaInterval * 2);
+              }
+            });
+          }, focoEnLaAyudaInterval);
+        };
+        focoEnLaAyuda(1);
+      }
+  });
+};
 
 function copiar_archivo(desde, hasta, autostart) {
   fs.createReadStream(desde).
