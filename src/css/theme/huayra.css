@@ -370,3 +370,54 @@ div.celda {
 p.small_app_p {
     font-size: 0.8em;
 }
+
+
+/**
+ * Acerca de
+ **/
+
+div#wrapper_logos {
+    width: 130%;
+    margin-left: -15%;
+    height: auto;
+}
+
+.reveal section img.logos_acercade {
+    margin: 0 20px;
+    height: 170px;
+}
+
+
+div#logos_social {
+    
+}
+
+div#social_twitter,
+div#social_facebook {
+    font-family: "Chivo";
+    display: inline-block;
+    color: #0B4F67;
+    font-size: 1.2em;
+    margin: 30px 40px;
+}
+
+div#social_twitter img,
+div#social_facebook img {
+    vertical-align: middle;
+}
+
+h3.acercade {
+    font-size: 1.9em;
+    margin: 14px auto 20px auto;
+}
+
+h4.url {
+    font-weight: normal;
+    font-size: 1.1em;
+    font-family: "Chivo";
+    margin-bottom: 30px;
+}
+
+img.huayra-button {
+    margin-right: 15px;
+}
