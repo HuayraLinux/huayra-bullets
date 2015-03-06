@@ -10,7 +10,7 @@ Reveal.initialize({
   help:false,
   center: true,
   embedded: true,
-  autoSlide: 15000,
+  autoSlide: 10000,
   loop: true,
   keyboard: {
     13: 'next', // Enter
