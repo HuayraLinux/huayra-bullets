@@ -383,8 +383,8 @@ div#wrapper_logos {
 }
 
 .reveal section img.logos_acercade {
-    margin: 0 20px;
-    height: 170px;
+    margin: 65px 0 0 0;
+    height: 55px;
 }
 
 
@@ -420,4 +420,15 @@ h4.url {
 
 img.huayra-button {
     margin-right: 15px;
+}
+
+.reveal .playback {
+    position: absolute;
+    right: 15px !important;
+    zoom: 0.7;
+}
+
+div#logo_huayra img {
+    margin: 0;
+    height: 150px;
 }
