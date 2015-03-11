@@ -1,3 +1,9 @@
+huayra-bullets (0.20.1) brisa-proposed; urgency=medium
+
+  * Actualizado el 'acerca de...'
+
+ -- gonza <gonza@huayra>  Wed, 11 Mar 2015 15:08:36 -0300
+
 huayra-bullets (0.20) testing; urgency=low
 
   * Limpieza de código obsoleto
