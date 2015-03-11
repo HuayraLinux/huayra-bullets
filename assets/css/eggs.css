@@ -29,32 +29,29 @@ div#easter-egg-equipo-huayra {
 	text-shadow: 1px 1px 2px #fff;
 	background: #fff url(../images/eggs/huevo-pascua-fondo-640x450.png) no-repeat;
 }
-
-div#easter-egg-equipo-huayra div.acerca-de-logos {
-	margin: 10px 0 40px;
-	text-align: center;
+div#easter-egg-equipo-huayra h1,
+div#easter-egg-equipo-huayra h2,
+div#easter-egg-equipo-huayra li strong,
+div#easter-egg-equipo-huayra p {
+	/*background: rgba(255, 255, 255, .4);*/
 }
-div#easter-egg-equipo-huayra div.acerca-de-logos img {
-	max-width: 100%;
-}
-div#easter-egg-equipo-huayra div.comunicacion {
-	text-align: center;
-}
-div#easter-egg-equipo-huayra div.comunicacion span {
-	display: block;
-	font-size: 30px;
-	padding: 0;
+div#easter-egg-equipo-huayra h1 {
+	font-size: 1.3em;
 	margin: 0;
-	vertical-align: top;
-	text-align: left;
 }
-div#easter-egg-equipo-huayra div.comunicacion span img {
-	height: 25px;
-	width: 25px;
+div#easter-egg-equipo-huayra h2 {
+	font-size: 1.1em;
+	margin: 20px 0 0;
 }
-
-div#easter-egg-equipo-huayra div.participa {
-	margin-top: 40px;
-	font-size: 20px;
-	text-align: center;
+div#easter-egg-equipo-huayra h3 {
+	font-size: 1.0em;
+	margin: 10px 0 0;
+}
+div#easter-egg-equipo-huayra p {
+	font-size: 1.0em;
+	margin: 0;
+}
+div#easter-egg-equipo-huayra div.personas p {
+	font-size: 1.0em;
+	margin: 0;
 }

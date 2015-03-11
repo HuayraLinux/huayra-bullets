@@ -1,8 +1,35 @@
-huayra-bullets (0.20.1) brisa-proposed; urgency=medium
+huayra-bullets (1.3) unstable; urgency=low
 
-  * Actualizado el 'acerca de...'
+  * Bullets 6 y 7
 
- -- gonza <gonza@huayra>  Wed, 11 Mar 2015 15:08:36 -0300
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Wed, 23 Apr 2014 15:15:48 -0300
+
+huayra-bullets (1.2) unstable; urgency=medium
+
+  * Nuevo release
+  * Agrego source format
+  * Agrego misc:depends
+  * Bump standards-version
+
+ -- mauro <mauro@krutt.org>  Tue, 22 Apr 2014 13:01:59 -0300
+
+huayra-bullets (1.1) unstable; urgency=low
+
+  * Fixes en js
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 04 Apr 2014 16:17:14 -0300
+
+huayra-bullets (1.0) unstable; urgency=low
+
+  * Nueva versión para Huayra 2.0
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 04 Apr 2014 15:43:31 -0300
+
+huayra-bullets (0.21) testing; urgency=low
+
+  * Nuevo bullet de TPM
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Wed, 12 Jun 2013 16:22:01 -0300
 
 huayra-bullets (0.20) testing; urgency=low
 

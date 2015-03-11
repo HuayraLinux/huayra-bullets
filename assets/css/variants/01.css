@@ -4,20 +4,23 @@
  *
  */
 body.variant-01 {
-	background: url(../../images/backgrounds/background-01-640x450.png) no-repeat;
+	background: url(../../images/backgrounds/background-02-640x450.png) no-repeat;
 }
 body.variant-01 a:link,
 body.variant-01 a:visited {
-	color: #aef525;
+	color: #FC5DFF;
 }
 /*
  * WRAPPER
  * 
  */
 body.variant-01 div#wrapper {
-	width: 638px;
-	height: 440px;
-	margin: -7px 0 0 -7px;
+	border: 1px;
+	border-color: red;
+	border-style: transparent;
+	width: 620px;
+	height: 430px;
+	margin: 0;
 	padding: 0;
 	position: relative;
 }
@@ -27,19 +30,19 @@ body.variant-01 div#wrapper {
  *
  */
 body.variant-01 div#question {
-	width: 300px;
-	height: 370px;
+	width: 500px;
+	height: 50px;
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 30;
+	left: 40px;
 }
 body.variant-01 div#question h1 {
+	width: 500px;
 	color: #fff;
 	text-shadow: 1px 1px 2px #595959;
-	font-size: 2.2em;
+	font-size: 1.8em;
 	font-weight: bold;
-	width: 260px;
-	margin: 110px auto 0;
+	margin: 0px auto 0;
 	text-align: center;
 }
 /*
@@ -48,40 +51,125 @@ body.variant-01 div#question h1 {
  *
  */
 body.variant-01 div#actions {
-	width: 280px;
-	height: 70px;
+	border: 2px;
+	border-color: blue;
+	border-style: transparent;
+	width: 600px;
+	height: 30px;
 	position: absolute;
 	bottom: 0;
-	left: 10px;
+	left: 20px;
 }
 body.variant-01 div#actions div.action {
-	width: 70px;
+	border: 2px;
+	border-color: purple;
+	border-style: transparent;
+	width: 150px;
 	float: left;
 }
 body.variant-01 div#actions div#close-app.inactive {
 	opacity: 0.2;
 }
-body.variant-01 div#actions div#prev-bullet {
+
+
+body.variant-01 div#actions div#prev-bullet a:link {
+	border: 3px;
+	border-color: red;
+	border-style: transparent;
+	position: absolute;
+	bottom: 0px;
+	left: 220px;
 	text-align: left;
+	background: url(../../images/botones/anterior_normal.png) no-repeat;
+	color: transparent;
 }
-body.variant-01 div#actions div#next-bullet {
+body.variant-01 div#actions div#prev-bullet a:visited {
+	background: url(../../images/botones/anterior_normal.png) no-repeat;
+}
+body.variant-01 div#actions div#prev-bullet a:active {
+	background: url(../../images/botones/anterior_presionado.png) no-repeat;
+}
+body.variant-01 div#actions div#prev-bullet a:hover {
+	background: url(../../images/botones/anterior_resaltado.png) no-repeat;
+}
+
+
+body.variant-01 div#actions div#next-bullet a:link {
+	border: 2px;
+	border-color: purple;
+	border-style: transparent;
+	position: absolute;
+	bottom: 0px;
+	right: 220px;
+	background: url(../../images/botones/proximo_normal.png) no-repeat;
 	float: right;
 	text-align: right;
+	color: transparent;
 }
-body.variant-01 div#actions div#close-app {
-	float: left;
-	width: 140px;
+body.variant-01 div#actions div#next-bullet a:visited {
+	background: url(../../images/botones/proximo_normal.png) no-repeat;
+}
+body.variant-01 div#actions div#next-bullet a:active {
+	background: url(../../images/botones/proximo_presionado.png) no-repeat;
+}
+body.variant-01 div#actions div#next-bullet a:hover {
+	background: url(../../images/botones/proximo_resaltado.png) no-repeat;
+}
+
+
+body.variant-01 div#actions div#close-app a:link {
+	border: 2px;
+	border-color: blue;
+	border-style: transparent;
+
+	float: right;
+	width: 26px;
+	height: 24px; 
 	text-align: center;
+	background: url(../../images/botones/cerrar_normal.png) no-repeat;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+
 }
+body.variant-01 div#actions div#close-app a:visited {
+	background: url(../../images/botones/cerrar_normal.png) no-repeat;
+}
+body.variant-01 div#actions div#close-app a:active {
+	background: url(../../images/botones/cerrar_presionado.png) no-repeat;
+}
+body.variant-01 div#actions div#close-app a:hover {
+	background: url(../../images/botones/cerrar_resaltado.png) no-repeat;
+}
+
+
+
+body.variant-01 div#answer div#vaca-volve a:link,
+body.variant-01 div#answer div#vaca-volve a:visited {
+	background: url(../../images/botones/vaca-boton_normal.png) no-repeat;
+}
+body.variant-01 div#answer div#vaca-volve a:hover {
+	background: url(../../images/botones/vaca-boton_resaltado.png) no-repeat;
+}
+body.variant-01 div#answer div#vaca-volve a:active {
+	background: url(../../images/botones/vaca-boton_presionado.png) no-repeat;
+}
+
+
+
 /*=SHOW-NEXT-STARTUP */
 body.variant-01 div#show-next-startup {
+	border:2px;
+	border-color:red;
+	border-style:transparent;
+
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	font-family: 'Free sans';
-	font-size: .9em;
-	color: #fff;
-	text-shadow: 1px 1px 2px #595959;
+	font-family: 'Asap';
+	font-size: .6em;
+	color: #101010;
+	text-shadow: none; /* 1px 1px 2px #595959;*/
 }
 /*
  *
@@ -89,31 +177,38 @@ body.variant-01 div#show-next-startup {
  *
  */
 body.variant-01 div#answer {
-	width: 280px;
-	height: 290px;
-	color: #008000;
+
+	width: 500px;
+	height: 250px;
+	color: #EBEBEB;
 	position: absolute;
-	top: 100px;
-	right: 20px;
+	top: 90px;
+	left: 50px;
 	text-align: justify;
 	font-weight: normal;
-	font-family: 'Free sans', sans-serif;
+	font-family: 'Asap', sans-serif;
+	font-size: 1.0em;
 	overflow-y: auto;
 	overflow-x: none;
-	padding: 0;
+	margin: 0px;
 	display: none; /* FIRST TIME */
 }
+
 body.variant-01 div#animation {
-	width: 320px;
-	height: 380px;
-	position: absolute;
-	top: 0;
-	right: 0;
+	border: 2px;
+	border-color: yellow;
+	border-style: transparent;
+
+	width: 225px;
+	height: 200px;
+	position: relative;
+	top: 110px;
+	left: 200px;
 }
 
 body.variant-01 div#answer a:link,
 body.variant-01 div#answer a:visited {
-	color: #F04ACE;
+	color: #FAFAFA;
 	font-weight: bold;
 }
 body.variant-01 div#answer a:hover {
@@ -121,11 +216,16 @@ body.variant-01 div#answer a:hover {
 }
 /* VACA-VOLVE */
 body.variant-01 div#answer div#vaca-volve {
+	border: 2px;
+	border-color: yellow;
+	border-style: transparent;
+
 	width: 48px;
 	height: 48px;
 	position: absolute;
-	bottom: 0;
+	bottom: 0px;
 	right: 0;
+	margin: 2px;
 }
 body.variant-01 div#answer div#vaca-volve a span {
 	display: none;
@@ -137,9 +237,12 @@ body.variant-01 div#answer div#vaca-volve a {
 }
 body.variant-01 div#answer div#vaca-volve a:link,
 body.variant-01 div#answer div#vaca-volve a:visited {
-	background: url(../../images/vaca-icono-48x48.png) no-repeat;
+	background: url(../../images/botones/vaca-boton_normal.png) no-repeat;
 }
 body.variant-01 div#answer div#vaca-volve a:hover {
-	background: url(../../images/vaca-icono-b-48x48.png) no-repeat;
+	background: url(../../images/botones/vaca-boton_resaltado.png) no-repeat;
+}
+body.variant-01 div#answer div#vaca-volve a:active {
+	background: url(../../images/botones/vaca-boton_presionado.png) no-repeat;
 }
 
