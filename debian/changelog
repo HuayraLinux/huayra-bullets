@@ -1,3 +1,9 @@
+huayra-bullets (1.3.1) pampero-proposed; urgency=medium
+
+  * Cambiado el 'acerca de...'
+
+ -- Gonzalo Gluzman <dggluz@gmail.com>  Wed, 11 Mar 2015 15:29:45 -0300
+
 huayra-bullets (1.3) unstable; urgency=low
 
   * Bullets 6 y 7
