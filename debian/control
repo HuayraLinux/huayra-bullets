@@ -1,8 +1,7 @@
 Source: huayra-bullets
 Section: main
 Priority: extra
-Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
-Uploaders: Fernando Toledo <ragnarok@docksud.cm.ar> 
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
 Build-Depends: debhelper (>= 8.0.0), python-support
 Standards-Version: 3.9.5
 Homepage: http://huayra.conectarigualdad.gob.ar

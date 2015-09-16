@@ -1,3 +1,10 @@
+huayra-bullets (1.9) unstable; urgency=medium
+
+  * Correcciones para Huayra 3.1
+  * Cambio de mantenedor
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 16 Sep 2015 11:16:37 -0300
+
 huayra-bullets (1.8) torbellino; urgency=medium
 
   * Placa final con logos oficiales y formas de contacto.
