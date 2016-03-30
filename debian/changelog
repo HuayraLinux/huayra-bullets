@@ -1,3 +1,9 @@
+huayra-bullets (1.12) torbellino; urgency=medium
+
+  * Cierro bug `nw-wmclass-missing` de github (#2)
+
+ -- Mauro <mauro@sdf.org>  Wed, 30 Mar 2016 14:41:32 -0300
+
 huayra-bullets (1.11) torbellino; urgency=medium
 
   * Correcciones menores de textos para Huayra 3.2

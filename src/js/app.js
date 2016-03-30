@@ -142,3 +142,4 @@ checkboxIniciar.onchange = function() {
 };
 
 mostrar_estado_iniciar_checkbox();
+fs.writeFileSync("/tmp/huayra-bullets.pid", process.pid);
