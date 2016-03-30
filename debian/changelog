@@ -1,3 +1,9 @@
+huayra-bullets (1.13) torbellino; urgency=medium
+
+  * Agrego dependencia en `node-replacestream`
+
+ -- Mauro <mauro@sdf.org>  Wed, 30 Mar 2016 15:29:32 -0300
+
 huayra-bullets (1.12) torbellino; urgency=medium
 
   * Cierro bug `nw-wmclass-missing` de github (#2)

@@ -10,7 +10,7 @@ Vcs-Git: http://github.com/huayralinux/huayra-identinet
 Package: huayra-bullets
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, node-webkit (>= 0.11.2.4),
- huayra-fonts (>= 2.2), wmctrl
+ huayra-fonts (>= 2.2), huayra-help (>= 0.3), node-replacestream
 Conflicts: conectar-bullets
 Replaces: conectar-bullets
 Description: Visor de los bullets de ayuda
