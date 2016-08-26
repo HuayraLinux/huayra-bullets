@@ -3,6 +3,9 @@ var fs = require('fs');
 var replaceStream = require('replacestream');
 var exec = require('child_process').exec;
 
+/* Hack para setear WM_CLASS */
+process.mainModule.exports.init(require('nwjs-hack').set_wmclass.bind(null, "huayra-block", true));
+
 Reveal.initialize({
   controls: false,
   progress: true,
