@@ -1,3 +1,9 @@
+huayra-bullets (1.14) unstable; urgency=medium
+
+  * Cambio la forma en que se handlea el WM_CLASS
+
+ -- Ignacio Losiggio <iglosiggio@gmail.com>  Mon, 05 Sep 2016 11:22:59 -0300
+
 huayra-bullets (1.13) torbellino; urgency=medium
 
   * Agrego dependencia en `node-replacestream`
