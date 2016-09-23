@@ -16,8 +16,8 @@ body {
   background-color: #222; }
 
 .reveal {
-  font-family: 'Amatic', Helvetica, sans-serif;
-  font-size: 38px;
+  font-family: 'Commodore 64 Pixelized', Helvetica, sans-serif;
+  font-size: 30px;
   font-weight: normal;
   color: #fff; }
 
@@ -41,11 +41,12 @@ body {
 /*********************************************
  * HEADERS
  *********************************************/
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+.reveal h1, .reveal h2 {
   margin: 0 0 20px 0;
   color: #0B4F67;
-  font-family: 'Amatic', Helvetica, sans-serif;
-  font-weight: 600;
+  font-family: 'Commodore 64 Pixelized', Helvetica, sans-serif;
+  font-size: 20px; /* test */
+  font-weight: 200;
   line-height: 1.2;
   letter-spacing: normal;
   text-shadow: none;
@@ -53,6 +54,21 @@ body {
   word-wrap: break-word; 
 */
 }
+
+.reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  margin: 0 0 20px 0;
+  color: #0B4F67;
+  font-family: 'Play', Helvetica, sans-serif;
+  font-size: 20px; /* test */
+  font-weight: 200;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-shadow: none;
+/*
+  word-wrap: break-word; 
+*/
+}
+
 
 .reveal h1 {
   font-size: 3.6em; }
@@ -74,12 +90,12 @@ body {
  * OTHER
  *********************************************/
 .reveal p {
-  font-family: 'Chivo';
+  font-family: 'Play';
   margin: 20px 0;
   line-height: 1.2;
   text-shadow: none;
   text-align: justify;
-  color: #18496C;
+  color: #0064a9; /* Celeste */
 }
 
 /* Ensure certain elements are never larger than the slide itself */
@@ -174,7 +190,7 @@ body {
 
 .reveal table th, .reveal table td {
   text-align: left;
-  padding: 0.2em 0.5em 0.2em 0.5em;
+  padding: 0.2em 0.5em 0.2em 0.9em;
   border-bottom: 1px solid; }
 
 .reveal table tr:last-child td {
@@ -318,16 +334,27 @@ h4.right {
     float: right;
 }
 
+.bg_scanlines {
+	/* background-color: yellow; */
+	background-image: url("/home/malefico/Documentos/huayra-bullets/src/img/panel.svg");
+	background-repeat: repeat;
+
+}
+
+.bg_celeste {
+	background-color: #b1d8ff;
+}
+
 .bg_naranja_01 {
     background-color: rgb(255, 196, 89) !important;
 }
 
 .bg_azul_01 {
-    background-color: rgb(89, 167, 255) !important
+    background-color: rgb(89, 167, 255) !important;
 }
 
 .bg_verde_01 {
-    background-color: rgb(89, 167, 55) !important
+    background-color: rgb(89, 167, 55) !important;
 }
 
 .clear_both {
@@ -335,13 +362,13 @@ h4.right {
 }
 
 .app_icon {
-    width: 256px;
-    height: 256px;
+    width: 128px;
+    height: 128px;
 }
 
 .app_icon_small {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     margin: 7px;
 }
 
@@ -430,5 +457,6 @@ img.huayra-button {
 
 div#logo_huayra img {
     margin: 0;
-    height: 150px;
+    width: 441;
+    height: 40px;
 }

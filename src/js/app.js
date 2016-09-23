@@ -26,7 +26,7 @@ Reveal.initialize({
   transition: 'slide',
 
   // Fondo paralaje
-  parallaxBackgroundImage: 'css/fondo.svg',
+  parallaxBackgroundImage: 'css/fondo_PRIMEROS PASOS.svg',
   parallaxBackgroundSize: '1600px 900px',
 
     // Optional reveal.js plugins
