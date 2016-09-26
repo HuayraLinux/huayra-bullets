@@ -38,6 +38,7 @@ body {
   line-height: 1.3;
   font-weight: inherit; }
 
+
 /*********************************************
  * HEADERS
  *********************************************/
@@ -56,7 +57,7 @@ body {
 }
 
 .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-  margin: 0 0 20px 0;
+  margin: 10 0 20px 0;
   color: #0B4F67;
   font-family: 'Play', Helvetica, sans-serif;
   font-size: 20px; /* test */
@@ -235,7 +236,9 @@ body {
  * IMAGES
  *********************************************/
 .reveal section img {
-  margin: 15px 0px;
+  margin: 35px 0px;
+	/*margin-top: 45px;*/
+
 /*
   background: rgba(255, 255, 255, 0.12);
   border: 4px solid #fff;
@@ -369,15 +372,21 @@ h4.right {
 .app_icon_small {
     width: 48px;
     height: 48px;
-    margin: 7px;
 }
 
 .img_left {
     float: left;
+
 }
 
 .img_right {
     float: right;
+}
+h3.title, .right {
+	height: 80px;
+	vertical-align: middle;
+	
+
 }
 
 h4.app_slogan {
@@ -385,6 +394,7 @@ h4.app_slogan {
     font-family: 'Chivo';
     font-weight: 400;
     width: 690px;
+	
 }
 
 div.celda {
