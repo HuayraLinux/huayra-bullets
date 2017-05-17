@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "replacestream": "^2.0.0",
-    "nwjs-hack": "iglosiggio/nwjs-hack"
+    "nwjs-hack": "git+https://github.com/iglosiggio/nwjs-hack.git"
   }
 }
