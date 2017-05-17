@@ -1,3 +1,10 @@
+huayra-bullets (1.10+nmu1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Correcciones en textos para Huayra 3.3 
+
+ -- malefico <malefico3d@gmail.com>  Wed, 17 May 2017 14:33:18 -0300
+
 huayra-bullets (1.10) unstable; urgency=medium
 
   * Correcciones menores de textos para Huayra 3.1
