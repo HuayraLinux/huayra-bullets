@@ -12,5 +12,7 @@
 export DH_OPTIONS
 
 %:
-	npm install
 	dh $@ 
+
+override_dh_autoconfigure:
+	npm install
