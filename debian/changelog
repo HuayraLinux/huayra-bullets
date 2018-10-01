@@ -1,3 +1,10 @@
+huayra-bullets (1.16) unstable; urgency=medium
+
+  * Eliminados logos de Conectar Igualdad y ANSES en Acerca De
+  * Agregado logo Educ.Ar 
+
+ -- malefico <malefico3d@gmail.com>  Wed, 31 May 2017 12:59:46 -0300
+
 huayra-bullets (1.15) unstable; urgency=medium
 
   * Cambios menores para Huayra 3.3 (index.html y fondo.svg).
