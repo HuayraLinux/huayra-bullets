@@ -105,9 +105,13 @@ botonNuevoEnHuayra.onclick = function(e) {
       }
   });
 };
-document.getElementById('nuevo-en-huayra-2').onclick = botonNuevoEnHuayra.onclick;
 
 function copiar_archivo(desde, hasta, autostart) {
+  var autostart_folder = path.join(process.env['HOME'], '.config/autostart');
+  if (!fs.existsSync(autostart_folder)) {
+    fs.mkdir(autostart_folder);
+  }
+
   fs.createReadStream(desde).
     pipe(replaceStream('Terminal=false', "Terminal=false\nX-MATE-Autostart-enabled=" + autostart)).
     pipe(fs.createWriteStream(hasta));

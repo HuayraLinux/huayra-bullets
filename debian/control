@@ -2,10 +2,10 @@ Source: huayra-bullets
 Section: main
 Priority: extra
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
-Build-Depends: debhelper (>= 8.0.0), python-support, git, npm
+Build-Depends: debhelper (>= 8.0.0), nodejs
 Standards-Version: 3.9.5
 Homepage: http://huayra.conectarigualdad.gob.ar
-Vcs-Git: http://github.com/huayralinux/huayra-identinet
+Vcs-Git: https://github.com/HuayraLinux/huayra-bullets.git
 
 Package: huayra-bullets
 Architecture: all
