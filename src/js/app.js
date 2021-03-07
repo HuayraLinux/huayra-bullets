@@ -3,37 +3,39 @@ var fs = require('fs');
 var replaceStream = require('replacestream');
 var exec = require('child_process').exec;
 
+var isDev = process.env.IS_DEV;
+
 /* Hack para setear WM_CLASS */
 process.mainModule.exports.init(require('nwjs-hack').set_wmclass.bind(null, "huayra-bullets", true));
 
-Reveal.initialize({
+var config = {
+  transition: 'slide',
+  parallaxBackgroundImage: 'assets/backgrounds/fondo.svg',
+  parallaxBackgroundSize: '2000px 1125px',
   controls: false,
   progress: true,
-  history: true,
-  help:false,
+  history: false,
+  help: false,
   center: true,
-  embedded: true,
+  embedded: false,
   autoSlide: 10000,
   loop: true,
-  navigationMode: 'default',
   keyboard: {
     13: 'next', // Enter
     37: 'prev', // Flecha Izq
     39: 'next', // Flecha Der
     38: null, // Flecha Arriba
     40: null, // Flecha Abajo
-    116: function() {
-        location.reload(true);
-        } // refrescar página.
-  },
+    27: null, // Esc
+  }
+};
 
-  transition: 'slide',
+if (isDev) {
+  config.keyboard[116] = function() { location.reload(true) };
+  require('nw.gui').Window.get().showDevTools();
+}
 
-  // Fondo paralaje
-  parallaxBackgroundImage: 'assets/backgrounds/fondo.svg',
-  parallaxBackgroundSize: '2000px 1125px',
-
-});
+Reveal.initialize(config);
 
 var botonAcercaDe = document.getElementById('botonAcercaDe');
 var botonIzquierda = document.getElementById('botonIzquierda');
@@ -41,21 +43,12 @@ var botonDerecha = document.getElementById('botonDerecha');
 var checkboxIniciar = document.getElementById('check');
 var botonNuevoEnHuayra = document.getElementById('nuevo-en-huayra');
 
-require('nw.gui').Window.get().showDevTools();
-
 function actualizar_estados() {
-  /*
-  if (Reveal.isFirstSlide())
-    botonIzquierda.setAttribute('disabled', 'disabled');
-  else
-    botonIzquierda.removeAttribute('disabled');
+  if (Reveal.isFirstSlide()) botonIzquierda.setAttribute('disabled', 'disabled');
+  else botonIzquierda.removeAttribute('disabled');
 
-  if (Reveal.isLastSlide()) {
-    botonDerecha.setAttribute('disabled', 'disabled');
-  } else {
-    botonDerecha.removeAttribute('disabled');
-  }
-  */
+  if (Reveal.isLastSlide()) botonDerecha.setAttribute('disabled', 'disabled');
+  else botonDerecha.removeAttribute('disabled');
 }
 
 Reveal.addEventListener('ready', actualizar_estados);
