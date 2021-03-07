@@ -4,11 +4,13 @@
     "main": "index.html",
     "node-main": "js/node-main.js",
     "window": {
-        "toolbar": false,
-        "width": 800,
-        "height": 500,
-        "min_width": 800,
-        "min_height": 500,
-        "position": "center"
+      "toolbar": false,
+      "width": 900,
+      "height": 650,
+      "min_width": 900,
+      "min_height": 650,
+      "max_width": 900,
+      "max_height": 650,
+      "position": "center"
     }
 }

@@ -15,13 +15,14 @@ Reveal.initialize({
   embedded: true,
   autoSlide: 10000,
   loop: true,
+  navigationMode: 'default',
   keyboard: {
     13: 'next', // Enter
     37: 'prev', // Flecha Izq
     39: 'next', // Flecha Der
     38: null, // Flecha Arriba
     40: null, // Flecha Abajo
-    70: function() {
+    116: function() {
         location.reload(true);
         } // refrescar página.
   },
@@ -29,18 +30,9 @@ Reveal.initialize({
   transition: 'slide',
 
   // Fondo paralaje
-  parallaxBackgroundImage: 'css/fondo.svg',
-  parallaxBackgroundSize: '1600px 900px',
+  parallaxBackgroundImage: 'assets/backgrounds/fondo.svg',
+  parallaxBackgroundSize: '2000px 1125px',
 
-    // Optional reveal.js plugins
-  dependencies: [
-  { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-  { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-  { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-    { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-    { src: 'plugin/zoom-js/zoom.js', async: true },
-      { src: 'plugin/notes/notes.js', async: true }
-  ]
 });
 
 var botonAcercaDe = document.getElementById('botonAcercaDe');
@@ -49,7 +41,10 @@ var botonDerecha = document.getElementById('botonDerecha');
 var checkboxIniciar = document.getElementById('check');
 var botonNuevoEnHuayra = document.getElementById('nuevo-en-huayra');
 
+require('nw.gui').Window.get().showDevTools();
+
 function actualizar_estados() {
+  /*
   if (Reveal.isFirstSlide())
     botonIzquierda.setAttribute('disabled', 'disabled');
   else
@@ -60,6 +55,7 @@ function actualizar_estados() {
   } else {
     botonDerecha.removeAttribute('disabled');
   }
+  */
 }
 
 Reveal.addEventListener('ready', actualizar_estados);

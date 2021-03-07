@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  user-select: none;
+  overflow: hidden;
+  text-shadow: none;
+}
+
+button {
+  background: none;
+	color: inherit;
+	font: inherit;
+	outline: inherit;
+}
+
+img {
+  display: block;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  margin: 0;
+  letter-spacing: normal;
+  text-shadow: none;
+}
+
+.reveal p {
+  font-size: 2rem ;
+  line-height: 1.8rem;
+  text-shadow: none;
+}
