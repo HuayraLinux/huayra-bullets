@@ -1,3 +1,9 @@
+huayra-bullets (1.19) unstable; urgency=medium
+
+  * Nuevos contenidos Huayra 5
+
+ -- Matias De lellis <mati86dl@gmail.com>  Mon, 08 Mar 2021 15:39:15 -0300
+
 huayra-bullets (1.18) unstable; urgency=medium
 
   * Fix never disable autostart.
