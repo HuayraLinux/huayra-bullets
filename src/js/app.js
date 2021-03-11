@@ -8,30 +8,9 @@ var isDev = process.env.IS_DEV;
 /* Hack para setear WM_CLASS */
 process.mainModule.exports.init(require('nwjs-hack').set_wmclass.bind(null, "huayra-bullets", true));
 
-var config = {
-  transition: 'slide',
-  parallaxBackgroundImage: 'assets/backgrounds/fondo.svg',
-  parallaxBackgroundSize: '2000px 1125px',
-  controls: false,
-  progress: true,
-  history: false,
-  help: false,
-  center: true,
-  embedded: false,
-  autoSlide: 10000,
-  loop: true,
-  keyboard: {
-    13: 'next', // Enter
-    37: 'prev', // Flecha Izq
-    39: 'next', // Flecha Der
-    38: null, // Flecha Arriba
-    40: null, // Flecha Abajo
-    27: null, // Esc
-  }
-};
+const config = generateConfig();
 
 if (isDev) {
-  config.keyboard[116] = function() { location.reload(true) };
   require('nw.gui').Window.get().showDevTools();
 }
 
@@ -43,7 +22,7 @@ var botonDerecha = document.getElementById('botonDerecha');
 var checkboxIniciar = document.getElementById('check');
 var botonNuevoEnHuayra = document.getElementById('nuevo-en-huayra');
 
-function actualizar_estados() {
+function actualizar_estados(e) {
   if (Reveal.isFirstSlide()) botonIzquierda.setAttribute('disabled', 'disabled');
   else botonIzquierda.removeAttribute('disabled');
 

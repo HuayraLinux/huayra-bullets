@@ -112,6 +112,10 @@
   margin-top: 4rem !important;
 }
 
+.margin-top-5 {
+  margin-top: 5rem !important;
+}
+
 .margin-left-2 {
   margin-left: 2rem !important;
 }
@@ -144,6 +148,10 @@
   box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
 }
 
+.padding-2 {
+  padding: 2rem !important;
+}
+
 .padding-3 {
   padding: 3rem !important;
 }
@@ -166,3 +174,30 @@
   text-shadow: none !important;
 }
 
+.list-style-none {
+  list-style-type: none;
+}
+
+.font-size-3 {
+  font-size: 3rem !important;
+}
+
+.font-size-2-5 {
+  font-size: 2.5rem !important;
+}
+
+.font-size-2 {
+  font-size: 2rem !important;
+}
+
+.font-size-1-5 {
+  font-size: 1.5rem !important;
+}
+
+.font-size-1 {
+  font-size: 1rem !important;
+}
+
+.hidden {
+  display: none;
+}

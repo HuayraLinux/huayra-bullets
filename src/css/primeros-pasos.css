@@ -17,7 +17,7 @@ footer {
 
 button {
 	cursor: pointer;
-	padding: 15px;
+	padding: 10px;
   box-shadow: 0px 0px 0px 2px #EB6D7F;
   border: 3px solid white;
   border-radius: 5px;
@@ -25,7 +25,6 @@ button {
 
 button:hover {
   box-shadow: 0px 0px 5px 5px #EB6D7F;
-
 }
 
 button + button {
@@ -41,7 +40,6 @@ button + button {
 }
 
 .reveal p {
-  font-size: 2rem ;
   line-height: 1.8rem;
 }
 
@@ -54,5 +52,9 @@ button + button {
 }
 
 .reveal h3 {
-  font-size: 3.5rem;
+  font-size: 4rem;
+}
+
+.animate {
+  transform: translateY(-160%);
 }

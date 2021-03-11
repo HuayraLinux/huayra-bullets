@@ -1,8 +1,10 @@
 html, body {
-  margin: 0;
+  -webkit-user-select: none;
   user-select: none;
+  margin: 0;
   overflow: hidden;
   text-shadow: none;
+  box-sizing: border-box;
 }
 
 button {
@@ -26,7 +28,5 @@ img {
 }
 
 .reveal p {
-  font-size: 2rem ;
-  line-height: 1.8rem;
   text-shadow: none;
 }
