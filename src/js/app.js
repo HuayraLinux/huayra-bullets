@@ -2,6 +2,7 @@ var path = require('path');
 var fs = require('fs');
 var replaceStream = require('replacestream');
 var exec = require('child_process').exec;
+var nw = require('nw.gui');
 
 var isDev = process.env.IS_DEV;
 
@@ -11,7 +12,7 @@ process.mainModule.exports.init(require('nwjs-hack').set_wmclass.bind(null, "hua
 const config = generateConfig();
 
 if (isDev) {
-  require('nw.gui').Window.get().showDevTools();
+  nw.Window.get().showDevTools();
 }
 
 Reveal.initialize(config);
@@ -20,7 +21,7 @@ var botonAcercaDe = document.getElementById('botonAcercaDe');
 var botonIzquierda = document.getElementById('botonIzquierda');
 var botonDerecha = document.getElementById('botonDerecha');
 var checkboxIniciar = document.getElementById('check');
-var botonNuevoEnHuayra = document.getElementById('nuevo-en-huayra');
+var groomingLink = document.getElementById('grooming-anchor');
 
 function actualizar_estados(e) {
   if (Reveal.isFirstSlide()) botonIzquierda.setAttribute('disabled', 'disabled');
@@ -50,28 +51,8 @@ botonAcercaDe.onclick = function(e) {
   Reveal.slide(-1, -1);
 };
 
-botonNuevoEnHuayra.onclick = function(e) {
-  e.preventDefault();
-  var huayraManualProcess = exec('huayra-visor-manual articles/p/r/i/Primeros_pasos.html && echo \'EL_PID\' $$',
-    function (error, stdout, stderr) {
-      if (error !== null) {
-        console.log('exec error: ' + error);
-      }
-      else {
-        // Pone el foco en la ayuda
-        // WARNING: dependemos del título de la ventana de ayuda
-        var focoEnLaAyuda = function(focoEnLaAyudaInterval) {
-          setTimeout(function() {
-            exec('wmctrl -Fa \'Primeros pasos - Huayra\'', function(err, stdout, stderr) {
-              if(err !== null) {
-                focoEnLaAyuda(focoEnLaAyudaInterval * 2);
-              }
-            });
-          }, focoEnLaAyudaInterval);
-        };
-        focoEnLaAyuda(1);
-      }
-  });
+groomingLink.onclick = function() {
+  nw.Shell.openExternal('https://argentina.gob.ar/grooming');
 };
 
 function copiar_archivo(desde, hasta, autostart) {
