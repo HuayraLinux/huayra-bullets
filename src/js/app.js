@@ -6,6 +6,28 @@ var nw = require('nw.gui');
 
 var isDev = process.env.IS_DEV;
 
+/* Crea archivos institucionales */
+
+fs.readdir('/usr/share/huayra-bullets/institucional', function(error, files) {
+  if (error) {
+    console.log('Unable to list institutional files: ' + error);
+    return;
+  }
+
+  files.forEach(function (file) {
+    var destFile = path.join(process.env['HOME'], 'Escritorio', file);
+    if (!fs.existsSync(destFile)) {
+      var sourceFile = path.join('/usr/share/huayra-bullets/institucional', file);
+      fs.copyFile(sourceFile, destFile, function(error) {
+         if (error) {
+            console.log('Unable to copy institucional file: ' + error);
+            return;
+         }
+      });
+    }
+  });
+});
+
 /* Hack para setear WM_CLASS */
 process.mainModule.exports.init(require('nwjs-hack').set_wmclass.bind(null, "huayra-bullets", true));
 

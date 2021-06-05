@@ -4,3 +4,4 @@ bin/huayra-bullets usr/bin
 debian/huayra-bullets.desktop usr/share/applications
 debian/huayra-bullets.desktop etc/xdg/autostart
 debian/huayra-bullets.svg usr/share/icons/hicolor/scalable/apps
+debian/institucional-grooming.desktop usr/share/huayra-bullets/institucional
