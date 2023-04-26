@@ -16,7 +16,7 @@
     "url": "https://github.com/HuayraLinux/huayra-bullets/issues"
   },
   "dependencies": {
-    "replacestream": "^2.0.0",
-    "nwjs-hack": "git+https://github.com/iglosiggio/nwjs-hack.git"
+    "nwjs-hack": "git+https://github.com/iglosiggio/nwjs-hack.git",
+    "replacestream": "^2.0.0"
   }
 }
