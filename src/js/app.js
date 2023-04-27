@@ -7,7 +7,7 @@ var nw = require('nw.gui');
 var isDev = process.env.IS_DEV;
 
 /* Hack para setear WM_CLASS */
-process.mainModule.exports.init(require('nwjs-hack').set_wmclass.bind(null, "huayra-bullets", true));
+//process.mainModule.exports.init(require('nwjs-hack').set_wmclass.bind(null, "huayra-bullets", true));
 
 const config = generateConfig();
 

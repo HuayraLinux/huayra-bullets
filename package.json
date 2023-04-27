@@ -4,7 +4,13 @@
   "description": "Huayra Bullets",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nw src",
+    "dist:win": "build --tasks win-x86,win-x64 --mirror https://dl.nwjs.io/ .",
+    "dist:osx": "build --tasks mac-x64 --mirror https://dl.nwjs.io/ .",
+    "dist:linux86": "build --tasks linux-x86 --mirror https://dl.nwjs.io/ .",
+    "dist": "build --tasks linux-x64 --mirror https://dl.nwjs.io/ .",
+    "nwjs-start": "run --x64 --mirror https://dl.nwjs.io/ src"
   },
   "repository": {
     "type": "git",
@@ -16,7 +22,15 @@
     "url": "https://github.com/HuayraLinux/huayra-bullets/issues"
   },
   "dependencies": {
-    "nwjs-hack": "git+https://github.com/iglosiggio/nwjs-hack.git",
-    "replacestream": "^2.0.0"
+    "replacestream": "^4.0.3"
+  },
+  "devDependencies": {
+    "nw": "^0.75.0",
+    "nwjs": "^1.4.4",
+    "nwjs-builder-phoenix": "^1.15.0",
+    "nwjs-packager": "^1.5.1"
+  },
+  "build": {
+    "nwVersion": "0.75.0"
   }
 }
