@@ -1,5 +1,5 @@
 src usr/share/huayra-bullets
-node_modules/nwjs-hack/* usr/share/huayra-bullets/node_modules/nwjs-hack
+node_modules/* usr/share/huayra-bullets/node_modules/
 bin/huayra-bullets usr/bin
 debian/huayra-bullets.desktop usr/share/applications
 debian/huayra-bullets.desktop etc/xdg/autostart
