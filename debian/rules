@@ -30,4 +30,4 @@ override_dh_auto_configure:
 	wget https://nodejs.org/dist/$(NODE_VERSION)/$(NODE_TARBALL)
 	tar xvf $(NODE_TARBALL) -C /tmp/
 	node -v; npm -v
-	npm i
+	npm i --omit=dev
