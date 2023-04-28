@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="425.66257mm"
+   height="292.96097mm"
+   viewBox="0 0 425.66257 292.96097"
+   version="1.1"
+   id="svg8282"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="tienda.svg">
+  <defs
+     id="defs8276">
+    <linearGradient
+       gradientTransform="matrix(0.22629387,0,0,0.22629387,-398.00689,-115.9054)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient7171"
+       id="linearGradient7181-5-6-8-5"
+       x1="234.92522"
+       y1="791.40247"
+       x2="680.39661"
+       y2="806.91644"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7171">
+      <stop
+         style="stop-color:#32bbed;stop-opacity:1;"
+         offset="0"
+         id="stop7167" />
+      <stop
+         style="stop-color:#32bbed;stop-opacity:0;"
+         offset="1"
+         id="stop7169" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.22629387,0,0,0.22629387,-398.00689,-115.9054)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient7171"
+       id="linearGradient7173-7-9-5-3"
+       x1="957.43109"
+       y1="778.10486"
+       x2="988.45892"
+       y2="638.47949"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9366356"
+     inkscape:cx="717.33989"
+     inkscape:cy="1005.8193"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1329"
+     inkscape:window-height="688"
+     inkscape:window-x="16"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0"
+     showborder="false" />
+  <metadata
+     id="metadata8279">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(458.92446,204.34421)">
+    <path
+       style="display:inline;opacity:0.438;fill:url(#linearGradient7181-5-6-8-5);fill-opacity:1;stroke:none;stroke-width:0.138913px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -383.66324,87.2497 c 1.20456,-0.6023 -53.79959,0.9045 -52.88477,0.9045 l 75.36192,-35.9672 138.95913,35.3248 z"
+       id="path6376-8-8-6-4-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="display:inline;opacity:0.328;fill:url(#linearGradient7173-7-9-5-3);fill-opacity:1;stroke:#ffffff;stroke-width:0.138913px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -259.14822,87.7906 c 1.20456,-0.6023 -83.44633,0.7567 -82.53152,0.7567 l 307.13949,-207.3389 1.20848,205.6946 z"
+       id="path6376-6-3-3-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <g
+       id="g233"
+       transform="matrix(1.21,0,0,1.21,69.793463,14.294177)">
+      <rect
+         style="opacity:0.3;fill:#ee3d8f;fill-opacity:1;stroke:none;stroke-width:0.981117;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+         id="rect2397-6-0"
+         width="322.453"
+         height="182.3054"
+         x="-419.99475"
+         y="-137.74754"
+         ry="16.004694" />
+      <rect
+         style="fill:#ee3d8f;fill-opacity:1;stroke:#9195d6;stroke-width:0.0258149;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+         id="rect983-0-9-3-5"
+         width="243.03152"
+         height="20.746691"
+         x="-424.57202"
+         y="-180.67998"
+         ry="6.9920335" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:14.9745px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.374361"
+         x="-415.35538"
+         y="-166.22978"
+         id="text1061-2-0-0-8-4-3-8"><tspan
+           sodipodi:role="line"
+           id="tspan1059-5-1-6-9-8-8-7"
+           x="-415.35538"
+           y="-166.22978"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#ffffff;stroke-width:0.374361">Tienda de software de Huayra</tspan></text>
+      <rect
+         style="fill:#09a5ce;fill-opacity:1;stroke:#9195d6;stroke-width:0.0239567;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+         id="rect2291-2-1-7-5-6-9-1-7-7-1-1-5-4-0"
+         width="227.6731"
+         height="15.88688"
+         x="-406.86166"
+         y="-116.4453"
+         ry="0" />
+      <rect
+         style="fill:#09a5ce;fill-opacity:1;stroke:#9195d6;stroke-width:0.0187387;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+         id="rect2291-2-1-7-5-6-9-1-7-7-1-1-8-8-4"
+         width="139.24898"
+         height="15.892097"
+         x="-348.28833"
+         y="-6.5593123"
+         ry="0" />
+      <rect
+         style="fill:#ee3d8f;fill-opacity:1;stroke:#9195d6;stroke-width:0.0170447;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+         id="rect2291-2-1-7-5-6-9-1-7-8-8-3"
+         width="136.91434"
+         height="13.372966"
+         x="-407.60681"
+         y="-46.141098"
+         ry="0" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-405.66498"
+         y="-119.32518"
+         id="text1678-8-5-8"><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="-119.32518"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.264583"
+           id="tspan4462"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
+   id="tspan2133">Buscala en:</tspan> </tspan><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="-105.21406"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.264583"
+           id="tspan4856"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
+   id="tspan4858">Aplicaciones -&gt; Herramientas -&gt; Software</tspan> </tspan><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="-91.102928"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.264583"
+           id="tspan4478">Un lugar donde encontrar fácilmente y poder <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
+   id="tspan5284">descargar </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="-76.991806"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.264583"
+           id="tspan5292"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
+   id="tspan5303">e instalar </tspan>en<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
+   id="tspan4557"> forma gratuita</tspan> y automatizada cientos de </tspan><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="-62.880676"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.264583"
+           id="tspan4466">aplicaciones libres para tu computadora. </tspan><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="-49.574341"
+           id="tspan4563" /><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="-35.540428"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.2889px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#ffffff;stroke-width:0.264583"
+           id="tspan4468">Sugerencias de software</tspan><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="-22.234091"
+           id="tspan4470" /><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="-8.2001781"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.264583"
+           id="tspan4472">En la <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
+   id="tspan4500">tienda de Software de Huayra</tspan> vas a encontrar una </tspan><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="5.9109473"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.264583"
+           id="tspan4482">pestaña de <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
+   id="tspan4502">“Aplicaciones sugeridas”</tspan> que podés instalar </tspan><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="20.022074"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.264583"
+           id="tspan4484">y probar en minutos con tan solo dos clicks. </tspan><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="33.328411"
+           id="tspan4474" /><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="46.557537"
+           id="tspan2758-8" /><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="59.786659"
+           id="tspan2141-8-0" /><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="73.015785"
+           id="tspan1688-1-1-4" /><tspan
+           sodipodi:role="line"
+           x="-405.66498"
+           y="86.244911"
+           id="tspan1690-7-2-0" /></text>
+      <rect
+         style="fill:#da8205;fill-opacity:1;stroke:#9195d6;stroke-width:0.0223283;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+         id="rect2291-2-1-7-5-6-9-1-7-8-8-1"
+         width="108.31873"
+         height="29.00699"
+         x="-264.36353"
+         y="-162.61302"
+         ry="0" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-261.09628"
+         y="-153.08458"
+         id="text4736"><tspan
+           sodipodi:role="line"
+           id="tspan4734"
+           x="-261.09628"
+           y="-153.08458"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#ffffff;stroke-width:0.264583">¡Seguí investigando </tspan><tspan
+           sodipodi:role="line"
+           x="-261.09628"
+           y="-139.68623"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#ffffff;stroke-width:0.264583"
+           id="tspan2131">      y descubriendo!</tspan></text>
+    </g>
+    <rect
+       style="opacity:0.3;fill:#ee3d8f;fill-opacity:1;stroke:none;stroke-width:1.18715;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="rect235"
+       width="390.16812"
+       height="220.58954"
+       x="-438.40018"
+       y="-152.38036"
+       ry="19.365679" />
+    <rect
+       style="fill:#ee3d8f;fill-opacity:1;stroke:#9195d6;stroke-width:0.031236;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="rect237"
+       width="294.06815"
+       height="25.103497"
+       x="-443.93869"
+       y="-204.3286"
+       ry="8.4603605" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.1191px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.452977"
+       x="-432.78653"
+       y="-186.84386"
+       id="text241"><tspan
+         sodipodi:role="line"
+         id="tspan239"
+         x="-432.78653"
+         y="-186.84386"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#ffffff;stroke-width:0.452977">Tienda de software de Huayra</tspan></text>
+    <rect
+       style="fill:#09a5ce;fill-opacity:1;stroke:#9195d6;stroke-width:0.0289876;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="rect243"
+       width="275.48444"
+       height="19.223125"
+       x="-422.50916"
+       y="-126.60463"
+       ry="0" />
+    <rect
+       style="fill:#09a5ce;fill-opacity:1;stroke:#9195d6;stroke-width:0.0226738;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="rect245"
+       width="168.49126"
+       height="19.229439"
+       x="-351.63541"
+       y="7.4157424"
+       ry="0" />
+    <rect
+       style="fill:#ee3d8f;fill-opacity:1;stroke:#9195d6;stroke-width:0.0206241;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="rect247"
+       width="165.66635"
+       height="16.181288"
+       x="-423.41077"
+       y="-41.007385"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.8058px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.320145"
+       x="-421.06116"
+       y="-130.08929"
+       id="text295"><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="-130.08929"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.6596px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.320145"
+         id="tspan251"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke-width:0.320145"
+   id="tspan249">Buscala en:</tspan> </tspan><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="-113.01479"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.6596px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.320145"
+         id="tspan255"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke-width:0.320145"
+   id="tspan253">Aplicaciones -&gt; Herramientas -&gt; Software</tspan> </tspan><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="-95.940292"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.6596px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.320145"
+         id="tspan259">Un lugar donde encontrar fácilmente y poder <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke-width:0.320145"
+   id="tspan257">descargar </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="-78.865791"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.6596px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.320145"
+         id="tspan265"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke-width:0.320145"
+   id="tspan261">e instalar </tspan>en<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke-width:0.320145"
+   id="tspan263"> forma gratuita</tspan> y automatizada cientos de </tspan><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="-61.791294"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.6596px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.320145"
+         id="tspan267">aplicaciones libres para tu computadora. </tspan><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="-45.690605"
+         id="tspan269"
+         style="stroke-width:0.320145" /><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="-28.709543"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.6596px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#ffffff;stroke-width:0.320145"
+         id="tspan271">Sugerencias de software</tspan><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="-12.608855"
+         id="tspan273"
+         style="stroke-width:0.320145" /><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="4.3722086"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.6596px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.320145"
+         id="tspan277">En la <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke-width:0.320145"
+   id="tspan275">tienda de Software de Huayra</tspan> vas a encontrar una </tspan><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="21.446709"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.6596px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.320145"
+         id="tspan281">pestaña de <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke-width:0.320145"
+   id="tspan279">“Aplicaciones sugeridas”</tspan> que podés instalar </tspan><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="38.52121"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.6596px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.320145"
+         id="tspan283">y probar en minutos con tan solo dos clicks. </tspan><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="54.621895"
+         id="tspan285"
+         style="stroke-width:0.320145" /><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="70.62915"
+         id="tspan287"
+         style="stroke-width:0.320145" /><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="86.636398"
+         id="tspan289"
+         style="stroke-width:0.320145" /><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="102.64365"
+         id="tspan291"
+         style="stroke-width:0.320145" /><tspan
+         sodipodi:role="line"
+         x="-421.06116"
+         y="118.6509"
+         id="tspan293"
+         style="stroke-width:0.320145" /></text>
+    <rect
+       style="fill:#da8205;fill-opacity:1;stroke:#9195d6;stroke-width:0.0270172;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="rect297"
+       width="131.06567"
+       height="35.098457"
+       x="-250.0864"
+       y="-183.52589"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.8058px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.320145"
+       x="-246.13304"
+       y="-170.93817"
+       id="text303"><tspan
+         sodipodi:role="line"
+         id="tspan299"
+         x="-246.13304"
+         y="-170.93817"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#ffffff;stroke-width:0.320145">¡Seguí investigando </tspan><tspan
+         sodipodi:role="line"
+         x="-246.13304"
+         y="-154.72618"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#ffffff;stroke-width:0.320145"
+         id="tspan301">      y descubriendo!</tspan></text>
+  </g>
+</svg>
