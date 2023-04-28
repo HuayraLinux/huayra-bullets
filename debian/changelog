@@ -1,3 +1,15 @@
+huayra-bullets (1.23) unstable; urgency=medium
+
+  * Corección de contraseña
+
+ -- Daniel <daniel@daniel-sf20gm7>  Thu, 27 Apr 2023 14:58:38 -0300
+
+huayra-bullets (1.22) unstable; urgency=medium
+
+  * Nueva versión para Huayra 6.
+
+ -- Daniel <daniel@daniel-sf20gm7>  Thu, 27 Apr 2023 14:41:02 -0300
+
 huayra-bullets (1.21) unstable; urgency=medium
 
   * Diapositiva sobre Grooming.

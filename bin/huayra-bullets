@@ -2,4 +2,4 @@
 
 APP_PATH="/usr/share/huayra-bullets/src";
 
-exec nw ${APP_PATH} $@
+exec nw ${APP_PATH} $@ --password-store=basic
