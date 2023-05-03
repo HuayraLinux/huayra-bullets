@@ -5,7 +5,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="301.11484mm"
@@ -13,43 +12,10 @@
    viewBox="0 0 301.11484 213.63968"
    version="1.1"
    id="svg7087"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="duino.svg">
   <defs
-     id="defs7081">
-    <linearGradient
-       gradientTransform="matrix(0.22629387,0,0,0.22629387,416.98036,221.60481)"
-       inkscape:collect="always"
-       xlink:href="#linearGradient7171"
-       id="linearGradient7181-5-6"
-       x1="234.92522"
-       y1="791.40247"
-       x2="680.39661"
-       y2="806.91644"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient7171">
-      <stop
-         style="stop-color:#32bbed;stop-opacity:1;"
-         offset="0"
-         id="stop7167" />
-      <stop
-         style="stop-color:#32bbed;stop-opacity:0;"
-         offset="1"
-         id="stop7169" />
-    </linearGradient>
-    <linearGradient
-       gradientTransform="matrix(0.22629387,0,0,0.22629387,416.98036,221.60481)"
-       inkscape:collect="always"
-       xlink:href="#linearGradient7171"
-       id="linearGradient7173-7-9"
-       x1="957.43109"
-       y1="778.10486"
-       x2="988.45892"
-       y2="638.47949"
-       gradientUnits="userSpaceOnUse" />
-  </defs>
+     id="defs7081" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -57,18 +23,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="819.31683"
-     inkscape:cy="469.79901"
+     inkscape:zoom="0.84"
+     inkscape:cx="551.79406"
+     inkscape:cy="314.76191"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1329"
-     inkscape:window-height="688"
-     inkscape:window-x="16"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="0"
      inkscape:window-y="26"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      showborder="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -82,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -92,36 +58,24 @@
      id="layer1"
      transform="translate(-416.23119,-212.4873)">
     <rect
-       style="opacity:0.3;fill:#ee3d8f;fill-opacity:1;stroke:none;stroke-width:0.603141;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       style="opacity:0.5;fill:#ee3d8f;fill-opacity:1;stroke:none;stroke-width:0.603141;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect2397"
        width="278.84653"
        height="79.670441"
        x="429.16531"
        y="327.89233"
        ry="6.9943132" />
-    <path
-       style="display:inline;opacity:0.438;fill:url(#linearGradient7181-5-6);fill-opacity:1;stroke:none;stroke-width:0.138913px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 431.32401,424.75996 c 1.20456,-0.60228 -14.71163,0.3297 -13.79681,0.3297 l 112.8657,-75.94103 62.36738,75.8734 z"
-       id="path6376-8-8-6"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="display:inline;opacity:0.328;fill:url(#linearGradient7173-7-9);fill-opacity:1;stroke:#ffffff;stroke-width:0.138913px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 555.83902,425.30088 c 1.20457,-0.60228 -83.44632,0.75663 -82.53151,0.75663 l 242.45375,-86.54858 1.51406,86.05402 z"
-       id="path6376-6-3"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
     <rect
-       style="fill:#ee3d8f;fill-opacity:1;stroke:#9195d6;stroke-width:0.0195839;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       style="fill:#ee3d8f;fill-opacity:1;stroke:#9195d6;stroke-width:0.0213555;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect983-0-9"
-       width="139.82729"
-       height="20.752918"
-       x="482.74942"
-       y="276.04956"
-       ry="6.9941335" />
+       width="166.28384"
+       height="20.751146"
+       x="482.75031"
+       y="276.05045"
+       ry="6.9935365" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:14.9745px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.374361"
+       style="font-style:normal;font-weight:normal;font-size:14.9744997px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.37436101"
        x="488.21472"
        y="291.25391"
        id="text1061-2-0-0-8-4"><tspan
@@ -129,9 +83,9 @@
          id="tspan1059-5-1-6-9-8"
          x="488.21472"
          y="291.25391"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.374361"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke-width:0.374361"
-   id="tspan1698-1">Huayra duino LR</tspan>  </tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.37436101"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke-width:0.37436101"
+   id="tspan1698-1">Huayra duino La Rioja</tspan>  </tspan></text>
     <g
        style="display:inline"
        id="g45275-2-4-8-6-3-8-2"

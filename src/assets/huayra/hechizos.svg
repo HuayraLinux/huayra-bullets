@@ -14,41 +14,9 @@
    version="1.1"
    id="svg3489"
    sodipodi:docname="hechizos.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <defs
      id="defs3483">
-    <linearGradient
-       gradientTransform="matrix(0.14844483,0,0,0.14195992,-639.7801,-175.07501)"
-       inkscape:collect="always"
-       xlink:href="#linearGradient7171"
-       id="linearGradient7181-5-6-8"
-       x1="234.92522"
-       y1="791.40247"
-       x2="680.39661"
-       y2="806.91644"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient7171">
-      <stop
-         style="stop-color:#32bbed;stop-opacity:1;"
-         offset="0"
-         id="stop7167" />
-      <stop
-         style="stop-color:#32bbed;stop-opacity:0;"
-         offset="1"
-         id="stop7169" />
-    </linearGradient>
-    <linearGradient
-       gradientTransform="matrix(0.14844483,0,0,0.14195992,-639.7801,-175.07501)"
-       inkscape:collect="always"
-       xlink:href="#linearGradient7171"
-       id="linearGradient7173-7-9-5"
-       x1="957.43109"
-       y1="778.10486"
-       x2="988.45892"
-       y2="638.47949"
-       gradientUnits="userSpaceOnUse" />
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
@@ -327,18 +295,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="632.10338"
+     inkscape:cx="309.24624"
      inkscape:cy="330.58158"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      showborder="false"
-     inkscape:window-width="1329"
-     inkscape:window-height="688"
-     inkscape:window-x="16"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="0"
      inkscape:window-y="26"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -351,7 +319,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -360,20 +328,8 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(701.51253,248.49246)">
-    <path
-       style="display:inline;opacity:0.438;fill:url(#linearGradient7181-5-6-8);fill-opacity:1;stroke:none;stroke-width:0.0891119px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -701.51253,-46.921437 0.0803,-68.295323 187.99579,66.761211 z"
-       id="path6376-8-8-6-4"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
-    <path
-       style="display:inline;opacity:0.328;fill:url(#linearGradient7173-7-9-5);fill-opacity:1;stroke:#ffffff;stroke-width:0.0891119px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -548.69124,-47.291271 c 0.79017,-0.377825 -54.73933,0.474654 -54.13923,0.474654 l 201.47813,-130.068953 0.79275,129.037498 z"
-       id="path6376-6-3-3"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
     <rect
-       style="opacity:0.3;fill:#ee3d8f;fill-opacity:1;stroke:none;stroke-width:0.828858;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       style="opacity:0.5;fill:#ee3d8f;fill-opacity:1;stroke:none;stroke-width:0.828858;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect2397-6"
        width="274.25742"
        height="152.97633"

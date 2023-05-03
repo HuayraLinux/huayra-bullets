@@ -5,7 +5,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="425.66257mm"
@@ -13,43 +12,10 @@
    viewBox="0 0 425.66257 292.96097"
    version="1.1"
    id="svg8282"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="tienda.svg">
   <defs
-     id="defs8276">
-    <linearGradient
-       gradientTransform="matrix(0.22629387,0,0,0.22629387,-398.00689,-115.9054)"
-       inkscape:collect="always"
-       xlink:href="#linearGradient7171"
-       id="linearGradient7181-5-6-8-5"
-       x1="234.92522"
-       y1="791.40247"
-       x2="680.39661"
-       y2="806.91644"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient7171">
-      <stop
-         style="stop-color:#32bbed;stop-opacity:1;"
-         offset="0"
-         id="stop7167" />
-      <stop
-         style="stop-color:#32bbed;stop-opacity:0;"
-         offset="1"
-         id="stop7169" />
-    </linearGradient>
-    <linearGradient
-       gradientTransform="matrix(0.22629387,0,0,0.22629387,-398.00689,-115.9054)"
-       inkscape:collect="always"
-       xlink:href="#linearGradient7171"
-       id="linearGradient7173-7-9-5-3"
-       x1="957.43109"
-       y1="778.10486"
-       x2="988.45892"
-       y2="638.47949"
-       gradientUnits="userSpaceOnUse" />
-  </defs>
+     id="defs8276" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -57,18 +23,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9366356"
-     inkscape:cx="717.33989"
-     inkscape:cy="1005.8193"
+     inkscape:zoom="0.43614969"
+     inkscape:cx="760.98286"
+     inkscape:cy="628.11283"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1329"
-     inkscape:window-height="688"
-     inkscape:window-x="16"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="0"
      inkscape:window-y="26"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      showborder="false" />
   <metadata
      id="metadata8279">
@@ -78,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -87,18 +53,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(458.92446,204.34421)">
-    <path
-       style="display:inline;opacity:0.438;fill:url(#linearGradient7181-5-6-8-5);fill-opacity:1;stroke:none;stroke-width:0.138913px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -383.66324,87.2497 c 1.20456,-0.6023 -53.79959,0.9045 -52.88477,0.9045 l 75.36192,-35.9672 138.95913,35.3248 z"
-       id="path6376-8-8-6-4-9"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="display:inline;opacity:0.328;fill:url(#linearGradient7173-7-9-5-3);fill-opacity:1;stroke:#ffffff;stroke-width:0.138913px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -259.14822,87.7906 c 1.20456,-0.6023 -83.44633,0.7567 -82.53152,0.7567 l 307.13949,-207.3389 1.20848,205.6946 z"
-       id="path6376-6-3-3-1"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
     <g
        id="g233"
        transform="matrix(1.21,0,0,1.21,69.793463,14.294177)">
@@ -312,7 +266,7 @@
        width="168.49126"
        height="19.229439"
        x="-351.63541"
-       y="7.4157424"
+       y="6.3574071"
        ry="0" />
     <rect
        style="fill:#ee3d8f;fill-opacity:1;stroke:#9195d6;stroke-width:0.0206241;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
