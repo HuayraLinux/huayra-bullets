@@ -1,7 +1,7 @@
 # Huayra Bullets
 
 ## Descripción
-Aplicación para mostrar ayuda y guías rápidas en pantalla (Primeros pasos)
+Aplicación para mostrar ayuda y guías rápidas en pantalla (Novedades de Huayra)
 
 ## Desarrollo
 ### Activar debug

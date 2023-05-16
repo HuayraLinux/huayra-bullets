@@ -23,6 +23,8 @@ var botonDerecha = document.getElementById('botonDerecha');
 var checkboxIniciar = document.getElementById('check');
 var groomingLink = document.getElementById('grooming-anchor');
 
+//onchange = (event) => {};
+
 function actualizar_estados(e) {
   if (Reveal.isFirstSlide()) botonIzquierda.setAttribute('disabled', 'disabled');
   else botonIzquierda.removeAttribute('disabled');
@@ -51,16 +53,18 @@ botonAcercaDe.onclick = function(e) {
   Reveal.slide(-1, -1);
 };
 
+/*
 groomingLink.onclick = function() {
   nw.Shell.openExternal('https://argentina.gob.ar/grooming');
 };
+*/
 
 function copiar_archivo(desde, hasta, autostart) {
   var autostart_folder = path.join(process.env['HOME'], '.config/autostart');
   if (!fs.existsSync(autostart_folder)) {
-    fs.mkdir(autostart_folder);
+    fs.mkdirSync(autostart_folder);
   }
-
+  
   fs.createReadStream(desde).
     pipe(replaceStream('Terminal=false', "Terminal=false\nX-MATE-Autostart-enabled=" + autostart)).
     pipe(fs.createWriteStream(hasta));
@@ -84,11 +88,14 @@ function mostrar_estado_iniciar_checkbox() {
 
   if (fs.existsSync(ruta_desktop_home)) {
     var activado = /X-MATE-Autostart-enabled=true/.test(fs.readFileSync(ruta_desktop_home).toString());
-
     if (activado) {
       checkboxIniciar.checked = true;
     }
-  } else {
+    else {
+      checkboxIniciar.checked = false;
+    }
+  } 
+  else {
     checkboxIniciar.checked = true;
   }
 }
@@ -98,4 +105,4 @@ checkboxIniciar.onchange = function() {
 };
 
 mostrar_estado_iniciar_checkbox();
-fs.writeFileSync("/tmp/huayra-bullets.pid", process.pid);
+fs.writeFileSync("/tmp/huayra-bullets.pid", process.pid.toString());
