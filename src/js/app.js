@@ -1,7 +1,6 @@
 var path = require('path');
 var fs = require('fs');
 var replaceStream = require('replacestream');
-var exec = require('child_process').exec;
 var nw = require('nw.gui');
 
 var isDev = process.env.IS_DEV;
@@ -21,7 +20,7 @@ var botonAcercaDe = document.getElementById('botonAcercaDe');
 var botonIzquierda = document.getElementById('botonIzquierda');
 var botonDerecha = document.getElementById('botonDerecha');
 var checkboxIniciar = document.getElementById('check');
-var groomingLink = document.getElementById('grooming-anchor');
+//var groomingLink = document.getElementById('grooming-anchor');
 
 //onchange = (event) => {};
 

@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.81"
-     inkscape:cx="337.7425"
-     inkscape:cy="277.91887"
+     inkscape:zoom="0.57275649"
+     inkscape:cx="673.97321"
+     inkscape:cy="240.33707"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -39,7 +39,8 @@
      inkscape:window-height="1001"
      inkscape:window-x="0"
      inkscape:window-y="26"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false" />
   <metadata
      id="metadata2719">
     <rdf:RDF>
@@ -58,38 +59,41 @@
      id="layer1"
      transform="translate(208.37527,52.391273)">
     <rect
-       style="opacity:0.5;fill:#ee3d8f;fill-opacity:1;stroke:none;stroke-width:0.698746;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       style="opacity:0.5;fill:#ee3d8f;fill-opacity:1;stroke:none;stroke-width:0.71940756;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect2397-4"
-       width="283.9165"
-       height="105.02013"
-       x="-197.01155"
+       width="286.6882"
+       height="110.24647"
+       x="-199.78323"
        y="44.91024"
-       ry="9.2197771" />
+       ry="9.6786003" />
     <rect
-       style="fill:#ee3d8f;fill-opacity:1;stroke:#9195d6;stroke-width:0.02243901;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       style="fill:#ee3d8f;fill-opacity:1;stroke:#9195d6;stroke-width:0.02430324;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect983-0"
-       width="183.595"
-       height="20.750063"
-       x="-141.85559"
-       y="1.1176449"
-       ry="6.9931712" />
+       width="183.59348"
+       height="24.341303"
+       x="-141.85483"
+       y="-1.8210602"
+       ry="8.2034883" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:14.9744997px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.37436101"
-       x="-136.39172"
-       y="16.320456"
-       id="text1061-2-0-0-8"><tspan
+       style="font-style:normal;font-weight:normal;font-size:23.03665161px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.57591397"
+       x="-133.15341"
+       y="17.968605"
+       id="text1061-2-0-0-8"
+       transform="scale(1.0127706,0.98739044)"><tspan
          sodipodi:role="line"
          id="tspan1059-5-1-6-9"
-         x="-136.39172"
-         y="16.320456"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.37436101"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold'"
-   id="tspan1698">Huayra motion San Juan</tspan>  </tspan></text>
+         x="-133.15341"
+         y="17.968605"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.57591397"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';stroke-width:0.57591397"
+   id="tspan1698">Huayra motion <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:Amatic;-inkscape-font-specification:'Amatic Condensed';stroke-width:0.57591397"
+   id="tspan891">San Juan</tspan></tspan>  </tspan></text>
     <g
        style="display:inline"
        id="g45275-2-4-8-6-3-8"
-       transform="matrix(0,1.0150202,-1.0150202,0,693.72304,-83.689438)">
+       transform="matrix(0,1.0150202,-1.0150202,0,713.32181,-82.056208)">
       <path
          d="m 113.8342,742.94106 c 0.50342,0 0.9117,0.40827 0.9117,0.91169 0,0.50393 -0.40828,0.9122 -0.9117,0.9122 -0.50342,0 -0.91169,-0.40827 -0.91169,-0.9122 0,-0.50342 0.40827,-0.91169 0.91169,-0.91169"
          style="fill:#e7408a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.50342101"
@@ -184,8 +188,8 @@
        id="rect2291-2-1-7-5-6-9-1-7-7-1"
        width="97.04567"
        height="15.895191"
-       x="-78.365761"
-       y="65.798943"
+       x="-77.903816"
+       y="66.260887"
        ry="0" />
     <rect
        style="fill:#09a5ce;fill-opacity:1;stroke:#9195d6;stroke-width:0.0132347;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
@@ -219,7 +223,7 @@
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans'"
    id="tspan1816">stop motion</tspan> </tspan>de <tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#ffffff"
-   id="tspan1773">Huayra, </tspan></tspan><tspan
+   id="tspan1773">Huayra </tspan></tspan><tspan
          sodipodi:role="line"
          x="-192.033"
          y="76.117767"
@@ -266,24 +270,30 @@
          y="172.32686"
          id="tspan1690" /></text>
     <rect
-       style="fill:#da8205;fill-opacity:1;stroke:#9195d6;stroke-width:0.0132087;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       style="fill:#da8205;fill-opacity:1;stroke:#9195d6;stroke-width:0.01589208;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect2291-2-1-7-5-6-9-1-7"
-       width="82.198364"
-       height="13.376803"
-       x="-44.480862"
-       y="19.708288"
-       ry="0" />
+       width="77.453827"
+       height="20.550091"
+       x="-24.870163"
+       y="21.527569"
+       ry="0"
+       transform="rotate(-6.8054358)"
+       inkscape:transform-center-x="27.064104"
+       inkscape:transform-center-y="4.6911111" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.90657043px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.222664"
-       x="-43.38615"
-       y="29.191473"
-       id="text1702"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.6146431px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.41536561"
+       x="-21.471966"
+       y="38.700382"
+       id="text1702"
+       transform="rotate(-6.8054358)"
+       inkscape:transform-center-x="27.499223"
+       inkscape:transform-center-y="5.2293188"><tspan
          sodipodi:role="line"
          id="tspan1700"
-         x="-43.38615"
-         y="29.191473"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#ffffff;stroke-width:0.222664">¡NUEVA VERSIÓN!</tspan></text>
+         x="-21.471966"
+         y="38.700382"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';fill:#ffffff;stroke-width:0.41536561">¡Nueva Versión!</tspan></text>
     <g
        id="g2395"
        transform="translate(-250.17804,-134.60853)">

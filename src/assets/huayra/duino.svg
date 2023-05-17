@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.84"
-     inkscape:cx="551.79406"
-     inkscape:cy="314.76191"
+     inkscape:zoom="0.21"
+     inkscape:cx="1299.0384"
+     inkscape:cy="18.21688"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -66,26 +66,28 @@
        y="327.89233"
        ry="6.9943132" />
     <rect
-       style="fill:#ee3d8f;fill-opacity:1;stroke:#9195d6;stroke-width:0.0213555;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       style="fill:#ee3d8f;fill-opacity:1;stroke:#9195d6;stroke-width:0.02021311;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect983-0-9"
-       width="166.28384"
-       height="20.751146"
-       x="482.75031"
-       y="276.05045"
-       ry="6.9935365" />
+       width="148.96107"
+       height="20.752289"
+       x="482.74973"
+       y="276.04987"
+       ry="6.9939213" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:14.9744997px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.37436101"
-       x="488.21472"
-       y="291.25391"
+       style="font-style:normal;font-weight:normal;font-size:20.4482975px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.51120543"
+       x="490.25259"
+       y="293.32922"
        id="text1061-2-0-0-8-4"><tspan
          sodipodi:role="line"
          id="tspan1059-5-1-6-9-8"
-         x="488.21472"
-         y="291.25391"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.37436101"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke-width:0.37436101"
-   id="tspan1698-1">Huayra duino La Rioja</tspan>  </tspan></text>
+         x="490.25259"
+         y="293.32922"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.51120543"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';stroke-width:0.51120543"
+           id="tspan1698-1">Huayra duino <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:Amatic;-inkscape-font-specification:'Amatic Condensed';stroke-width:0.51120543"
+   id="tspan886">La Rioja</tspan>  </tspan></tspan></text>
     <g
        style="display:inline"
        id="g45275-2-4-8-6-3-8-2"
@@ -237,24 +239,26 @@
          y="441.61597"
          id="tspan1690-7" /></text>
     <rect
-       style="fill:#da8205;fill-opacity:1;stroke:#9195d6;stroke-width:0.0143014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       style="fill:#da8205;fill-opacity:1;stroke:#9195d6;stroke-width:0.01877858;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect2291-2-1-7-5-6-9-1-7-8"
-       width="96.369125"
-       height="13.37571"
-       x="563.19281"
-       y="294.64227"
-       ry="0" />
+       width="105.1841"
+       height="21.128706"
+       x="511.9151"
+       y="375.51001"
+       ry="0"
+       transform="rotate(-7.8081725)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.90657px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.222664"
-       x="564.28699"
-       y="304.12491"
-       id="text1702-5"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.15015984px;line-height:1.25;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.45375347"
+       x="517.39771"
+       y="394.29999"
+       id="text1702-5"
+       transform="rotate(-7.8081725)"><tspan
          sodipodi:role="line"
          id="tspan1700-7"
-         x="564.28699"
-         y="304.12491"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';fill:#ffffff;stroke-width:0.222664">¡NUEVA APLICACIÓN!</tspan></text>
+         x="517.39771"
+         y="394.29999"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';fill:#ffffff;stroke-width:0.45375347">¡NUEVA APLICACIÓN!</tspan></text>
     <g
        id="g2247"
        transform="translate(471.37281,-112.81552)">
