@@ -1,3 +1,10 @@
+huayra-bullets (1.25.1) unstable; urgency=medium
+
+  * Minor Fix background.
+  * 
+
+ -- Daniel <danieloscarferro@gmail.com>  Mon, 22 May 2023 16:02:54 -0300
+
 huayra-bullets (1.25) unstable; urgency=medium
 
   * Nueva tipografia y titulos v h6
