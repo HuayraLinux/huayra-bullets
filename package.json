@@ -26,7 +26,7 @@
     "replacestream": "^4.0.3"
   },
   "devDependencies": {
-    "nw": "^0.75.0",
+    "nw": "^0.80.0",
     "nwjs": "^1.4.4",
     "nwjs-builder-phoenix": "^1.15.0",
     "nwjs-packager": "^1.5.1"
