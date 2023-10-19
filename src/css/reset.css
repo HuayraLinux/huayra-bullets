@@ -14,8 +14,9 @@ button {
 	outline: inherit;
 }
 
-img {
+.img-svg {
   display: block;
+  width: 950px;
 }
 
 .reveal h1,

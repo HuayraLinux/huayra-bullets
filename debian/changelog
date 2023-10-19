@@ -1,3 +1,22 @@
+huayra-bullets (1.25.1) unstable; urgency=medium
+
+  * Minor Fix background.
+  * 
+
+ -- Daniel <danieloscarferro@gmail.com>  Mon, 22 May 2023 16:02:54 -0300
+
+huayra-bullets (1.25) unstable; urgency=medium
+
+  * Nueva tipografia y titulos v h6
+
+ -- Daniel <danieloscarferro@gmail.com>  Wed, 17 May 2023 13:30:32 -0300
+
+huayra-bullets (1.24) unstable; urgency=medium
+
+  * Imagenes svg h6
+
+ -- Daniel <danieloscarferro@gmail.com>  Wed, 03 May 2023 16:17:13 -0300
+
 huayra-bullets (1.23) unstable; urgency=medium
 
   * Corección de contraseña

@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nw src",
+    "dev":"IS_DEV=SI ~/nwjs/nw src",
     "dist:win": "build --tasks win-x86,win-x64 --mirror https://dl.nwjs.io/ .",
     "dist:osx": "build --tasks mac-x64 --mirror https://dl.nwjs.io/ .",
     "dist:linux86": "build --tasks linux-x86 --mirror https://dl.nwjs.io/ .",

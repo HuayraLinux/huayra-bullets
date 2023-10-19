@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Primeros Pasos en Huayra
-Comment=Primeros Pasos en Huayra
+Name=Novedades de Huayra 6
+Comment=Novedades de Huayra 6
 Exec=/usr/bin/huayra-bullets
 Terminal=false
 Type=Application

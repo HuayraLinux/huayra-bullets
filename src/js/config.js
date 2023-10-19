@@ -2,7 +2,7 @@ const generateConfig = function() {
   const config = {
     autoSlideStoppable: true, 
     transition: 'slide',
-    parallaxBackgroundImage: 'assets/backgrounds/fondo.svg',
+    parallaxBackgroundImage: 'assets/backgrounds/fondo_h6.svg',
     parallaxBackgroundSize: '2000px 1125px',
     controls: false,
     progress: true,
