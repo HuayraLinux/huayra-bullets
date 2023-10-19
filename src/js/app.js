@@ -65,7 +65,7 @@ function copiar_archivo(desde, hasta, autostart) {
   }
   
   fs.createReadStream(desde).
-    pipe(replaceStream('Terminal=false', "Terminal=false\nX-MATE-Autostart-enabled=" + autostart)).
+    pipe(replaceStream('Terminal=false', "Terminal=false\nHidden=" + !autostart + "\nX-MATE-Autostart-enabled=" + autostart)).
     pipe(fs.createWriteStream(hasta));
 }
 
