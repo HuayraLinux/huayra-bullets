@@ -12,10 +12,29 @@
    viewBox="0 0 303.35767 213.63968"
    version="1.1"
    id="svg4988"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="presentacion.svg">
   <defs
-     id="defs4982" />
+     id="defs4982">
+    <rect
+       x="-330.29308"
+       y="-95.20328"
+       width="18.778435"
+       height="35.884524"
+       id="rect906" />
+    <rect
+       x="-323.68167"
+       y="-125.13594"
+       width="23.443827"
+       height="25.010059"
+       id="rect938" />
+    <rect
+       x="-323.68167"
+       y="-125.13594"
+       width="23.443827"
+       height="25.010059"
+       id="rect951" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -27,14 +46,15 @@
      inkscape:cx="548.57143"
      inkscape:cy="401.42857"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g983"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1001"
+     inkscape:window-height="998"
      inkscape:window-x="0"
-     inkscape:window-y="26"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false" />
   <metadata
      id="metadata4985">
     <rdf:RDF>
@@ -70,7 +90,7 @@
        ry="9.9831476" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:29.13652611px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.7284103"
+       style="font-style:normal;font-weight:normal;font-size:29.1365px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.72841"
        x="-502.79175"
        y="-103.27048"
        id="text1061-2-0-0-8-3"><tspan
@@ -78,14 +98,14 @@
          id="tspan1059-5-1-6-9-2"
          x="-502.79175"
          y="-103.27048"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.7284103"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';stroke-width:0.7284103"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.72841"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';stroke-width:0.72841"
            id="tspan2417-0">NOVEDADES</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';stroke-width:0.7284103"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';stroke-width:0.72841"
            id="tspan890"> de </tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.32076645px;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';fill:#ffffff;stroke-width:0.7284103"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.3208px;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';fill:#ffffff;stroke-width:0.72841"
            id="tspan957-2-6">Huayra</tspan><tspan
-           style="font-size:34.32076645px;stroke-width:0.7284103"
+           style="font-size:34.3208px;stroke-width:0.72841"
            id="tspan2116"> </tspan></tspan></text>
     <g
        style="display:inline"
@@ -176,25 +196,26 @@
        id="g6681-1-4"
        transform="matrix(0.46228092,0,0,0.46228092,-710.81271,-260.83812)">
       <g
-         transform="matrix(0.62766579,0,0,-0.62766579,879.0727,316.79696)"
-         id="g370-3-4-3-4-2-4-4-6-4-3-72-4"
-         style="display:inline">
-        <path
-           inkscape:connector-curvature="0"
-           id="path372-6-5-7-5-5-7-4-9-7-4-4-3"
-           style="fill:#ee3d8f;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           d="m 0,0 c 0,-24.08 -19.521,-43.601 -43.602,-43.601 -24.08,0 -43.6,19.521 -43.6,43.601 0,24.08 19.52,43.601 43.6,43.601 C -19.521,43.601 0,24.08 0,0" />
-      </g>
-      <g
-         id="text1284-1-0"
-         style="font-style:normal;font-weight:normal;font-size:39.55160141px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.98878902"
-         aria-label="6"
-         transform="translate(1368.1168,894.80737)">
-        <path
-           id="path9187-6-7"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Oswald;-inkscape-font-specification:'Oswald Light';stroke-width:0.98878902"
-           d="m -516.50746,-561.62398 q -7.39661,0 -7.39661,-10.04239 v -12.78474 q 0,-9.94583 7.39661,-9.94583 3.59208,0 5.36881,1.85398 1.77673,1.85398 1.81536,5.58125 0,0.0193 0,0.309 0.0193,0.28968 0.0193,0.309 h -2.85822 q 0,-3.05135 -0.98493,-4.34527 -0.96561,-1.31324 -3.28308,-1.31324 -4.57702,0 -4.57702,6.89449 v 6.04475 q 0.83043,-0.77249 2.2016,-1.33255 1.39049,-0.56006 2.9741,-0.56006 3.84314,0 5.36881,2.22092 1.54499,2.22091 1.54499,7.33867 0,9.77202 -7.58973,9.77202 z m 0,-2.43335 q 2.39472,0 3.51483,-1.60292 1.12012,-1.60292 1.12012,-5.1757 0,-1.44842 -0.0579,-2.41403 -0.0579,-0.98493 -0.23175,-1.95054 -0.1545,-0.96562 -0.46349,-1.54499 -0.309,-0.59868 -0.83043,-1.06217 -0.50212,-0.48281 -1.2553,-0.67593 -0.75318,-0.21244 -1.79604,-0.21244 -1.27462,0 -2.54923,0.57937 -1.2553,0.57937 -1.95054,1.2553 v 5.54263 q 0,3.82383 1.08149,5.54262 1.08149,1.7188 3.41828,1.7188 z"
-           inkscape:connector-curvature="0" />
+         id="g983"
+         transform="translate(0.47154933,0.76545083)">
+        <g
+           transform="matrix(0.62766579,0,0,-0.62766579,886.27183,315.25023)"
+           id="g370-3-4-3-4-2-4-4-6-4-3-72-4"
+           style="display:inline;fill:#22a4d6;fill-opacity:0.87450981">
+          <path
+             inkscape:connector-curvature="0"
+             id="path372-6-5-7-5-5-7-4-9-7-4-4-3"
+             style="fill:#22a4d6;fill-opacity:0.87450981;fill-rule:nonzero;stroke:none"
+             d="m 0,0 c 0,-24.08 -19.521,-43.601 -43.602,-43.601 -24.08,0 -43.6,19.521 -43.6,43.601 0,24.08 19.52,43.601 43.6,43.601 C -19.521,43.601 0,24.08 0,0" />
+        </g>
+        <text
+           xml:space="preserve"
+           id="text936"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Oswald;-inkscape-font-specification:Oswald;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect938);fill:#ffffff;"
+           transform="matrix(3.6490954,-0.42032916,0.42032916,3.6490954,2067.633,618.21368)"><tspan
+             x="-323.68164"
+             y="-115.31596"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Oswald;-inkscape-font-specification:Oswald;fill:#ffffff">6.5</tspan></tspan></text>
       </g>
     </g>
     <path
@@ -225,7 +246,7 @@
        ry="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:24.76155281px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.61904043"
+       style="font-style:normal;font-weight:normal;font-size:24.7616px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.61904"
        x="-503.93777"
        y="-134.89592"
        id="text1254-8"><tspan
@@ -233,14 +254,14 @@
          id="tspan1252-4"
          x="-503.93777"
          y="-134.89592"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.61904043"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';stroke-width:0.61904043"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';fill:#ffffff;stroke-width:0.61904"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';stroke-width:0.61904"
    id="tspan2114">Acompañanos</tspan><tspan
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';stroke-width:0.61904043"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';stroke-width:0.61904"
    id="tspan886"> a </tspan><tspan
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';stroke-width:0.61904043"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';stroke-width:0.61904"
    id="tspan2110">mostrarte</tspan><tspan
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';stroke-width:0.61904043"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Amatic;-inkscape-font-specification:'Amatic Bold';stroke-width:0.61904"
    id="tspan888"> las</tspan> </tspan></text>
     <g
        id="g10562-3-4-1-3"
