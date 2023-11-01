@@ -2,14 +2,14 @@ Source: huayra-bullets
 Section: main
 Priority: extra
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
-Build-Depends: debhelper (>= 10.0.0), nodejs, wget, ca-certificates
+Build-Depends: debhelper (>= 10.0.0), wget, ca-certificates
 Standards-Version: 3.9.5
 Homepage: http://huayra.conectarigualdad.gob.ar
 Vcs-Git: https://github.com/HuayraLinux/huayra-bullets.git
 
 Package: huayra-bullets
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, nwjs (>= 0.67), huayra-fonts (>= 2.2)
+Depends: ${misc:Depends}, ${python:Depends}, huayra-fonts (>= 2.2)
 Conflicts: conectar-bullets
 Replaces: conectar-bullets
 Description: Visor de los bullets de ayuda
