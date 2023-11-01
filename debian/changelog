@@ -1,3 +1,9 @@
+huayra-bullets (1.27) unstable; urgency=medium
+
+  * Versión Huayra 6.5
+
+ -- Daniel Ferro <dferro@educar.gob.ar>  Wed, 01 Nov 2023 12:19:00 -0300
+
 huayra-bullets (1.26) unstable; urgency=medium
 
   * Actualización Autostart Hidden MATE 1.26.0
